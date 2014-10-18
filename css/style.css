@@ -1,0 +1,91 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+
+
+body    {font-family: 'Josefin Slab', sans-serif; color: #fff;}
+
+
+h1      {font-size:120px; font-weight: 100; text-align: center; margin-bottom: 50px;}
+h1 span {font-weight: 700;}
+
+h2      {font-size: 36px; padding: 0 0 20px 0; font-weight: 700;}
+
+p       {font-size:24px; font-weight: 300; line-height:110%; -webkit-font-smoothing: subpixel-antialiased;}
+p span  {font-size:16px; font-style: italic; display: block; margin-top: 20px;}
+
+.headmargin { margin-top: 10%}
+.container{text-align: center; padding: 5%; height: 100%}
+.container a{ color: white;font-size: 20px; text-decoration: none}
+ a:hover{ color: crimson; font-weight: bold}
+.social{
+    position: fixed;
+    bottom: 15px;
+    font-size: 32px;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+}
+.social a{
+    padding: 1%;
+    color: #ffffff;
+}
+.skill-block{
+    display: block;
+    text-align: left;
+    padding: 2%;
+    float: left;
+    font-size: 21px;
+}
+.skill-block span { font-weight: bold}
+.education span { font-weight: bold}
+.education {width: 100%; margin-bottom: 5%; font-size: 22px}
+.education li {display: block; float: left; width: 50%}
+
+/*TITLE COVER*/
+#home          {background-color: #3C5898;}
+
+
+/*COCONUT CHAIR*/
+#about-me          {background-color: #6AADD1;}
+
+
+/*RAR ARMCHAIR*/
+#skills          {background-color: #CD3627;}
+
+
+/*WIGGLE ARMCHAIR*/
+#education          {background-color: #666666;}
+
+
+
+@media only screen
+and (min-width : 300px)
+and (max-width : 600px) {
+    h1 {font-size: 60px}
+    p       {font-size:19px;}
+    p span  {font-size:13px; margin-top:16px;}
+    .social {display: none; }
+    .education {width: 100%; margin-bottom: 5%; font-size: 22px}
+    .education li {display: block; width: 100%}
+}
+
+
+
+/*width between 1025 - 1300*/
+@media only screen
+and (min-width : 1025px)
+and (max-width : 1300px) {
+
+    h1      {font-size:96px; margin-bottom: 60px;}
+    h2      {font-size:29px; padding: 0 0 20px 0; }
+    p       {font-size:19px;}
+    p span  {font-size:13px; margin-top:16px;}  
+
+}
+
+
+
+
+
+
+
+
