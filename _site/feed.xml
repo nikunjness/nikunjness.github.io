@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>notesofcode</title>
+    <description>Personal blog of Nikunj Thakkar - Programmer and Foss Contributor</description>
+    <link>http://nikunjthakkar.com/</link>
+    <atom:link href="http://nikunjthakkar.com/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Thu, 23 Oct 2014 21:13:27 +0530</pubDate>
+    <lastBuildDate>Thu, 23 Oct 2014 21:13:27 +0530</lastBuildDate>
+    <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>Working as a DevOps Intern @Ishisystems</title>
+        <description>&lt;p&gt;So it’s been so long and I was wondering what should I write? Past few months were full of learning as I was working as a DevOps intern at Ishi Systems so I thought to share my experience on “I can call it hottest buzz word we are listening now a days” - DevOps . I will also talk about the work culture and key lessons learnt during this period.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-is-devops&quot;&gt;What is DevOps?&lt;/h2&gt;
+
+&lt;p&gt;As I am new to this term as most of us and it’s bit difficult to explain what DevOps actually is I would rather explain it in my own words. As you can see the term comprises of two words “Development” and “Operations”, DevOps are the people who can manage both of them being Agile team for the rapid development of the product or service. Obviously you can google it and learn more about it.  You must be feeling that if I can not define the term itself how can I call my self DevOps? Well it’s matter of understanding and practical learning. You will get to know as you read further. Have some patience and read on.&lt;/p&gt;
+
+&lt;p&gt;In our case we were very small team (4 members) with very well experienced person as a mentor ( or Lead) and three interns including me. The project on which we were working was a &lt;a href=&quot;http://www.fullstackpython.com/table-of-contents.html&quot;&gt;Full Stack Python&lt;/a&gt; application. Did I mention that all the interns were new to Python? I guess no. So we learnt python programming in initial training period (about a month) also we learnt few other technologies which I will talk about later. Still you must be having same question where the hell DevOps comes to the picture? Ok let me tell you few reasons.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Rapid development - We were doing weekly ( or every ten day) releases in our project&lt;/li&gt;
+  &lt;li&gt;Deployment Automation - Our application deployment is fully automated using &lt;a href=&quot;http://www.ansible.com/home&quot;&gt;Ansible&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;UI designing - With this small team we were doing both front-end and back-end development&lt;/li&gt;
+  &lt;li&gt;R&amp;amp;D - The project required use of Machine Learning and Natural Language Processing and we did that too. :)&lt;/li&gt;
+  &lt;li&gt;Client Interaction&lt;/li&gt;
+  &lt;li&gt;Monitoring and Analysis&lt;/li&gt;
+  &lt;li&gt;Testing&lt;/li&gt;
+  &lt;li&gt;All those hell amount of things comes into the picture during development ( I can write many things here but I think this is sufficient to answer the question)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ok, so I think now you got it what I mean by being a DevOps intern. So let me further talk about the key lessons learnt during this time. I would prefer separating out technical learning as anybody can learn/adopt new technologies with little or more effort and time ( given that they have brain :P )&lt;/p&gt;
+
+&lt;h2 id=&quot;what-i-learnt-in-terms-of-technologies&quot;&gt;What I learnt in terms of technologies?&lt;/h2&gt;
+
+&lt;p&gt;As I stated earlier we were new to Python but I knew Java and C++ so it didn’t take much time for me to learn Python. Apart from this I can add following list to my learning catalogue.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://angularjs.org/&quot;&gt;AngularJS&lt;/a&gt; - Another emerging tool by Google for simplifying your web apps&lt;/li&gt;
+  &lt;li&gt;Django&lt;/li&gt;
+  &lt;li&gt;Dropbox API&lt;/li&gt;
+  &lt;li&gt;LinkedIn API&lt;/li&gt;
+  &lt;li&gt;Ansible, nginx, uwsgi&lt;/li&gt;
+  &lt;li&gt;Log monitoring tools&lt;/li&gt;
+  &lt;li&gt;Analytics tools&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.docker.io/&quot;&gt;Docker&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.nltk.org/&quot;&gt;Nltk&lt;/a&gt; &amp;amp; &lt;a href=&quot;http://scikit-learn.org/stable/&quot;&gt;Scikit-learn libraries&lt;/a&gt; ( for machine learning and Natural language processing)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://textblob.readthedocs.org/en/dev/&quot;&gt;TextBlob&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ok, so these are the technologies but what apart from this? I couldn’t get the proper term for other learnings but I think I should call them life lessons as I prefer them carrying with me all the times. So here are those lessons:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Being Agile&lt;/li&gt;
+  &lt;li&gt;A little more Agile&lt;/li&gt;
+  &lt;li&gt;and a little more Agile&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;wtf! what is this? calm down calm down. So when you have full decision making power with the responsibility of making your product successful and if you can handle the situation properly I guess that is the best learning for any developer. I feel myself lucky for being part of such small team and following those guideline ( rules? huh, Dude there are no rules in agile. It’s flexible :P ) from Agile manifesto8.&lt;/p&gt;
+
+&lt;h2 id=&quot;work-culture-ishisystems&quot;&gt;Work culture @Ishisystems&lt;/h2&gt;
+
+&lt;p&gt;People are being more careful about the work culture of the company and specifically when it comes to an internship they emphasize more on it as most likely it’s their first interaction with the industry. when it comes to work culture those stories read from the sites likes quora about work culture of giant companies like Google, facebook, etc comes to our mind. But not all companies can provide such perks and benefits. In my case we have an open culture at Ishi, flexible work hours, work from home, Friday breakfasts, friendly colleagues and an X-box and always busy TT table too.&lt;/p&gt;
+
+&lt;h2 id=&quot;takeaways-from-this-experience&quot;&gt;Takeaways from this experience&lt;/h2&gt;
+
+&lt;p&gt;Did I tell you I am now Jr. Programmer Analyst at Ishi? What else can be a better takeaway from an exciting internship to a Job offer.&lt;/p&gt;
+
+&lt;h2 id=&quot;final-words&quot;&gt;Final Words&lt;/h2&gt;
+
+&lt;p&gt;I hope you enjoyed reading this post. If yes, express your love in comments else express your anger in comments. :)&lt;/p&gt;
+
+&lt;h2 id=&quot;references&quot;&gt;References:&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.fullstackpython.com/table-of-contents.html&quot;&gt;http://www.fullstackpython.com/table-of-contents.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.ansible.com/home&quot;&gt;http://www.ansible.com/home&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://angularjs.org/&quot;&gt;https://angularjs.org/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.docker.io/&quot;&gt;https://www.docker.io/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.nltk.org/&quot;&gt;http://www.nltk.org/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://scikit-learn.org/stable/&quot;&gt;http://scikit-learn.org/stable/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://textblob.readthedocs.org/en/dev/&quot;&gt;http://textblob.readthedocs.org/en/dev/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://agilemanifesto.org/&quot;&gt;http://agilemanifesto.org/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 06 Jun 2014 11:17:00 +0530</pubDate>
+        <link>http://nikunjthakkar.com/thoughts/2014/06/06/working-as-a-devops-intern-ishisystems.html</link>
+        <guid isPermaLink="true">http://nikunjthakkar.com/thoughts/2014/06/06/working-as-a-devops-intern-ishisystems.html</guid>
+        
+        
+        <category>thoughts</category>
+        
+      </item>
+    
+      <item>
+        <title>Fossasia 2014 : Meet, greet and Code!</title>
+        <description>&lt;p&gt;Today I am gonna tell you about my experience of international open source community meet up. It was Jan 15, when I received email from the organizer that my proposal for the Fossasia 2014 is accepted and I can attend the event. It was Hakuna matata moment for me. &lt;/p&gt;
+
+&lt;p&gt;The event was scheduled on Feb 28, a three days event with various tracks on Mobile technologies, Databases, Operating systems etc. I was so excited to meet the fellow FOSS community members. And the day came, It was 27th Feb when I flew from the Ahmedabad to Phnom Penh, Cambodia. It was connecting flight via Delhi and Bangkok in return as well. Long journey with full of excitements :) :)&lt;/p&gt;
+
+&lt;p&gt;So let me tell you something about the event.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-is-fossasia&quot;&gt;What is Fossasia?&lt;/h2&gt;
+
+&lt;p&gt;FOSSASIA works together with Open Source projects in Asia and around the world and develops Free and Open Source software for social change.FOSSASIA 2014 is an exciting Open Technology event for developers, students, and start ups using open source to build up their businesses. It is a unique opportunity to share the latest innovations in open source technologies and meet contributors and potential partners.  It brings the knowledge of Free and Open source software under one roof and encourage more and more people to become a part of such great initiative. FOSS community members from all over the world comes together to meet, greet and code. You can find more details about the event at &lt;a href=&quot;http://fossasia.org/&quot;&gt;http://fossasia.org/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;where-it-was-held&quot;&gt;Where it was held?&lt;/h2&gt;
+
+&lt;p&gt;Fossasia 2014 was held at the held at the the new campus of the prestigious &lt;a href=&quot;http://norton-u.com/&quot;&gt;Norton University&lt;/a&gt; in Phnom Penh Cambodia. Phnom Penh is a heart of Cambodia Located on the banks of the Tonlé Sap and Mekong River.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-3-days-of-pure-knowledge-sharing&quot;&gt;The 3 days of pure knowledge sharing&lt;/h2&gt;
+
+&lt;p&gt;The main purpose of such events is to share knowledge from the different corners of the world. Fossasia was also having experts from all over the glob to enlighten the event with their knowledge. 71 International speakers, along with 15 local speakers shared totaling of 121 talks and hands-on sessions. The event was divided into various tracks, running 8 tracks per day for 3 days. I have also delivered a talk on “Introduction to Apache Cassandra”.&lt;/p&gt;
+
+&lt;h2 id=&quot;experiencefossasia&quot;&gt;Experience@Fossasia&lt;/h2&gt;
+
+&lt;p&gt;During event I met with people from various open source organizations like Fedora, Mozilla, Wikimedia, Gnome etc. Amazing people, working seamlessly to make innovative things happen. Also met some entrepreneurs and businessmen from Cambodia working to improve the lives and conditions of those living in poverty. It was great to know about how they use technologies to tackle such issues. Attended sessions from various tracks and got introduced with many amazing things.&lt;/p&gt;
+
+&lt;p&gt;Also we got opportunity to have lunch with Cat Allmen (Program Manager - Outreach, Open Source Programs Office at Google, Inc) and share our open source contribution experience with her. Got to know how they manages to reach to such a big community and how it feels being a part of such initiative.&lt;/p&gt;
+
+&lt;h2 id=&quot;funcambodia&quot;&gt;Fun@Cambodia&lt;/h2&gt;
+
+&lt;p&gt;Apart from the event, we also had some fun staying few more days at Cambodia and roaming around the places. We enjoyed the night life of Cambodia (No, Not that much :P ). Also visited places like The Royal palace, Silver Pagoda, Wat Phnom and obviously the Central market.&lt;/p&gt;
+
+&lt;p class=&quot;tripimage&quot;&gt;&lt;img src=&quot;/assets/img/silver-pagoda.jpg&quot; alt=&quot;Silver Pagoda, Phnom Penh, Cambodia&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;tripimage&quot;&gt;&lt;img src=&quot;/assets/img/wat-phnom.jpg&quot; alt=&quot;Wat Phnom, Phnom Penh, Cambodia&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;After Phnom Penh, we headed towards the &lt;a href=&quot;http://en.wikipedia.org/wiki/Sihanoukville&quot;&gt;Sihanoukville,&lt;/a&gt; the port city of Cambodia and a popular tourist destination for beaches. You will find many beaches in Sihanoukville. We preferred to stay at Serendipity Beach.&lt;/p&gt;
+
+&lt;p class=&quot;tripimage&quot;&gt;&lt;img src=&quot;/assets/img/serendipity.jpg&quot; alt=&quot;Serendipity beach, Sihanoukville, Cambodia&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;tripimage&quot;&gt;&lt;img src=&quot;/assets/img/otres.jpg&quot; alt=&quot;Otres Beach, Sihanoukville, Cambodia.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;After spending a night at Sihanoukville, we continued our journey towards the &lt;a href=&quot;http://en.wikipedia.org/wiki/Koh_Rong&quot;&gt;Koh Rong island&lt;/a&gt; in the morning. Koh Rong is paradise — a few bungalow operations, perfect beaches, and jungle.&lt;/p&gt;
+
+&lt;p class=&quot;tripimage&quot;&gt;&lt;img src=&quot;/assets/img/kohrong.jpg&quot; alt=&quot;Koh Rong Island, Cambodia&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;the-long-beach&quot;&gt;The Long Beach&lt;/h2&gt;
+
+&lt;p&gt;we decided to experience some trekking through the island. The hike was not long, but quite strenuous as we had to negotiate dense jungle and steep slopes strewn with boulders. But the beach waiting for us was somehow even more beautiful than the others.&lt;/p&gt;
+
+&lt;p class=&quot;tripimage&quot;&gt;&lt;img src=&quot;/assets/img/longbeach.jpg&quot; alt=&quot;Long Beach, Koh Rong Island, Cambodia&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;final-words&quot;&gt;Final Words&lt;/h2&gt;
+
+&lt;p&gt;It was great fun. Thanks to the FOSSASIA organizers, specially to &lt;a href=&quot;http://www.mariobehling.de&quot;&gt;Mario Behling&lt;/a&gt; for giving me such a great opportunity. Stay tuned for more awesome stuffs here. Don’t forget to express your feelings in comments. :) :)&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 18 Apr 2014 01:11:00 +0530</pubDate>
+        <link>http://nikunjthakkar.com/thoughts/2014/04/18/fossasia-2014-greet-meet-and-code.html</link>
+        <guid isPermaLink="true">http://nikunjthakkar.com/thoughts/2014/04/18/fossasia-2014-greet-meet-and-code.html</guid>
+        
+        
+        <category>thoughts</category>
+        
+      </item>
+    
+      <item>
+        <title>Building Java Framework : The GSoC journey Part-II</title>
+        <description>&lt;p class=&quot;headerimage&quot;&gt;&lt;img src=&quot;/assets/img/gsoc-journey.png&quot; alt=&quot;Google Summer Of Code 2013&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;After a long break I would like to present the second part of our GSoC 2013 journey for the project MOST. After tackling the design issue the second major part was to build the Java framework which handle the Data Migration and provide the interface to access the newly created Cassandra database. I have summarized whole task into following points. I hope the information provided below will give you the basic idea about the framework. Feel free to ask any questions related to the framework.&lt;/p&gt;
+
+&lt;h2 id=&quot;data-migration&quot;&gt;Data Migration&lt;/h2&gt;
+
+&lt;p&gt;After implementing the proposed Cassandra database design, we needed to migrate the huge amount of the sensor data to the newly created Cassandra database. For this task the framework provides the Data Migration class which supports methods to migrate data of all the sensors or you can specify the sensor name in the parameter to migrate the data of the specific sensor.&lt;/p&gt;
+
+&lt;p&gt;The migration class has the access to both MySQL and Cassandra database. It fetches/reads data from the MySQL database and sends it to Cassandra. The Cassandra interface first validates the data and then writes to the respected columnfamily of the sensor. There are certain conditions which needs to be fulfilled before writing the data to the database. The Validation module handle all these condition. You will come to know about it further in this article.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-cassandra-interface&quot;&gt;The Cassandra Interface&lt;/h2&gt;
+
+&lt;p&gt;The Cassandra interface handles the read, write and delete operations for the Cassandra database. The class supports operations like reading latest value, reading values in given time range, deleting values from the given time range, deleting all the data values of the specified sensor, and writing data measurements to the columnfamilies. It also supports method to get the periodic values for the specified time range. The values are generated by the Periodic data generator class which is also part of the framework and details for the same will be given further in this article.&lt;/p&gt;
+
+&lt;h2 id=&quot;persist-validator&quot;&gt;Persist Validator&lt;/h2&gt;
+
+&lt;p&gt;The purpose of storing these sensor measurements is to carry out further experiment on the collected data. So it is desired that the stored data must be useful for further experiment and does not lead to wrong outputs. There were certain conditions like the value of particular sensor must be in given range or the interval between two value has to be equal to or greater than equal to the predefined sample interval. The persist validator class provides methods to support these conditions.&lt;/p&gt;
+
+&lt;h2 id=&quot;periodic-data-generations&quot;&gt;Periodic Data Generations&lt;/h2&gt;
+
+&lt;p&gt;It might be possible that sensor data is not accurate or to carry out certain experiment the periodic data is needed. In our project we also needed to get the periodic data. To fulfill this requirement the framework provides the periodic data generator class which supports methods to generate periodic data. Algorithms which uses concepts like weighted average linear interpolation are implemented in this class. Further details can be found from the research papers related to this project &lt;a href=&quot;http://most.bpi.tuwien.ac.at/wp-content/uploads/2012/03/most_general_paper.pdf&quot;&gt;here&lt;/a&gt; and &lt;a href=&quot;https://lists.oasis-open.org/archives/obix/201304/msg00004/MOST.pdf&quot;&gt;here.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;So this is all about our GSoC 2013 journey for the project MOST. Looking forward to contribute further in this project. :) :)&lt;/p&gt;
+</description>
+        <pubDate>Sat, 21 Dec 2013 17:12:00 +0530</pubDate>
+        <link>http://nikunjthakkar.com/technology/2013/12/21/building-java-framework-the-gsoc-journey-part-ii.html</link>
+        <guid isPermaLink="true">http://nikunjthakkar.com/technology/2013/12/21/building-java-framework-the-gsoc-journey-part-ii.html</guid>
+        
+        
+        <category>technology</category>
+        
+      </item>
+    
+      <item>
+        <title>Tackling the design issue using Cassandra : The GSoC journey Part- I</title>
+        <description>&lt;p class=&quot;headerimage&quot;&gt;&lt;img src=&quot;/assets/img/gsoc-journey.png&quot; alt=&quot;Google Summer Of Code 2013&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;We often travel across the places and these journeys often teach us valuable lessons which we never want to forget. The word journey not only relates to the journeys we do across the places but it also involves the journeys we do across the time. The time is great teacher but this is partially true. The experiences that we gain during that time are the great teacher. As a part of &lt;a href=&quot;http://www.google-melange.com/gsoc/homepage/google/gsoc2013&quot;&gt;GSoC 2013&lt;/a&gt;, my journey with &lt;a href=&quot;http://cassandra.apache.org/&quot;&gt;Cassandra&lt;/a&gt; for the &lt;a href=&quot;http://most.bpi.tuwien.ac.at/&quot;&gt;project MOST&lt;/a&gt; has also given me the bunch of experiences which I never want to forget.&lt;/p&gt;
+
+&lt;p&gt;I am specially writing this post to share the things that we did while tackling the problem - Dealing with large amount of time series based sensor data using Cassandra. I have started this article talking about the journey because dealing with any problem and finally solving the problem has many similarities with the journey. While travelling you came across the points where you have to make choice of the path from several options, It might be possible that the chosen path is not correct one or the shortest one or let say not the most feasible one. But still you consider it to be true if you reach the destination. Similarly the things we did might have other options. Some of them we discarded as we thought they were not feasible. There can be other options that we were unable to visualize at that moment. Whatever we did has laid us to the successful results.&lt;/p&gt;
+
+&lt;p&gt;The another reason for sharing these lessons is to find out other options that we couldn’t visualize. I request all the readers to freely share their views on the solution and help us in improving the solution. I have summarized the whole journey into few points as below.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-design-issue&quot;&gt;The Design issue&lt;/h2&gt;
+
+&lt;p&gt;While handling the large amount of data, you must take care of your database design as it affects the performance of your application.One important thing to note here is we are using &lt;a href=&quot;http://nosql-database.org/&quot;&gt;NoSQL database&lt;/a&gt; which is non-relational and to think about the non-relational design is quite difficult as we are used to with those relational databases. You need to put your efforts in visualizing things and make sure that the design you are proposing comprises of important data items for which you have moved to &lt;a href=&quot;http://en.wikipedia.org/wiki/NoSQL&quot;&gt;NoSQL.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;As in our case we found that the most critical portion of the MOST database is “data” table holding sensor measurements and the major portion of our application was dealing with this part so we decided to move it to NoSQL and we found that Cassandra is most suitable for this task. So there was only one table but the most important point was to build a design which can easily perform all those operation which are currently performed in MySQL design but with more efficiency and better performance.&lt;/p&gt;
+
+&lt;p&gt;In MySQL it was only one table holding relationship between datapoint and data measurements, but now in cassandra we have separate columnfamilies for each datapoint which improved the performance of operations like delete all data of particular datapoint or remove the particular datapoint.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-zero-row-concept&quot;&gt;The “Zero Row” Concept&lt;/h2&gt;
+
+&lt;p class=&quot;headerimage&quot;&gt;&lt;img src=&quot;/assets/img/zerorow.png&quot; alt=&quot;Google Summer Of Code 2013&quot; /&gt; &lt;/p&gt;
+
+&lt;p&gt;As per the requirements of our application we often need to fetch the latest value of datapoint. In Cassandra it doesn’t guarantee that the latest value will be stored at last or at first position. We are not using the &lt;a href=&quot;http://www.datastax.com/docs/1.1/cluster_architecture/partitioning#byteorderedpartitioner&quot;&gt;Byteorder partitioner&lt;/a&gt; because of load balancing issues which stores the data in the order of row keys. We are using default &lt;a href=&quot;http://www.datastax.com/documentation/cassandra/1.2/webhelp/cassandra/architecture/architecturePartitionerAbout_c.html&quot;&gt;murmur3 partitioner&lt;/a&gt; and as per this partitioning scheme we can not say where the latest value is stored so we decided to create separate row holding the latest value. The reason for calling it “Zero Row” is we are using first day of month (timestamp) as row key which is inserted using long value and to store latest value we used “zero” (epoch time) so we call it “zero Row”.&lt;/p&gt;
+
+&lt;h2 id=&quot;write-delete-write-technique&quot;&gt;Write-Delete-Write technique&lt;/h2&gt;
+
+&lt;p&gt;As I discussed in above point that we are managing the latest value in separate row, it is needed to be updated with every new write. (I know it sounds costly but as per our concern we have more read operations than write so we accepted this solution over dealing with manually load balancing in clusters while using Byteorder partitioner). So the first write is ordinary write in the column family, then we delete the old latest value and again insert the new latest value.&lt;/p&gt;
+
+&lt;h2 id=&quot;sharding-is-important&quot;&gt;Sharding is important&lt;/h2&gt;
+
+&lt;p class=&quot;headerimage&quot;&gt;&lt;img src=&quot;/assets/img/sharding.png&quot; alt=&quot;Google Summer Of Code 2013&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The main purpose of sharding is to take care of your row size. The cassandra allows 2 billion columns per row and it can hold around 2 GB of data but it is advised to keep the size of row minimum. Don’t go too wide to avoid hotspots as a row never splits across nodes. So if some row is having huge amount of traffic can cause hotspot in the node.&lt;/p&gt;
+
+&lt;h2 id=&quot;getting-sorted-results&quot;&gt;Getting Sorted Results&lt;/h2&gt;
+
+&lt;p&gt;Since we have decided not to use the Byteorder Partitioner, handling such kind of operations was difficult. But we have managed to get the sorted results with the use of our row key strategy and the knowledge of storage strategy. &lt;strong&gt;“Cassandra stores columns in sorted manner within the Row as per the columnname.”.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;key-strategy&quot;&gt;Key strategy&lt;/h2&gt;
+
+&lt;p&gt;We are using the composite key to store the data values where we store combination of first day of month and timestamp of the particular day as key. The first part act as a row key so in a single row we store the data of a month and second part i.e the timestamp act as a column keys so the data values within row are stored in order of timestamp as I said in above point.&lt;/p&gt;
+
+&lt;h2 id=&quot;handling-range-queries&quot;&gt;Handling Range queries&lt;/h2&gt;
+
+&lt;p&gt;While dealing with time-series based data, first point you come across is how to deal with the range queries? While researching over the same issue I came across many problems faced by people to handle range queries. In our case we took benefit from the native sql queries. Hopefully the CQL supports “Order By” clause but with the major limitation that it can be used only when you use IN ( same as “IN” keyword in SQL) or EQ ( Same as “=” operator in SQL) keyword in your CQL statement. Before we were using hourly based sharding but this limitation laid us to use the monthly based sharding and prepare queries in such a manner that we can use “IN” keyword along with “Order By” clause to get sorted results.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-datastax-java-driver&quot;&gt;The Datastax Java Driver&lt;/h2&gt;
+
+&lt;p&gt;Before we were using &lt;a href=&quot;http://hector-client.github.io/hector/build/html/index.html&quot;&gt;Hector API&lt;/a&gt; which has large community and support but the major issue is lack of proper support of native &lt;a href=&quot;http://cassandra.apache.org/doc/cql3/CQL.html&quot;&gt;CQL&lt;/a&gt; queries which we needed most in our case so we moved to &lt;a href=&quot;https://github.com/datastax/java-driver&quot;&gt;DataStax Java Driver&lt;/a&gt; with good support of Native CQL. The Java Driver is still improving and I hope more awesome features will be added to it. Thank you &lt;a href=&quot;http://www.datastax.com/&quot;&gt;Datastax&lt;/a&gt; for being there. :)&lt;/p&gt;
+
+&lt;p&gt;That is all. Wait for the next article in which I am going to write about the development of the preprocessing framework of MOST project. Stay tuned and give your feedback in comments. Thanks for reading. :)&lt;/p&gt;
+</description>
+        <pubDate>Wed, 16 Oct 2013 13:47:00 +0530</pubDate>
+        <link>http://nikunjthakkar.com/technology/2013/10/16/tackling-the-design-issue-using-cassandra-the-gsoc-journey-part-i.html</link>
+        <guid isPermaLink="true">http://nikunjthakkar.com/technology/2013/10/16/tackling-the-design-issue-using-cassandra-the-gsoc-journey-part-i.html</guid>
+        
+        
+        <category>technology</category>
+        
+      </item>
+    
+      <item>
+        <title>GSoC 2013 project proposal</title>
+        <description>&lt;p&gt;As I promised in my earlier blog post to share my GSoC proposal, you can see the proposal below.&lt;/p&gt;
+
+&lt;p class=&quot;proposalimage&quot;&gt;&lt;img src=&quot;/assets/img/MOST-NoSQL-Solution-for-Building-Data-Warehouses-project-proposal.png&quot; alt=&quot;Google Summer Of Code 2013 Proposal&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Few points to note about writing proposal :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Write only relevant information&lt;/li&gt;
+  &lt;li&gt;Describe your solution precisely and in brief &lt;/li&gt;
+  &lt;li&gt;Express your self. Show your positive points.&lt;/li&gt;
+  &lt;li&gt;If you are using any other resources mention them&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;That is all. Best luck if you are planning to apply for next GSoC. :)&lt;/p&gt;
+</description>
+        <pubDate>Sun, 06 Oct 2013 18:49:00 +0530</pubDate>
+        <link>http://nikunjthakkar.com/thoughts/2013/10/06/gsoc-2013-project-proposal.html</link>
+        <guid isPermaLink="true">http://nikunjthakkar.com/thoughts/2013/10/06/gsoc-2013-project-proposal.html</guid>
+        
+        
+        <category>thoughts</category>
+        
+      </item>
+    
+      <item>
+        <title>Grabbing the tag of GSoCer</title>
+        <description>&lt;p class=&quot;headerimage&quot;&gt;&lt;img src=&quot;/assets/img/GSoc-2013-logo.jpg&quot; alt=&quot;Google Summer Of Code 2013&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Always be yourself, express yourself, have faith in yourself, do not go out and look for a successful personality and duplicate it.” ― Bruce Lee&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;On one very beautiful morning my friend came to me and started talking about GSoC. 
+Oops :P, I am not a story teller and this is not anyhow a big inspirational story. 
+It’s just my personal experience of working little bit hard and little bit smart than others which ended up with the GSoCers tag with my name. 
+So sharing this experience with all who are interested in applying for GSoC but are not confident enough to do it.&lt;/p&gt;
+
+&lt;p&gt;It all started in my first semester at DA-IICT. Before this I was totally unaware of what is GSoC or something like this really exist in the world. 
+Last year 17 students were got selected from our institute and this year the count remained unchanged. 
+(Some students also said that 17 is lucky number for DA. I don’t know the story behind it. :P). 
+I read about it before I took admission at DA and that was felt something excited to me so I was waiting to explore something more about it. 
+And the day came when some students from the institute has arranged an introductory session for GSoC. 
+Obviously, The speakers were those students who managed to get selected for last year. 
+So after this I had enough idea about the GSoC but still few things were unclear to me. 
+But I decided to give it a try and I was waiting for the announcement of program from the Google.&lt;/p&gt;
+
+&lt;p&gt;Every year the commencement of the GSoC program starts around March which is the period for organizations to apply for becoming the part of GSoC. 
+Around 200 organizations take part and allow students to contribute for open source world. 
+After this in April the students are allowed to discuss the project ideas with the people form organization through mailing lists( Note: The best way to learn about organization and project is to subscribe for their mailing list.) and IRC chat.&lt;/p&gt;
+
+&lt;p&gt;I have gone through so many organizations allowing projects on JavaScript, PHP, JAVA and C/C++. 
+So after lots of searching, reading and communicating I shortlisted three projects from different organization and started exploring about it. 
+How it can be implemented and also compared my capability with the required work because this is very important when you are getting some work as an assignment you must complete it. 
+I have also contacted professor &lt;a href=&quot;http://intranet.daiict.ac.in/~ajit_r/&quot;&gt;Ajit Rajwade&lt;/a&gt; and professor Minal Bhise to help me to decide on which project should I work. 
+And really they have helped me a lot (Heartily thanks to them! :) ). 
+After all these hectic tasks I decided to work on &lt;a href=&quot;http://www.google-melange.com/gsoc/project/google/gsoc2013/nikunjness/14001&quot;&gt;MOST: NoSQL Solution for Building Data Warehouses&lt;/a&gt; project of &lt;a href=&quot;http://www.iue.tuwien.ac.at/cse/&quot;&gt;Computational Science and Engineering at TU Wien.&lt;/a&gt; 
+The mentors for the project are &lt;a href=&quot;http://www.iue.tuwien.ac.at/cse/index.php/members/116-hofstaetter.html&quot;&gt;Harald Hofstätter&lt;/a&gt; and &lt;a href=&quot;http://www.iue.tuwien.ac.at/cse/index.php/members/48-glawischnig.html&quot;&gt;Stefan Glawischnig.&lt;/a&gt; 
+They are really nice people. They have continuously guided me to make my proposal better.&lt;/p&gt;
+
+&lt;p&gt;After Selecting the project I have started learning technologies required for the project. They have also given one small assignment which help them in deciding students capability of work. 
+I have submitted the assignment and meanwhile I was continuously talking to them about my approach and interest in the project. 
+I have started asking questions and getting details related to project. And it was &lt;a href=&quot;https://www.google.com/calendar/event?eid=bnBkcDdkZHExZzdnY3YxYzFpZzhsZ3Y3cDQgZ3N1bW1lcm9mY29kZUBt&amp;amp;ctz=America/Los_Angeles&quot;&gt;27th May, 2013&lt;/a&gt; the day of announcing accepted students proposals. 
+I was curiously waiting for the result and as per the Indian time the result was going to be announced at midnight so the whole day was passed with so much curiosity. All the applicants from our institute were on IRC chat and they were also excited as much as I. 
+Finally I received the e-mail from Google and truly speaking I was in shock for a moment and after that I felt like some miracle has happened to me. And lots of greetings and congratulating posts started flashing on my facebook wall.&lt;/p&gt;
+
+&lt;p&gt;I will upload my project proposal with next article. Hope you guys enjoyed reading this. Keep visiting and feel free to give suggestions. Have a nice day! :) :)&lt;/p&gt;
+</description>
+        <pubDate>Thu, 11 Jul 2013 13:04:00 +0530</pubDate>
+        <link>http://nikunjthakkar.com/thoughts/2013/07/11/grabbing-the-tag-of-gsocer.html</link>
+        <guid isPermaLink="true">http://nikunjthakkar.com/thoughts/2013/07/11/grabbing-the-tag-of-gsocer.html</guid>
+        
+        
+        <category>thoughts</category>
+        
+      </item>
+    
+      <item>
+        <title>Introduction to Apache Cassandra</title>
+        <description>&lt;p&gt;Apache Cassanrda, simply it is a “ massively scalable, decentralized, structured datastore (aka database)”.&lt;/p&gt;
+
+&lt;p&gt;Being an open source high performance database designed for real time transaction and analysis, it provides faster read and write operations which takes just sub milliseconds to perform the task. Cassandra is a NoSQL Column family implementation supporting the Big Table data model (intoduced by Google, &lt;a href=&quot;http://en.wikipedia.org/wiki/BigTable&quot;&gt;See here&lt;/a&gt;) using the architectural aspects introduced by &lt;a href=&quot;http://aws.amazon.com/dynamodb/&quot;&gt;Amazon Dynamo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Cassandra is for use cases where high read and write performance is needed or large storage requirements will continue to grow over time. It allows you to grow as you need and add resources on your schedule to handle those demands.&lt;/p&gt;
+
+&lt;p&gt;Cassandra data model is composed of columns, rows, column families and keyspace. Now lets understand these terms more precisely.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-column&quot;&gt;What is column?&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;It is most basic unit of cassandra data modes consist of a name, a value and a timestamp.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-row&quot;&gt;What is row?&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;A set of columns grouped together compose a row which is labeled with a specific name. See example below:&lt;/em&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;        &quot;NoSQL&quot;-&amp;gt; {
+            author=&quot;Someone&quot;,
+            publishedDate=&quot;..&quot;,
+            tag1=&quot;Database&quot;,
+            tag2=&quot;Technology&quot;
+        }
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&quot;what-is-column-family&quot;&gt;What is column family?&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;A collection of rows labeled with a name. See example below:&lt;/em&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    Books-&amp;gt; {
+        &quot;NoSQL&quot;-&amp;gt; {
+            author=&quot;Someone&quot;,
+            publishedDate=&quot;..&quot;
+            },
+        &quot;NoSQL: Part II&quot;-&amp;gt; {
+            author=&quot;Someone&quot;,
+            publishedDate=&quot;..&quot;
+            },
+        …
+    }
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&quot;what-is-keyspace&quot;&gt;What is keyspace?&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;The logical grouping of the column families forms a keyspace.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-super-column&quot;&gt;What is super column?&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;Super columns resides into the column family that groups several columns under one key.&lt;/em&gt; &lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 22 Jun 2013 23:04:00 +0530</pubDate>
+        <link>http://nikunjthakkar.com/technology/2013/06/22/Introduction-to-apache-cassandra.html</link>
+        <guid isPermaLink="true">http://nikunjthakkar.com/technology/2013/06/22/Introduction-to-apache-cassandra.html</guid>
+        
+        
+        <category>technology</category>
+        
+      </item>
+    
+  </channel>
+</rss>

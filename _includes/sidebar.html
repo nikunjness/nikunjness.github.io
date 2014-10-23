@@ -1,0 +1,38 @@
+<div class="col-xs-7 col-sm-3 col-md-3 sidebar sidebar-right sidebar-animate">
+    <a href="/">
+        <!--img src="{{ site.github.owner_gravatar_url }}?s=150" height="90" width="90" class="avatar" / -->
+        <img src="https://avatars3.githubusercontent.com/u/4085873?v=2&s=460" height="150" width="150" class="avatar" />
+    </a>
+    <section class="name">
+        <a href="/">
+            <span id="fname">{{ site.name|split:' '|first }}</span> <br>
+            <span id="lname">{{ site.name|split:' '|last }}</span>
+        </a>
+    </section>
+    <hr />
+    <section class="sections">
+        <ul class="nav navbar-stacked">
+            {% for page in site.pages %}
+            {% if page.title %}
+            <li class="active">
+                <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a> </li>
+            <li class="active">
+                <a class="page-link" href="/feed.xml">feed</a></li>
+            {% endif %}
+            {% endfor %}
+        </ul>
+    </section>
+
+    <hr />
+    <section id="meta">
+        <a href="mailto:me@nikunjthakkar.com"><i class="fa fa-envelope fa-lg"></i></a>
+        <a href="https://www.fb.com/nikunjness" target="blank"><i class="fa fa-facebook-square fa-lg"></i></a>
+        <a href="https://plus.google.com/109858248542243850734/" target="blank"><i class="fa fa-google-plus-square fa-lg"></i></a>
+        <a href="https://in.linkedin.com/in/nikunjness/" target="blank"><i class="fa fa-linkedin-square fa-lg"></i></a>
+        <a href="https://www.twitter.com/nikunjness/" target="blank"><i class="fa fa-twitter-square fa-lg"></i></a>
+        <a href="https://www.github.com/nikunjness" target="blank"><i class="fa fa-github-square fa-lg"></i></a>
+    </section>
+
+
+
+</div>

@@ -1,0 +1,10 @@
+# Site settings
+title: notesofcode
+email: me@nikunjthakkar.com
+description: Personal blog of Nikunj Thakkar - Programmer and Foss Contributor
+baseurl: ""
+url: "http://nikunjthakkar.com"
+name : Nikunj Thakkar
+
+# Build settings
+markdown: kramdown

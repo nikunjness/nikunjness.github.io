@@ -1,91 +1,192 @@
-html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
-
-
-body    {font-family: 'Josefin Slab', sans-serif; color: #fff;}
-
-
-h1      {font-size:120px; font-weight: 100; text-align: center; margin-bottom: 50px;}
-h1 span {font-weight: 700;}
-
-h2      {font-size: 36px; padding: 0 0 20px 0; font-weight: 700;}
-
-p       {font-size:24px; font-weight: 300; line-height:110%; -webkit-font-smoothing: subpixel-antialiased;}
-p span  {font-size:16px; font-style: italic; display: block; margin-top: 20px;}
-
-.headmargin { margin-top: 10%}
-.container{text-align: center; padding: 5%; height: 100%}
-.container a{ color: white;font-size: 20px; text-decoration: none}
- a:hover{ color: crimson; font-weight: bold}
-.social{
-    position: fixed;
-    bottom: 15px;
-    font-size: 32px;
-    text-align: center;
-    width: 100%;
-    z-index: 1;
+/* Styles go here */
+html, body {
+  min-height:100%;
+  min-width:100%;
+  padding-top: 30px;
 }
-.social a{
-    padding: 1%;
-    color: #ffffff;
+
+/* this is only to style the sidebar - you can make the sidebar look any way you want */
+.sidebar {
+  padding: 50px;
+  background-color: #f5f5f5;
+  border-right: 1px solid #eee;
 }
-.skill-block{
+hr {
+   border-color: green;
+}
+
+#meta{
+    font-size: 25px;
+    color: black;
+}
+
+#meta a:hover {
+    color: green;
+}
+
+.home ul{
+    align: center;
+}
+.home ul li {
     display: block;
-    text-align: left;
-    padding: 2%;
-    float: left;
-    font-size: 21px;
-}
-.skill-block span { font-weight: bold}
-.education span { font-weight: bold}
-.education {width: 100%; margin-bottom: 5%; font-size: 22px}
-.education li {display: block; float: left; width: 50%}
-
-/*TITLE COVER*/
-#home          {background-color: #3C5898;}
-
-
-/*COCONUT CHAIR*/
-#about-me          {background-color: #6AADD1;}
-
-
-/*RAR ARMCHAIR*/
-#skills          {background-color: #CD3627;}
-
-
-/*WIGGLE ARMCHAIR*/
-#education          {background-color: #666666;}
-
-
-
-@media only screen
-and (min-width : 300px)
-and (max-width : 600px) {
-    h1 {font-size: 60px}
-    p       {font-size:19px;}
-    p span  {font-size:13px; margin-top:16px;}
-    .social {display: none; }
-    .education {width: 100%; margin-bottom: 5%; font-size: 22px}
-    .education li {display: block; width: 100%}
 }
 
+.home ul li:hover {
+    background-color: #DAD0FF;
+}
 
-
-/*width between 1025 - 1300*/
-@media only screen
-and (min-width : 1025px)
-and (max-width : 1300px) {
-
-    h1      {font-size:96px; margin-bottom: 60px;}
-    h2      {font-size:29px; padding: 0 0 20px 0; }
-    p       {font-size:19px;}
-    p span  {font-size:13px; margin-top:16px;}  
-
+.sidebar .sections {
+    margin: 15px 0 0 0;
+ }
+.sidebar .sections a {
+    padding: 3px 0;
+    color: black;
+    font-weight: bold;
+    font-size: 17px;
+    display: block;
+ }
+.sidebar .sections a:hover {
+    color: #227ce8;
+ }
+.sidebar .sections ul {
+    margin: 0;
+    padding: 0;
+ }
+.sidebar .sections li {
+    list-style: none;
+    margin-bottom: 7px; }
+    .sidebar .name {
+    text-transform: uppercase;
+    margin: 10px 0 20px 0;
+}
+.sidebar .name #fname {
+    padding-left: 1px;
+    font-size: 17px;
+    letter-spacing: 5px;
+    color: black;
+}
+.sidebar .name #lname {
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: black;
 }
 
 
+.pagination {
+padding-bottom: 20px;
+font-size: 1.4em;
+text-align: center;
+}
+.pagination a {
+color: #4878af;
+text-decoration: none;
+/* Transition on color */
+-webkit-transition: color 0.4s;
+-moz-transition: color 0.4s;
+-o-transition: color 0.4s;
+transition: color 0.4s;
+}
+.pagination a:hover { color: #5c9eed; }
+.pagination__previous {
+margin-right: 20px;
+}
+.pagination__next {
+margin-left: 20px;
+}
+
+
+/**************************************************************
+* Footer
+**************************************************************/
+.page-footer {
+min-width : 100%;
+text-align:center;
+}
+/* Paragraphs */
+.page-footer p {
+margin: 15px;
+font-style: bold;
+}
+/* Hyperlinks */
+.page-footer a {
+color: #4878af;
+/* Transition on color */
+-webkit-transition: color 0.4s;
+-moz-transition: color 0.4s;
+-o-transition: color 0.4s;
+transition: color 0.4s;
+}
+.page-footer a:hover { color: #5c9eed;}
+.page-footer a:visited { color: #7977c7; }
+.page-footer a:hover:visited { color: #9593f5; }
+.page-footer a:focus { color: #5c9eed;}
+.page-footer a:active { color: #5c9eed;}
 
 
 
 
+/**************************************************************
+* Post
+**************************************************************/
+.post {
+    margin: 5%;
+    text-align: justified:
+}
 
+.post .post-title {
+    text-align: center;
+    color: #6AB9C5;
+ }
+
+ .post .post-content {
+    font-size : 18px;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+ }
+
+ .post h2,h3 {
+    color: #00394F;
+ }
+
+.home {
+    margin: 5%;
+    text-align: justified:
+ }
+
+ .home ul {
+    list-style: none;
+ }
+
+.headerimage {
+    text-align:center;
+
+}
+.headerimage img {
+ width: 700px;
+ height: 230px;
+}
+
+.proposalimage {
+    text-align:center;
+}
+
+.proposalimage img {
+    width: 700px;
+    height: 4804px;
+}
+
+.tripimage {
+    text-align:center;
+}
+
+.tripimage img {
+    width: 944px;
+    height: 629px;
+}
+
+#social {
+    margin: 20px;
+    text-align:center;
+    font-size: 38px;
+}
 

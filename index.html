@@ -1,198 +1,21 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Welcome | Nikunj Thakkar </title>
-    <meta charset="utf-8">
-    <meta name="description" content="Web developer. Personal website.">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-    <meta property="og:title" content="Nikunj Thakkar - Programmer Analyst | FOSS Contributor"/>
-    <meta property="og:url" content="http://www.nikunjthakkar.com"/>
-    <meta property="og:site_name" content="Nikunj Thakkar - web developer"/>
-    <meta property="og:description" content="Personal page of Nikunj Thakkar"/>
-    <link rel="shortcut icon" href="favicon.ico" />
-    <link rel="shortcut icon" href="me.jpg" />
-    <link rel="stylesheet" href="css/curtain.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <!-- FONTS
-    <link href='https://fonts.googleapis.com/css?family=Lato:100,300,400,700' rel='stylesheet' type='text/css'> -->
-    <link href='https://fonts.googleapis.com/css?family=Josefin+Slab' rel='stylesheet' type='text/css'>
-</head>
-<body>
-<ol class="curtains">
-    <li id="home">
-        <div class="headmargin" data-fade="550">
+---
+layout: custom
+---
 
-            <h1>
-                <span>NIKUNJ</span><br>
-                THAKKAR
-            </h1>
+<div class="home">
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+          <span class="post-meta"> {{ post.date | date: "%b %-d, %Y" }} </span>
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+      <hr />
+    {% endfor %}
+  </ul>
 
-            <div class="container">
-                <p>Programmer Analyst <a href="https://www.ishisystems.com" target="_blank">@ishisystems</a> | FOSS Contributor <br/> <br/>
-                    Feel like found best person for your requirements? <a href="mailto:me@nikunjthakkar.com"
-                                                                         Subject="Hello!%20I%20have%20a%20title%20for%20you!"
-                                                                         target="_top"> Drop me a line. </a> <br/>
-                    No? Read on. </p>
 
-            </div>
-        </div>
-    <li id="about-me">
-        <div class="container">
-            <h1>About Me</h1>
+ </div>
 
-            <p>My name is Nikunj Thakkar. I am currently working as a Programmer Analyst at Ishi Systems, Inc. I love working with small, excited, focused startups with big ideas**. I'm
-                passionate
-                about simplicity, ease of use, aesthetic beauty and improving the lives of others through great design.
-                Positive, careful and trustworthy are the traits which best describe me. I work with enthusiasm and put
-                a lot of energy in the projects I take part. I'm social and emphatic, as well as an excellent
-                communicator. In addition to pursuing my passion in technology, I love exploring the great beauty of
-                nature and writing poems.
 
-                <span><a href="mailto:me@nikunjthakkar.com">Get in touch with me.</a></span>
-            </p>
-        </div>
-
-    </li>
-    <li id="skills">
-        <div class="container">
-            <h1>Skills</h1>
-
-            <div>
-                <div class="skill-block">
-                    <span>Front-End:</span><br/><br/>
-                    <ul>
-                        <li>HTML/HTML5</li>
-                        <li>CSS/CSS3</li>
-                        <li>JavaScript</li>
-                        <li>Jquery</li>
-                        <li>Ajax</li>
-                        <li>AngularJs</li>
-                    </ul>
-                </div>
-                <div class="skill-block">
-                    <span>Back-End:</span><br/><br/>
-                    <ul>
-                        <li>Python</li>
-                        <li>Java</li>
-                        <li>C/C++</li>
-                        <li>PHP</li>
-                        <li>Asp.Net/C#/VB</li>
-                        <li>Databases</li>
-                        <li>NoSQL Technologies</li>
-                    </ul>
-                </div>
-                <div class="skill-block">
-                    <span>Frameworks:</span><br/><br/>
-                    <ul>
-                        <li>Django</li>
-                        <li>Codeigniter</li>
-                        <li>Entity</li>                        
-                    </ul>
-                </div>
-                <div class="skill-block">
-                    <span>Operating Systems:</span><br/><br/>
-                    <ul>
-                        <li>Windows Xp/7/8</li>
-                        <li>Linux: Ubuntu/Fedora</li>
-                    </ul>
-                </div>
-                <div class="skill-block">
-                    <span>Tools/IDEs:</span><br/><br/>
-                    <ul>
-                        <li>NetBeans</li>
-                        <li>Eclipse</li>
-                        <li>Intellij Idea</li>
-                        <li>WebStorm</li>
-                        <li>Turbo C/C++</li>
-                        <li>Dreamweaver</li>
-                        <li>MS VISIO 2007/2010</li>
-                        <li>Microsoft Visual Studio 2008</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-    </li>
-    <li id="education">
-        <div class="container">
-            <h2>Education</h2>
-
-            <div class="education">
-                <ul>
-                    <li><span>Bachelors of Computer Application </span> <br/>
-                        Hemchandracharya North Gujarat University, Patan, Gujarat. <br/>
-                        Year : 2009-12
-                    </li>
-                    <li><span>Masters of Science (Information Technology)</span> <br/>
-                        Dhirubhai Ambani Institute of Information and Communication Technology (DA-IICT),Gandhinagar,
-                        Gujarat <br/>
-                        Year : 2012-14
-                    </li>
-                </ul>
-            </div>
-            <div class="container">
-
-                <div class="skill-block">
-                    <span>I like:</span><br/><br/>
-                    <ul>
-                        <li>Reading blogs</li>
-                        <li>Travelling</li>
-                        <li>Parties</li>
-                        <li>Backpacking</li>
-                        <li>New friends</li>
-                    </ul>
-                </div>
-                <div class="skill-block">
-                    <span>I don't like:</span><br/><br/>
-                    <ul>
-                        <li>Slow internet speed</li>
-                        <li>Game requests on facebook</li>
-                        <li>Two-faced liars</li>
-                        <li>Long speeches</li>
-                    </ul>
-                </div>
-                <div class="skill-block">
-                    <span>Other sites:</span><br/><br/>
-                    <ul>
-                        <li><a href="http://poetry.nikunjthakkar.com" target="_blank">poetry.nikunjthakkar.com</a></li>
-                        <li><a href="http://blog.nikunjthakkar.com" target="_blank">blog.nikunjthakkar.com</a></li>
-                    </ul>
-                </div>
-                <div class="skill-block">
-                    <span>Contact me:</span><br/><br/>
-                    <ul>
-                        <li><a href="mailto:me@nikunjthakkar.com" target="_blank">me@nikunjthakkar.com</a></li>
-                        <li><a href="https://fb.com/nikunjness" target="_blank">fb.com/nikunjness</a></li>
-                        <li><a href="https://twitter.com/nikunjness" target="_blank">@nikunjness</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-    </li>
-
-</ol>
-<div class="social">
-    <a href="mailto:me@nikunjthakkar.com"><i class="fa fa-envelope fa-lg"></i></a>
-    <a href="https://www.fb.com/nikunjness" target="blank"><i class="fa fa-facebook-square fa-lg"></i></a>
-    <a href="https://plus.google.com/109858248542243850734/" target="blank"><i
-            class="fa fa-google-plus-square fa-lg"></i></a>
-    <a href="https://in.linkedin.com/in/nikunjness/" target="blank"><i class="fa fa-linkedin-square fa-lg"></i></a>
-    <a href="https://www.twitter.com/nikunjness/" target="blank"><i class="fa fa-twitter-square fa-lg"></i></a>
-    <a href="https://www.github.com/nikunjness" target="blank"><i class="fa fa-github-square fa-lg"></i></a>
-
-</div>
-<script src="js/jquery.min.js"></script>
-<script src="js/curtain.js"></script>
-
-<script type="text/javascript">
-    $(function () {
-        $('.curtains').curtain({
-            scrollSpeed: 400,
-            controls: '.menu'
-        });
-    });
-</script>
-</body>
-</html>
