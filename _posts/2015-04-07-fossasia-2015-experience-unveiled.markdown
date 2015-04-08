@@ -71,7 +71,7 @@ IYDK, Mario and Hong are the organizers of the event. Since my interaction with 
 
 <center><blockquote class="twitter-tweet" lang="en"><p><a href="https://twitter.com/janjongboom">@janjongboom</a> is showing magic tricks using mobile phone. <a href="https://twitter.com/hashtag/fossasia?src=hash">#fossasia</a> <a href="http://t.co/rZMCakVpuw">pic.twitter.com/rZMCakVpuw</a></p>&mdash; Nikunj Thakkar (@nikunjness) <a href="https://twitter.com/nikunjness/status/576631214594920449">March 14, 2015</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></center>
 
-I became his while he was showing magic tricks using Firefox OS phone. Sounds interesting? [Have a look at his slides from Fossasia.](http://www.slideshare.net/janjongboom/abusing-phones-to-make-the-internet-of-things-fossasia-2015)
+I became his fan while he was showing magic tricks using Firefox OS phone. Sounds interesting? [Have a look at his slides from Fossasia.](http://www.slideshare.net/janjongboom/abusing-phones-to-make-the-internet-of-things-fossasia-2015)
 
 [Harish Pillay](https://twitter.com/harishpillay):
 
