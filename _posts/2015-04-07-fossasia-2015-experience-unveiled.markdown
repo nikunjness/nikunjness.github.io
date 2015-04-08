@@ -24,12 +24,12 @@ We considered Fossasia 2015 as an opportunity to showcase our DevOps culture and
 
 ###Never build a login again : The art of using social Auth using Django - Nikunj Thakkar
 
-As I couldn't wait much to share my experience, I have already written a [blog post](http://nikunjthakkar.com/thoughts/2015/03/23/fossasia-2015-three-days-smart-city.html) which has my presentation and video link.
+As I could not wait to share my experience, I have already written a [blog post](http://nikunjthakkar.com/thoughts/2015/03/23/fossasia-2015-three-days-smart-city.html) about it. It includes my presentation and video link.
 
 ###Prototype for Production - Dhruv Gohil
 
 Working with a team member who has same mindset towards "FOSS" as yours is an amazing experience. Fortunately I got that opportunity at the beginning of my career. In the time-span of mere three months, Dhruv along with three interns tried to build a production ready product/service. The results were amazing and all this because of awesome opensource tools available out there.
-In his talk he is sharing his experience for the same. I must insist you to go through his presentation if you haven't attended his talk.
+In his talk he is sharing his experience for the same. I insist that you to go through his presentation if you did not get a chance to attended his talk.
 <center>
 <iframe src="https://docs.google.com/presentation/d/1pHC0ZLR-l5davYNQ03-m0cQa6fhXVhJZWciuXBJJqsA/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 </center>
@@ -59,25 +59,25 @@ In his presentation, you will see many interesting scenarios that one faces whil
 
 ##People are awesome
 
-My inspiration for attending such events has always been people I meet there. Why? Because they are "AWESOME". They work for open-source projects. You can pull every bit of knowledge out of them and they won't mind telling you secrets. Let's meet as many of them as I remember.
+My inspiration for attending such events has always been people I get to meet there. Why? Because they are "AWESOME". They work for open-source projects. You can pull every bit of knowledge out of them and they won't mind telling you secrets. I will try and introduce you to team members I can remember.
 
 Meet [Mario Behling](https://twitter.com/mariobehling) and [Hong Phuc Dang](https://twitter.com/hpdang):
 
 <center><blockquote class="twitter-tweet" lang="en"><p>1ts day <a href="https://twitter.com/fossasia">@fossasia</a> with <a href="https://twitter.com/mariobehling">@mariobehling</a> and <a href="https://twitter.com/hpdang">@hpdang</a> <a href="https://twitter.com/hashtag/FOSSASIA?src=hash">#FOSSASIA</a> 2015 <a href="https://twitter.com/hashtag/Singapore?src=hash">#Singapore</a> <a href="http://t.co/RKlgYjZjCp">pic.twitter.com/RKlgYjZjCp</a></p>&mdash; Nikunj Thakkar (@nikunjness) <a href="https://twitter.com/nikunjness/status/576211607178518528">March 13, 2015</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></center>
 
-IYDK, Mario and Hong are the organizers of the event. Since my first interaction to them, they have been very supportive and always ready to help. During event it is hard to catch them, but they will definitely stop-by and talk to you. Thanks you Mario and Hong for organizing such an awesome event.
+IYDK, Mario and Hong are the organizers of the event. Since my interaction with them, they have been supportive and always available to help. During the event it is hard to get a spare moment from them, but they do try to stop-by and talk to the members. Thanks you Mario and Hong for organizing such an awesome event.
 
 [Jan Jongboom](https://twitter.com/janjongboom):
 
 <center><blockquote class="twitter-tweet" lang="en"><p><a href="https://twitter.com/janjongboom">@janjongboom</a> is showing magic tricks using mobile phone. <a href="https://twitter.com/hashtag/fossasia?src=hash">#fossasia</a> <a href="http://t.co/rZMCakVpuw">pic.twitter.com/rZMCakVpuw</a></p>&mdash; Nikunj Thakkar (@nikunjness) <a href="https://twitter.com/nikunjness/status/576631214594920449">March 14, 2015</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></center>
 
-I became fan of him while he was showing magic tricks using Firefox OS phone. Sounds interesting? [Have a look at his slides from Fossasia.](http://www.slideshare.net/janjongboom/abusing-phones-to-make-the-internet-of-things-fossasia-2015)
+I became his while he was showing magic tricks using Firefox OS phone. Sounds interesting? [Have a look at his slides from Fossasia.](http://www.slideshare.net/janjongboom/abusing-phones-to-make-the-internet-of-things-fossasia-2015)
 
 [Harish Pillay](https://twitter.com/harishpillay):
 
 <center><iframe src="https://www.flickr.com/photos/fossasia/16783628056/in/photostream/player/" width="650" height="500" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe></center>
 
-Though we did not have a longer conversation with him, he seemed to be very supportive and also suggested some places where we can find vegetarian food. Looking forward to meet him again in FOSS events.
+Though we could not talk longer with him, he was supportive and kind enough to suggest some places to find vegetarian food. Looking forward to meet him again in FOSS events.
 
 [Martin Bähr](http://cn.linkedin.com/pub/martin-b%C3%A4hr/84/a09/331):
 
