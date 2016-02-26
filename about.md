@@ -4,7 +4,8 @@ title: About me
 permalink: /about/
 ---
 
-#Hello world!
+Hello world!
+=============
 
 I, Nikunj Thakkar, am a driven and talented full stack software engineer with 2+ years of experience of building robust & scalable distributed multi-tenant systems with recent
 experience of developing data retention and disclosure platform serving multiple clients from telecom industry.
@@ -18,7 +19,9 @@ Some of the interest areas are real-time data processing, machine learning, NLP,
 
 So far I've got my hands dirty with following tools and technologies.
 
-###Backend Development
+Backend Development
+-------------------
+
 * Java 
 * Python 
 * Scala 
@@ -29,7 +32,8 @@ So far I've got my hands dirty with following tools and technologies.
 * C#.Net 
 * PHP
 
-###Frontend Development
+Frontend Development
+--------------------
 
 - I love to play with:
     * HTML5
@@ -47,7 +51,9 @@ So far I've got my hands dirty with following tools and technologies.
     * D3 
     * React JS
     
-###Databases
+Databases
+---------
+
 * Cassandra
 * MongoDB,
 * Hbase,
@@ -56,7 +62,9 @@ So far I've got my hands dirty with following tools and technologies.
 * Oracle
 * Microsoft SQL server
 
-###Frameworks & Other tools
+Frameworks & Other tools
+------------------------
+
 * Hadoop,
 * Maven
 * Spring
@@ -71,7 +79,8 @@ So far I've got my hands dirty with following tools and technologies.
 
 Being quick learner, I enjoy exploring new tools and technologies and apply my knowledge for rapid development in fast-paced environment.
 
-##Experience
+Experience
+----------
 
 * Junior Programmer Analyst – [Ishi Systems Inc.](http://ishisystems.com/) (May, 2014 – Present)
 
@@ -103,19 +112,24 @@ Being quick learner, I enjoy exploring new tools and technologies and apply my k
     * Worked on web application named “Gyan Meter” which measures student’s Learning interest based on several
      criteria and show analysis results using graphs.
      
-##Education
+Education
+---------
      
 * Master of Science (Information Technology) from [Dhirubhai Ambani Institute of Information and Communication Technology (DA-IICT)](http://daiict.ac.in), Gandhinagar, Gujarat (2012-2014)
 * Bachelor of Computer Application from [Hemchandracharya North Gujarat University](http://www.ngu.ac.in) (2009-2012)
 
-##Voluntary Positions
+Voluntary Positions
+--------------------
+
 * Mentor, Google Code-in 2015, Fossasia & Google (December, 2015 – January, 2016)
 * Co-Lead, Ahmedabad Chapter, Headstart Network Foundation (September, 2015 - Present)
 * Volunteer, Ahmedabad Chapter, Headstart Network Foundation (June, 2015 – August, 2015)
 * Core Team Member, Google Business Group (GBG Ahmedbad), Google (September 2014 – Present)
 * Co-organizer, Ahmedabad Java Meetup Group, Ishi Systems Inc. (August, 2014 – Present)
 
-##Conferences & Talks
+Conferences & Talks
+-------------------
+
 * “Never build a login again – An art of using social authentication using Django”, Fossasia 2015, Singapore
 * “Introduction to Apache Cassandra – Column family based NoSQL Database”, Fossasia 2014. Cambodia
 * Various talks and sessions at local meetups
