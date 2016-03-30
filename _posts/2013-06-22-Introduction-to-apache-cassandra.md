@@ -15,14 +15,15 @@ Cassandra is for use cases where high read and write performance is needed or la
 Cassandra data model is composed of columns, rows, column families and keyspace. Now lets understand these terms more precisely.
 
 
-###What is column?
+What is column?
+----
 
-*It is most basic unit of cassandra data modes consist of a name, a value and a timestamp.*
+* It is most basic unit of cassandra data modes consist of a name, a value and a timestamp.*
 
 
-###What is row?
-
-*A set of columns grouped together compose a row which is labeled with a specific name. See example below:*
+What is row?
+----
+* A set of columns grouped together compose a row which is labeled with a specific name. See example below:*
 
 ~~~~~~
         "NoSQL"-> {
@@ -34,9 +35,10 @@ Cassandra data model is composed of columns, rows, column families and keyspace.
 ~~~~~~
 
 
-###What is column family?
+What is column family?
+----
 
-*A collection of rows labeled with a name. See example below:*
+* A collection of rows labeled with a name. See example below:*
 
 ~~~~~~
     Books-> {
@@ -53,11 +55,13 @@ Cassandra data model is composed of columns, rows, column families and keyspace.
 ~~~~~~
 
 
-###What is keyspace?
+What is keyspace?
+----
 
-*The logical grouping of the column families forms a keyspace.*
+* The logical grouping of the column families forms a keyspace.*
 
-###What is super column?
+What is super column?
+----
 
-*Super columns resides into the column family that groups several columns under one key.* 
+* Super columns resides into the column family that groups several columns under one key.* 
 

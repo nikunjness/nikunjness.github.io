@@ -15,6 +15,8 @@ I've developed mindset to provide scalable solution without compromising with qu
 
 If you've got something which provides space for innovation and makes someone to strive harder, do buzz me. I'm all ears.
 
+I'm biased towards startups and small teams trying make a difference. Let's work together and bring ideas to life us
+
 Some of the interest areas are real-time data processing, machine learning, NLP, cloud computing, high availability architecture design using Hadoop and Big Data tools.
 
 So far I've got my hands dirty with following tools and technologies:

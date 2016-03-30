@@ -31,10 +31,6 @@ hr {
     display: block;
 }
 
-.home ul li:hover {
-    background-color: #DAD0FF;
-}
-
 .sidebar .sections {
     margin: 15px 0 0 0;
  }
@@ -188,5 +184,9 @@ transition: color 0.4s;
     margin: 20px;
     text-align:center;
     font-size: 38px;
+}
+
+.imgcenter {
+     text-align:center;
 }
 

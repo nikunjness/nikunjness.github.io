@@ -5,9 +5,237 @@
     <description>Personal blog of Nikunj Thakkar - Programmer and Foss Contributor</description>
     <link>http://nikunjthakkar.com/</link>
     <atom:link href="http://nikunjthakkar.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 23 Oct 2014 21:13:27 +0530</pubDate>
-    <lastBuildDate>Thu, 23 Oct 2014 21:13:27 +0530</lastBuildDate>
-    <generator>Jekyll v2.4.0</generator>
+    <pubDate>Wed, 30 Mar 2016 13:25:35 +0530</pubDate>
+    <lastBuildDate>Wed, 30 Mar 2016 13:25:35 +0530</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Google Code-in 2015 with Fossasia</title>
+        <description>&lt;p&gt;Hello all, Today I’m so excited to introduce Google Code-in, a program from Google to make pre-university students aware with open source software development.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-is-google-code-in&quot;&gt;What is Google Code-in?&lt;/h2&gt;
+&lt;p&gt;Google Code-in is an initiative from Google to provide a platform to pre-university students to understand open source software development through small contributions.
+These contributions could be in form of programming, designing, documentation, outreach, research and quality assurance. More details of the program can be found &lt;a href=&quot;https://codein.withgoogle.com/about/&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;who-can-participate&quot;&gt;Who can participate?&lt;/h2&gt;
+&lt;p&gt;Pre-university students (ages 13-17) will be able to participate in this program. The program will run between December 7, 2015 to January 25, 2016.&lt;/p&gt;
+
+&lt;h2 id=&quot;additional-information-and-getting-started-guide&quot;&gt;Additional information and getting started guide&lt;/h2&gt;
+&lt;p&gt;As all the details are well documented on contest site itself, I’m only providing quick references below. Feel free to reach out to me if you have any further queries.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://developers.google.com/open-source/gci/resources/getting-started&quot;&gt;Getting Started&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://developers.google.com/open-source/gci/faq&quot;&gt;Frequently Asked Questions (FAQs)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://codein.withgoogle.com/student-terms/&quot;&gt;Contest Rules&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;fossasia-and-google-code-in&quot;&gt;Fossasia and Google Code-in&lt;/h2&gt;
+&lt;p&gt;Fossasia is an asia-wide community of open source contributors and one of the participating organization in Google Code-in program. Being top ranked organization in last year’s GCI program, we look forward to even better participation from the community this year. 
+I’m happy to be associated as a mentor with Fossasia this year. We are currently working on preparing task list for students participating this year.&lt;/p&gt;
+
+&lt;h2 id=&quot;how-can-you-help&quot;&gt;How can you help?&lt;/h2&gt;
+&lt;p&gt;Open source software plays a major role in our day to day life. Android, Linux and Wikipedia are just few names to get you inspired. We need your help in spreading words about this program. Participation in this program will not only help students to understand how open source software development works, It will give them an opportunity to showcase their ability and skills globally.
+Additionally eligible students can earn prizes (digital certificates, t-shirts, hoodies) and grand prize winners will receive a trip to Google’s headquarters in Mountain View, California for themselves and a parent or legal guardian for 4 nights in June 2016.&lt;/p&gt;
+
+&lt;h2 id=&quot;resources&quot;&gt;Resources&lt;/h2&gt;
+&lt;p&gt;Use the following flyer for the overview of the program.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://developers.google.com/open-source/gci/resources/downloads/2015-GCI-Flyer.pdf&quot;&gt;GCI Flyers&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Help us spread the word about the program to all the schools around. If you represent a student community or you’re associated with schools, I would love to connect with you. Drop me a line at &lt;a href=&quot;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#116;&amp;#111;:&amp;#109;&amp;#101;&amp;#064;&amp;#110;&amp;#105;&amp;#107;&amp;#117;&amp;#110;&amp;#106;&amp;#116;&amp;#104;&amp;#097;&amp;#107;&amp;#107;&amp;#097;&amp;#114;&amp;#046;&amp;#099;&amp;#111;&amp;#109;&quot;&gt;&amp;#109;&amp;#101;&amp;#064;&amp;#110;&amp;#105;&amp;#107;&amp;#117;&amp;#110;&amp;#106;&amp;#116;&amp;#104;&amp;#097;&amp;#107;&amp;#107;&amp;#097;&amp;#114;&amp;#046;&amp;#099;&amp;#111;&amp;#109;&lt;/a&gt; for any queries. &lt;/p&gt;
+
+&lt;p&gt;Thanks.  &lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 29 Nov 2015 19:46:00 +0530</pubDate>
+        <link>http://nikunjthakkar.com/thoughts/2015/11/29/google-code-in-with-fossasia.html</link>
+        <guid isPermaLink="true">http://nikunjthakkar.com/thoughts/2015/11/29/google-code-in-with-fossasia.html</guid>
+        
+        
+        <category>thoughts</category>
+        
+      </item>
+    
+      <item>
+        <title>Fossasia 2015 : Experience unveiled</title>
+        <description>&lt;p class=&quot;imgcenter&quot;&gt;&lt;img src=&quot;/assets/img/fossasia_group.jpg&quot; alt=&quot;Fossasia 2015&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Howdy? It’s strange that I am writing another blog post in such a short time. I along with my colleagues &lt;a href=&quot;https://twitter.com/yourfrienddhruv&quot;&gt;@yourfrienddhruv&lt;/a&gt; and &lt;a href=&quot;https://twitter.com/priyank_it&quot;&gt;@priyank_it&lt;/a&gt; from &lt;a href=&quot;http://www.ishisystems.com/&quot;&gt;Ishi Systems&lt;/a&gt; attended &lt;a href=&quot;http://fossasia.org/&quot;&gt;Fossasia 2015&lt;/a&gt; and we would like to share our learning with all of you.&lt;/p&gt;
+
+&lt;h2 id=&quot;about-fossasia-2015&quot;&gt;About Fossasia 2015&lt;/h2&gt;
+
+&lt;p&gt;If you haven’t already read about it in my earlier &lt;a href=&quot;http://nikunjthakkar.com/thoughts/2015/03/23/fossasia-2015-three-days-smart-city.html&quot;&gt;blog post&lt;/a&gt;, Fossasia is one of the premier open source event organized every year since 2010 in Asia. Fossasia 2015 was held at Singapore.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-we-shared-there&quot;&gt;What we shared there?&lt;/h2&gt;
+
+&lt;p&gt;We considered Fossasia 2015 as an opportunity to showcase our DevOps culture and Agile practices that we follow at Ishi Systems. We presented three talks there and organized one bonus Agile breakout session.&lt;/p&gt;
+
+&lt;h2 id=&quot;never-build-a-login-again--the-art-of-using-social-auth-using-django---nikunj-thakkar&quot;&gt;Never build a login again : The art of using social Auth using Django - Nikunj Thakkar&lt;/h2&gt;
+&lt;p&gt;As I could not wait to share my experience, I have already written a &lt;a href=&quot;http://nikunjthakkar.com/thoughts/2015/03/23/fossasia-2015-three-days-smart-city.html&quot;&gt;blog post&lt;/a&gt; about it. It includes my presentation and video link.&lt;/p&gt;
+
+&lt;h2 id=&quot;prototype-for-production---dhruv-gohil&quot;&gt;Prototype for Production - Dhruv Gohil&lt;/h2&gt;
+&lt;p&gt;Working with a team member who has same mindset towards “FOSS” as yours is an amazing experience. Fortunately I got that opportunity at the beginning of my career. In the time-span of mere three months, Dhruv along with three interns tried to build a production ready product/service. The results were amazing and all this because of awesome opensource tools available out there.
+In his talk he is sharing his experience for the same. I insist that you to go through his presentation if you did not get a chance to attended his talk.&lt;/p&gt;
+&lt;center&gt;
+&lt;iframe src=&quot;https://docs.google.com/presentation/d/1pHC0ZLR-l5davYNQ03-m0cQa6fhXVhJZWciuXBJJqsA/embed?start=false&amp;amp;loop=false&amp;amp;delayms=3000&quot; frameborder=&quot;0&quot; width=&quot;960&quot; height=&quot;569&quot; allowfullscreen=&quot;true&quot; mozallowfullscreen=&quot;true&quot; webkitallowfullscreen=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/center&gt;
+
+&lt;h2 id=&quot;adopting-agile-via-continuous-improvement---priyank-shah&quot;&gt;Adopting agile via continuous improvement - Priyank Shah&lt;/h2&gt;
+&lt;p&gt;Being a part of an organization which is trying to adopt Agile but not just fot the namesake, we are learning many things. But until and unless we share it with others we won’t be knowing where we are failing or what we are doing good that makes us successful. Priyank Shah, having almost 10 years of experience in IT industry has seen both success and failures in both Agile and Non-Agile teams. He decided to take this opportunity to speak about Adopting Agile via continuous improvements.&lt;/p&gt;
+
+&lt;p&gt;In his presentation, you will see many interesting scenarios that one faces while following Agile practices. Feel free to reach to him at &lt;a href=&quot;http://www.twitter.com/priyank_it&quot;&gt;@priyank_it&lt;/a&gt; if you have any queries.&lt;/p&gt;
+&lt;center&gt;
+&lt;iframe src=&quot;//www.slideshare.net/slideshow/embed_code/40289959&quot; width=&quot;625&quot; height=&quot;500&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; style=&quot;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&quot; allowfullscreen=&quot;&quot;&gt; &lt;/iframe&gt; &lt;div style=&quot;margin-bottom:5px&quot;&gt; &lt;strong&gt; &lt;a href=&quot;//www.slideshare.net/priyank17/adopting-agile-via-continuous-improvement-with-workshop&quot; title=&quot;Adopting agile via continuous improvement with workshop&quot; target=&quot;_blank&quot;&gt;Adopting agile via continuous improvement with workshop&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&quot;//www.slideshare.net/priyank17&quot; target=&quot;_blank&quot;&gt;Priyank Shah&lt;/a&gt;&lt;/strong&gt;&lt;/div&gt;
+&lt;/center&gt;
+
+&lt;h2 id=&quot;what-we-learned&quot;&gt;What we learned&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Agile (How others do it) : As I said we are on our way to adopt Agile practices and it is crucial for us to know how others do it to find out our mistakes and not to repeat them. As Fossasia has participants from all over the world, we discussed about practices being followed by other organizations and scrum masters.
+    &lt;center&gt;&lt;blockquote class=&quot;twitter-tweet&quot; lang=&quot;en&quot;&gt;&lt;p&gt;Hey, this is &lt;a href=&quot;https://twitter.com/priyank_it&quot;&gt;@priyank_it&lt;/a&gt; talking about &amp;quot;&lt;a href=&quot;https://twitter.com/hashtag/Agile?src=hash&quot;&gt;#Agile&lt;/a&gt; via Continuous Improvements&amp;quot; at &lt;a href=&quot;https://twitter.com/fossasia&quot;&gt;@fossasia&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/fossasia?src=hash&quot;&gt;#fossasia&lt;/a&gt; &lt;a href=&quot;http://t.co/ugc34hzLCi&quot;&gt;pic.twitter.com/ugc34hzLCi&lt;/a&gt;&lt;/p&gt;&amp;mdash; Nikunj Thakkar (@nikunjness) &lt;a href=&quot;https://twitter.com/nikunjness/status/576927622782803968&quot;&gt;March 15, 2015&lt;/a&gt;&lt;/blockquote&gt; &lt;script async=&quot;&quot; src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;br /&gt;&lt;blockquote class=&quot;twitter-tweet&quot; lang=&quot;en&quot;&gt;&lt;p&gt;We are having healthy discussion on interesting &lt;a href=&quot;https://twitter.com/hashtag/Agile?src=hash&quot;&gt;#Agile&lt;/a&gt; scenarios. &lt;a href=&quot;https://twitter.com/hashtag/fossasia?src=hash&quot;&gt;#fossasia&lt;/a&gt; &lt;a href=&quot;http://t.co/LO8UVSdABn&quot;&gt;pic.twitter.com/LO8UVSdABn&lt;/a&gt;&lt;/p&gt;&amp;mdash; Nikunj Thakkar (@nikunjness) &lt;a href=&quot;https://twitter.com/nikunjness/status/576979052461867008&quot;&gt;March 15, 2015&lt;/a&gt;&lt;/blockquote&gt; &lt;script async=&quot;&quot; src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/center&gt;
+    &lt;p&gt;It is hard to describe all the ideas/discussions in a blog post. We will try to implement them and share the results with all of you.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Team management : Most of the organizations having geo-located teams faces the issue of team management. As most open-source projects have similar kind of situation and yet they are very successful in doing so. We tried to explore how they do it. Though, they have nothing special to add here. Most common points are following.
+    &lt;ul&gt;
+      &lt;li&gt;Continuous communication is the key&lt;/li&gt;
+      &lt;li&gt;Use Right tools in a right way&lt;/li&gt;
+      &lt;li&gt;No alternative of self-motivated individuals (I know they are crazy but you have to deal with them :P)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Work culture : This one is from my personal point of view. I always wanted to be part of team where there is a space for experiments. Being an open-source enthusiastic, I always loved work culture adopted by open-source teams. Fossasia is one of the opportunity to experience the same.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Align open Source with your business : One point that we noticed while talking to authors of open-source project is that the genesis of project always started because of actual business requirements. In the same way, if you are able to find out how you can align open source with your business you will make most out of it.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;people-are-awesome&quot;&gt;People are awesome&lt;/h2&gt;
+
+&lt;p&gt;My inspiration for attending such events has always been people I get to meet there. Why? Because they are “AWESOME”. They work for open-source projects. You can pull every bit of knowledge out of them and they won’t mind telling you secrets. I will try and introduce you to team members I can remember.&lt;/p&gt;
+
+&lt;p&gt;Meet &lt;a href=&quot;https://twitter.com/mariobehling&quot;&gt;Mario Behling&lt;/a&gt; and &lt;a href=&quot;https://twitter.com/hpdang&quot;&gt;Hong Phuc Dang&lt;/a&gt;:&lt;/p&gt;
+
+&lt;center&gt;&lt;blockquote class=&quot;twitter-tweet&quot; lang=&quot;en&quot;&gt;&lt;p&gt;1ts day &lt;a href=&quot;https://twitter.com/fossasia&quot;&gt;@fossasia&lt;/a&gt; with &lt;a href=&quot;https://twitter.com/mariobehling&quot;&gt;@mariobehling&lt;/a&gt; and &lt;a href=&quot;https://twitter.com/hpdang&quot;&gt;@hpdang&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/FOSSASIA?src=hash&quot;&gt;#FOSSASIA&lt;/a&gt; 2015 &lt;a href=&quot;https://twitter.com/hashtag/Singapore?src=hash&quot;&gt;#Singapore&lt;/a&gt; &lt;a href=&quot;http://t.co/RKlgYjZjCp&quot;&gt;pic.twitter.com/RKlgYjZjCp&lt;/a&gt;&lt;/p&gt;&amp;mdash; Nikunj Thakkar (@nikunjness) &lt;a href=&quot;https://twitter.com/nikunjness/status/576211607178518528&quot;&gt;March 13, 2015&lt;/a&gt;&lt;/blockquote&gt; &lt;script async=&quot;&quot; src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/center&gt;
+
+&lt;p&gt;IYDK, Mario and Hong are the organizers of the event. Since my interaction with them, they have been supportive and always available to help. During the event it is hard to get a spare moment from them, but they do try to stop-by and talk to the members. Thanks you Mario and Hong for organizing such an awesome event.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/janjongboom&quot;&gt;Jan Jongboom&lt;/a&gt;:&lt;/p&gt;
+
+&lt;center&gt;&lt;blockquote class=&quot;twitter-tweet&quot; lang=&quot;en&quot;&gt;&lt;p&gt;&lt;a href=&quot;https://twitter.com/janjongboom&quot;&gt;@janjongboom&lt;/a&gt; is showing magic tricks using mobile phone. &lt;a href=&quot;https://twitter.com/hashtag/fossasia?src=hash&quot;&gt;#fossasia&lt;/a&gt; &lt;a href=&quot;http://t.co/rZMCakVpuw&quot;&gt;pic.twitter.com/rZMCakVpuw&lt;/a&gt;&lt;/p&gt;&amp;mdash; Nikunj Thakkar (@nikunjness) &lt;a href=&quot;https://twitter.com/nikunjness/status/576631214594920449&quot;&gt;March 14, 2015&lt;/a&gt;&lt;/blockquote&gt; &lt;script async=&quot;&quot; src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/center&gt;
+
+&lt;p&gt;I became his fan while he was showing magic tricks using Firefox OS phone. Sounds interesting? &lt;a href=&quot;http://www.slideshare.net/janjongboom/abusing-phones-to-make-the-internet-of-things-fossasia-2015&quot;&gt;Have a look at his slides from Fossasia.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/harishpillay&quot;&gt;Harish Pillay&lt;/a&gt;:&lt;/p&gt;
+
+&lt;center&gt;&lt;iframe src=&quot;https://www.flickr.com/photos/fossasia/16783628056/in/photostream/player/&quot; width=&quot;650&quot; height=&quot;500&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; oallowfullscreen=&quot;&quot; msallowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/center&gt;
+
+&lt;p&gt;Though we could not talk longer with him, he was supportive and kind enough to suggest some places to find vegetarian food. Looking forward to meet him again in FOSS events.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://cn.linkedin.com/pub/martin-b%C3%A4hr/84/a09/331&quot;&gt;Martin Bähr&lt;/a&gt;:&lt;/p&gt;
+
+&lt;center&gt;&lt;iframe src=&quot;https://www.flickr.com/photos/kushaldas/16284972124/in/set-72157651112822438/player/&quot; width=&quot;350&quot; height=&quot;500&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; oallowfullscreen=&quot;&quot; msallowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/center&gt;
+
+&lt;p&gt;Do you remember a guy with tiny laptop? That’s Martin. When I asked him why such small laptop? He replied it does my job and that’s enough.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/comprock&quot;&gt;Michael Cannon&lt;/a&gt;:&lt;/p&gt;
+
+&lt;center&gt;&lt;blockquote class=&quot;twitter-tweet&quot; lang=&quot;en&quot;&gt;&lt;p&gt;Hey &lt;a href=&quot;https://twitter.com/comprock&quot;&gt;@comprock&lt;/a&gt;,&amp;#10;It was really nice meeting you. See you soon again. &lt;a href=&quot;https://twitter.com/hashtag/fossasia?src=hash&quot;&gt;#fossasia&lt;/a&gt; &lt;a href=&quot;http://t.co/2ZhuJG49Qh&quot;&gt;pic.twitter.com/2ZhuJG49Qh&lt;/a&gt;&lt;/p&gt;&amp;mdash; Nikunj Thakkar (@nikunjness) &lt;a href=&quot;https://twitter.com/nikunjness/status/577178199718633472&quot;&gt;March 15, 2015&lt;/a&gt;&lt;/blockquote&gt; &lt;script async=&quot;&quot; src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/center&gt;
+
+&lt;p&gt;Credits for that awesome group photo on top goes to this guy. Also he talked about Successfully managing distributed teams. You can find his presentation &lt;a href=&quot;https://docs.google.com/a/axelerant.com/presentation/d/1rcIFfML3JyUgkO0xEJHNRixwBH-iEnUlQ2l2-H76lnE/pub#slide=id.p15&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/NingxinHu&quot;&gt;Ningxin Hu&lt;/a&gt;:&lt;/p&gt;
+
+&lt;center&gt;&lt;blockquote class=&quot;twitter-tweet&quot; lang=&quot;en&quot;&gt;&lt;p&gt;We just presented &lt;a href=&quot;https://twitter.com/JavaMeetup&quot;&gt;@JavaMeetup&lt;/a&gt; T-shirt to &lt;a href=&quot;https://twitter.com/NingxinHu&quot;&gt;@NingxinHu&lt;/a&gt; from &lt;a href=&quot;https://twitter.com/xwalk_project&quot;&gt;@xwalk_project&lt;/a&gt; :) &lt;a href=&quot;https://twitter.com/hashtag/fossasia?src=hash&quot;&gt;#fossasia&lt;/a&gt; &lt;a href=&quot;http://t.co/CNw0vGKlP6&quot;&gt;pic.twitter.com/CNw0vGKlP6&lt;/a&gt;&lt;/p&gt;&amp;mdash; Nikunj Thakkar (@nikunjness) &lt;a href=&quot;https://twitter.com/nikunjness/status/577006482354352128&quot;&gt;March 15, 2015&lt;/a&gt;&lt;/blockquote&gt; &lt;script async=&quot;&quot; src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/center&gt;
+
+&lt;p&gt;It was nice to have insights into &lt;a href=&quot;https://twitter.com/xwalk_project&quot;&gt;Crosswalk Project&lt;/a&gt;. Looking forward to engage my self with Crosswalk community.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/Seoul_Tech&quot;&gt;Alexander Bezzubov&lt;/a&gt; and &lt;a href=&quot;https://twitter.com/seoul_victoria&quot;&gt;Victoria Bondarchuk&lt;/a&gt;:&lt;/p&gt;
+
+&lt;table align=&quot;center&quot;&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;blockquote class=&quot;twitter-tweet&quot; lang=&quot;en&quot;&gt;And this is Alex from &lt;a href=&quot;https://twitter.com/Seoul_Tech&quot;&gt;@Seoul_Tech&lt;/a&gt; nd d wful thing is he is part of &lt;a href=&quot;https://twitter.com/hashtag/Apache?src=hash&quot;&gt;#Apache&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/Zeppeling?src=hash&quot;&gt;#Zeppeling&lt;/a&gt; (incubating) cc- &lt;a href=&quot;https://twitter.com/koreabigdata&quot;&gt;@koreabigdata&lt;/a&gt; &lt;a href=&quot;http://t.co/RtRgir1wg9&quot;&gt;pic.twitter.com/RtRgir1wg9&lt;/a&gt;&amp;mdash; Nikunj Thakkar (@nikunjness) &lt;a href=&quot;https://twitter.com/nikunjness/status/577086028747419648&quot;&gt;March 15, 2015&lt;/a&gt;&lt;/blockquote&gt; &lt;script async=&quot;&quot; src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;blockquote class=&quot;twitter-tweet&quot; lang=&quot;en&quot;&gt;And meet &lt;a href=&quot;https://twitter.com/seoul_victoria&quot;&gt;@seoul_victoria&lt;/a&gt; from south korea. Had a great time with you. See you again. Have fun. :) &lt;a href=&quot;http://t.co/DuarDKvFfx&quot;&gt;pic.twitter.com/DuarDKvFfx&lt;/a&gt;&amp;mdash; Nikunj Thakkar (@nikunjness) &lt;a href=&quot;https://twitter.com/nikunjness/status/577097869024317440&quot;&gt;March 15, 2015&lt;/a&gt;&lt;/blockquote&gt; &lt;script async=&quot;&quot; src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/_gnovi&quot;&gt;Praveen&lt;/a&gt;, Minal &amp;amp; Ovi Patil:&lt;/p&gt;
+
+&lt;center&gt;&lt;iframe src=&quot;https://www.flickr.com/photos/fossasia/16189479743/player/&quot; width=&quot;500&quot; height=&quot;450&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; oallowfullscreen=&quot;&quot; msallowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/center&gt;
+
+&lt;p&gt;Being Physics teacher, Praveen along with his family sets an example for others to contribute in open-source project. Praveen is actively contributing to &lt;a href=&quot;expeyes.in&quot;&gt;ExpEYES&lt;/a&gt; which is low cost pocket science experiments lab. Find more about it in &lt;a href=&quot;https://expeyes.wordpress.com/&quot;&gt;his blog&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The list is bigger than I thought. Apart from people mentioned here we had a great time with &lt;a href=&quot;https://twitter.com/0x1f1f&quot;&gt;Kartik Mistry&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/akshay_ratan&quot;&gt;Akshay Ratan&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/1011011011011&quot;&gt;Heena&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/meson10&quot;&gt;Piyush Verma&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/kushaldas&quot;&gt;Kushal Das&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/GauthRaj&quot;&gt;Gauthamraj Elango&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/VishvBrahmbhatt&quot;&gt;Vishv Brahmbhatt&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/wanleung&quot;&gt;Wan Leung Wong&lt;/a&gt;, &lt;a href=&quot;Handoko Suwono&quot;&gt;Handoko Suwono&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/ChristophK2003&quot;&gt;Christoph Kruppa&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/aarti_andromeda&quot;&gt;Aarti Dwivedi&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/harshkothari410&quot;&gt;Kothari Harsh&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/calvinchengx&quot;&gt;Calvin Cheng&lt;/a&gt;, &lt;a href=&quot;https://in.linkedin.com/pub/deepak-karki/57/870/4a2&quot;&gt;Deepak Karki&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/rahemipour&quot;&gt;Jacqueline Rahemipour&lt;/a&gt; and many others (sorry if I forgot your name). It was nice to interact with you all. Keep in touch.&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Go Social! - Spread word about event and what you are presenting and what’s in it for others.&lt;/li&gt;
+  &lt;li&gt;Always Connected (smart-phone + laptop)&lt;/li&gt;
+  &lt;li&gt;Crisp communication - Remember? “Communication is the key”&lt;/li&gt;
+  &lt;li&gt;Find right people to interact, connect and start conversation&lt;/li&gt;
+  &lt;li&gt;Don’t miss post/pre meet-up, unofficial group activities!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;That’s all for now folks. Stay in touch. :)&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 01 Apr 2015 17:35:00 +0530</pubDate>
+        <link>http://nikunjthakkar.com/thoughts/2015/04/01/fossasia-2015-experience-unveiled.html</link>
+        <guid isPermaLink="true">http://nikunjthakkar.com/thoughts/2015/04/01/fossasia-2015-experience-unveiled.html</guid>
+        
+        
+        <category>thoughts</category>
+        
+      </item>
+    
+      <item>
+        <title>Fossasia 2015 - Three days in a smart city with Open Source</title>
+        <description>&lt;p&gt;A lazy programmer like me needs lots of inspiration to write a whole blog post. Fossasia 2015 happened to be one of them. So here I am sharing my experience of attending asia’s premier open source event.&lt;/p&gt;
+
+&lt;h2 id=&quot;fossasia-2015&quot;&gt;Fossasia 2015&lt;/h2&gt;
+
+&lt;p&gt;Fossasia is one of the premier open source event organized every year since 2010 in Asia. Fossasia 2015 was held at Singapore. As we all know Singapore is very well organized and often termed as a smart city thus a prominent location for such a nice event.
+I guess I don’t need to spend much time on introducing Fossasia as my previous blog post about &lt;a href=&quot;http://nikunjthakkar.com/thoughts/2014/04/17/fossasia-2014-greet-meet-and-code.html&quot;&gt;Fossasia 2014&lt;/a&gt; covers many things.&lt;/p&gt;
+
+&lt;h2 id=&quot;whats-so-special-about-fossasia-2015&quot;&gt;What’s so special about Fossasia 2015?&lt;/h2&gt;
+
+&lt;p&gt;Apart from location, there happened to be many things that attracted people from all over the world to attend the event. Being second time attendee in a row, I can confidently say that the open source community in asia is getting bigger, smarter and more active.
+Several tracks, Quality talks, Interesting projects being discussed, and meeting awesome people from all over the world. How can one deny to such a great opportunity? And all these things for three days in Singapore. I really enjoyed being there talking to the awesome people.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-did-i-talk-about&quot;&gt;What did I talk about?&lt;/h2&gt;
+
+&lt;p&gt;I talked about Never building a login again into your application. Using social authentication is an art and it can save your time and efforts. In an era of Agile software development, you should be spending your time and efforts on feature that are generating value for you and your customer and not on things like User Management module that can be re-used from giants like Google, Facebook, Mozilla, etc.&lt;/p&gt;
+
+&lt;p&gt;Here is the session’s recorded video:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.youtube.com/watch?v=tF8t47U-eww&quot;&gt;&lt;img src=&quot;http://img.youtube.com/vi/tF8t47U-eww/0.jpg&quot; alt=&quot;Never build a login again&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Also slides can be found here:&lt;/p&gt;
+
+&lt;iframe src=&quot;//www.slideshare.net/slideshow/embed_code/45869840&quot; width=&quot;700&quot; height=&quot;500&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; style=&quot;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&quot; allowfullscreen=&quot;&quot;&gt; &lt;/iframe&gt;
+&lt;div style=&quot;margin-bottom:5px&quot;&gt; &lt;strong&gt; &lt;a href=&quot;//www.slideshare.net/nikunjness/never-build-a-login-again-the-art-of-using-social-auth-using-django&quot; title=&quot;Never build a login again - The art of using social Auth using Django&quot; target=&quot;_blank&quot;&gt;Never build a login again - The art of using social Auth using Django&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&quot;//www.slideshare.net/nikunjness&quot; target=&quot;_blank&quot;&gt;nikunjness&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;
+
+&lt;h2 id=&quot;want-to-be-part-of-fun&quot;&gt;Want to be part of fun??&lt;/h2&gt;
+
+&lt;p&gt;Do you think you are missing this kind of opportunities? Do you think you can also work on open source projects? Do you think you can be part of next Fossasia as a speaker?&lt;/p&gt;
+
+&lt;p&gt;If answer to any/all of above question is yes then don’t waste a single moment and head over to &lt;a href=&quot;http://fossasia.org&quot;&gt;fossasia.org&lt;/a&gt; or &lt;a href=&quot;http://labs.fossasia.org&quot;&gt;labs.fossasia.org&lt;/a&gt; or Organization of your choice.&lt;/p&gt;
+
+&lt;p&gt;Oh! you reached till the end?? I hope this was nice read. Feel free to express your thoughts/suggestions/comments. Have a nice day!! :) :)&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 24 Mar 2015 01:58:00 +0530</pubDate>
+        <link>http://nikunjthakkar.com/thoughts/2015/03/24/fossasia-2015-three-days-smart-city.html</link>
+        <guid isPermaLink="true">http://nikunjthakkar.com/thoughts/2015/03/24/fossasia-2015-three-days-smart-city.html</guid>
+        
+        
+        <category>thoughts</category>
+        
+      </item>
     
       <item>
         <title>Working as a DevOps Intern @Ishisystems</title>
@@ -212,7 +440,7 @@
 
 &lt;h2 id=&quot;the-zero-row-concept&quot;&gt;The “Zero Row” Concept&lt;/h2&gt;
 
-&lt;p class=&quot;headerimage&quot;&gt;&lt;img src=&quot;/assets/img/zerorow.png&quot; alt=&quot;Google Summer Of Code 2013&quot; /&gt; &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/zerorow.png&quot; alt=&quot;Google Summer Of Code 2013&quot; /&gt; &lt;/p&gt;
 
 &lt;p&gt;As per the requirements of our application we often need to fetch the latest value of datapoint. In Cassandra it doesn’t guarantee that the latest value will be stored at last or at first position. We are not using the &lt;a href=&quot;http://www.datastax.com/docs/1.1/cluster_architecture/partitioning#byteorderedpartitioner&quot;&gt;Byteorder partitioner&lt;/a&gt; because of load balancing issues which stores the data in the order of row keys. We are using default &lt;a href=&quot;http://www.datastax.com/documentation/cassandra/1.2/webhelp/cassandra/architecture/architecturePartitionerAbout_c.html&quot;&gt;murmur3 partitioner&lt;/a&gt; and as per this partitioning scheme we can not say where the latest value is stored so we decided to create separate row holding the latest value. The reason for calling it “Zero Row” is we are using first day of month (timestamp) as row key which is inserted using long value and to store latest value we used “zero” (epoch time) so we call it “zero Row”.&lt;/p&gt;
 
@@ -341,13 +569,16 @@ Finally I received the e-mail from Google and truly speaking I was in shock for 
 
 &lt;p&gt;Cassandra data model is composed of columns, rows, column families and keyspace. Now lets understand these terms more precisely.&lt;/p&gt;
 
-&lt;h3 id=&quot;what-is-column&quot;&gt;What is column?&lt;/h3&gt;
+&lt;h2 id=&quot;what-is-column&quot;&gt;What is column?&lt;/h2&gt;
 
-&lt;p&gt;&lt;em&gt;It is most basic unit of cassandra data modes consist of a name, a value and a timestamp.&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;It is most basic unit of cassandra data modes consist of a name, a value and a timestamp.*&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;h3 id=&quot;what-is-row&quot;&gt;What is row?&lt;/h3&gt;
-
-&lt;p&gt;&lt;em&gt;A set of columns grouped together compose a row which is labeled with a specific name. See example below:&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&quot;what-is-row&quot;&gt;What is row?&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;A set of columns grouped together compose a row which is labeled with a specific name. See example below:*&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;pre&gt;&lt;code&gt;        &quot;NoSQL&quot;-&amp;gt; {
             author=&quot;Someone&quot;,
@@ -357,9 +588,11 @@ Finally I received the e-mail from Google and truly speaking I was in shock for 
         }
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3 id=&quot;what-is-column-family&quot;&gt;What is column family?&lt;/h3&gt;
+&lt;h2 id=&quot;what-is-column-family&quot;&gt;What is column family?&lt;/h2&gt;
 
-&lt;p&gt;&lt;em&gt;A collection of rows labeled with a name. See example below:&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;A collection of rows labeled with a name. See example below:*&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;pre&gt;&lt;code&gt;    Books-&amp;gt; {
         &quot;NoSQL&quot;-&amp;gt; {
@@ -374,13 +607,17 @@ Finally I received the e-mail from Google and truly speaking I was in shock for 
     }
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3 id=&quot;what-is-keyspace&quot;&gt;What is keyspace?&lt;/h3&gt;
+&lt;h2 id=&quot;what-is-keyspace&quot;&gt;What is keyspace?&lt;/h2&gt;
 
-&lt;p&gt;&lt;em&gt;The logical grouping of the column families forms a keyspace.&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;The logical grouping of the column families forms a keyspace.*&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;h3 id=&quot;what-is-super-column&quot;&gt;What is super column?&lt;/h3&gt;
+&lt;h2 id=&quot;what-is-super-column&quot;&gt;What is super column?&lt;/h2&gt;
 
-&lt;p&gt;&lt;em&gt;Super columns resides into the column family that groups several columns under one key.&lt;/em&gt; &lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Super columns resides into the column family that groups several columns under one key.* &lt;/li&gt;
+&lt;/ul&gt;
 
 </description>
         <pubDate>Sat, 22 Jun 2013 23:04:00 +0530</pubDate>
