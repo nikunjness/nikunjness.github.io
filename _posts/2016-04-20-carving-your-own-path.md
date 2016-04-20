@@ -46,7 +46,7 @@ I've always enjoyed talking to them. Each one of these brings different perspect
 
 Volunteer : Be part of something meaningful
 ----
-This is one of the most important reason that I'm writing this blog post today. Many people who'll be reading this blog post knows me as a Volunteer at Headstart or Google Business Group and I'm proud that
+This is one of the most important reason that I'm writing this blog post today. Many people who'll be reading this blog post know me as a Volunteer at Headstart or Google Business Group and I'm proud that
 I chose this path. Sometimes it's not money that satisfies you but the feeling that you did something and that touched life of many, increased their knowledge
 and helped them to discover a new opportunity. Volunteering at various causes has not only made me a better person or helped me to acquire new skills but
    it also opened gates of many opportunities which couldn't have been possible without it. That feeling of being part of something meaningful is beyond words.
@@ -56,10 +56,10 @@ and helped them to discover a new opportunity. Volunteering at various causes ha
 Relationship > Business
 ----
 I'm organizing and attending events for startups since last one and half year. Most interesting part of these events is networking session at the end of an event. People
- exchanging their business cards, pitching their skill-set, promising each other to do business together and so on.  Sadly, most of the time these engagements happens only for short term.
+ exchanging their business cards, pitching their skill-set, promising each other to do business together and so on.  Sadly, most of the time these engagement happens only for short term.
  While I understand that it's not possible to keep in touch with all the people you meet for a longer period, I still believe staying in touch with most of them and sending
- casual note of remembrance at regular intervals helps in a big way. This helped me a lot. Whenever I'm stuck or need some guidance, first thing I do is go through my contact list or
- try to remember events which could have involved such people. It works. On the other hand I feel great when someone from my network reach out to me for connections or guidance.
+ a note of remembrance at regular intervals helps in a big way. This helped me a lot. Whenever I'm stuck or need some guidance, first thing I do is go through my contact list or
+ try to remember events which could have involved such people. It works. On the other hand I feel great when someone from my network reaches out to me for connections or guidance.
 
 What next? : Life is taking a new turn
 ----
