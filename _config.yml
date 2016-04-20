@@ -6,6 +6,4 @@ baseurl: ""
 url: "http://nikunjthakkar.com"
 name : Nikunj Thakkar
 
-# Build settings
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-markdown: kramdown
+
