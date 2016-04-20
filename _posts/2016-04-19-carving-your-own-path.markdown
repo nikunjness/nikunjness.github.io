@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Carving your own path"
-date:   2016-04-20 21:29:00
+date:   2016-04-20 13:30:00
 comments: true
 categories: thoughts
 ---
