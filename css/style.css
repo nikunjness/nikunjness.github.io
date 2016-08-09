@@ -5,14 +5,16 @@ html, body {
   padding-top: 30px;
 }
 
+
 /* this is only to style the sidebar - you can make the sidebar look any way you want */
 .sidebar {
   padding: 50px;
   background-color: #f5f5f5;
   border-right: 1px solid #eee;
 }
+
 hr {
-   border-color: green;
+   border-color: #000000;
 }
 
 #meta{
@@ -21,7 +23,7 @@ hr {
 }
 
 #meta a:hover {
-    color: green;
+    color: #ff5733;
 }
 
 .home ul{
@@ -42,7 +44,7 @@ hr {
     display: block;
  }
 .sidebar .sections a:hover {
-    color: #227ce8;
+    color: #ff5733;
  }
 .sidebar .sections ul {
     margin: 0;
@@ -113,11 +115,11 @@ color: #4878af;
 -o-transition: color 0.4s;
 transition: color 0.4s;
 }
-.page-footer a:hover { color: #5c9eed;}
-.page-footer a:visited { color: #7977c7; }
-.page-footer a:hover:visited { color: #9593f5; }
-.page-footer a:focus { color: #5c9eed;}
-.page-footer a:active { color: #5c9eed;}
+.page-footer a:hover { color: #ff5733;}
+.page-footer a:visited { color: #ff5733; }
+.page-footer a:hover:visited { color: #ff5733; }
+.page-footer a:focus { color: #ff5733;}
+.page-footer a:active { color: #ff5733;}
 
 
 
@@ -129,19 +131,31 @@ transition: color 0.4s;
     margin: 5%;
     text-align: justified:
 }
+.post-meta{
+    font-weight: 700;
+}
+.post-link a, a:link, a:visited {
+    text-decoration: none;
+    color: #ff5733;
+    font-weight: 700;
+}
 
 .post .post-title {
+    font-weight: 700;
     text-align: center;
-    color: #6AB9C5;
+    color: #ff5733;
  }
-
+ .brand{
+    color: #000000 !important;
+ }
  .post .post-content {
     font-size : 18px;
     font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
  }
 
  .post h2,h3 {
-    color: #00394F;
+    color: #ff5733;
+    font-weight: 700;
  }
 
 .home {
