@@ -85,7 +85,7 @@ improved and efficiency can be increased marginally.
 
 + **Big Data for Open Data and Social Good:** Recently various Governments including
 Government of India have started their open data initiatives and more Governments will be
-following their steps. We're also looking at some the interesting use cases that can solve day
+following their steps. We're also looking at some of the interesting use cases that can solve day
 to day life challenges such as public transport (daily commute, vehicle parking efficiency,
 traffic situation etc.), water supply, waste management and others.
 
