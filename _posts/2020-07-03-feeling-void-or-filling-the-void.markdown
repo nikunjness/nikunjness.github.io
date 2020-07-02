@@ -45,4 +45,4 @@ I think because of this magic, I lost the feeling of being void and in turn, try
  
 If you’re still reading, this paragraph is for you. I’m not sure what brought you here but if you’re looking for answers, there aren’t any. You need to figure things out on your own. While you’re at it, don’t make mistakes for too long. Don’t be afraid to fail and move on. Keep reminding yourself why you started it and why you need to finish it. Good luck.
  
-PS: If you have a piece of advice or feedback for me please drop a comment or a note to me.
+PS: If you have a piece of advice or feedback for me please drop a comment or [a note to me.](mailto:me@nikunjthakkar.com)
