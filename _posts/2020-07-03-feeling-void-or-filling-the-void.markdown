@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Feeling void or filling the void?"
-date:   2020-07-03 02:08:00
+date:   2020-07-02 22:55:00
 comments: true
 categories: thoughts
 tags: [experience, entrepreneurship]
@@ -46,8 +46,7 @@ I think because of this magic, I lost the feeling of being void and in turn, try
  
 If you’re still reading, this paragraph is for you. I’m not sure what brought you here but if you’re looking for answers, there aren’t any. You need to figure things out on your own. While you’re at it, don’t make mistakes for too long. Don’t be afraid to fail and move on. Keep reminding yourself why you started it and why you need to finish it. Good luck.
  
-<<<<<<< HEAD
-PS: If you have a piece of advice or feedback for me please drop a comment or a note to me.
-=======
+
+
 PS: If you have a piece of advice or feedback for me please drop a comment or [a note to me.](mailto:me@nikunjthakkar.com)
->>>>>>> c6536e0f48a8a7fcec540f2782526edb0b89faf7
+
