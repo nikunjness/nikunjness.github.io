@@ -28,7 +28,7 @@ Both. You have little to no control in which category you'll fall into. To illus
  
 We all have asked this question to ourselves at some point of time in life. We compared ourselves to those who're doing well, felt jealous, promised to do better, sometimes acted on it, and sometimes everything went in vain and we went back to our regular routine.
  
-I started writing this blog at 4 AM. It was unusual. I have always loved my sleep, maybe more than anything else. Why did it happen? I was too excited about things happening around me or maybe there's something in my head that doesn't let me sleep. It's that constant itching that keeps going on in my mind. Without it, life feels meaningless. It feels like we're always on a quest to find purpose in life, i.e., if there is any.
+I started writing this blog at 4 AM. It was unusual. I have always loved my sleep, maybe more than anything else. Why did it happen? I was too excited about things happening around me or maybe there's something in my head that doesn't let me sleep. It's that constant itching that keeps going on in my mind. Without it, life feels meaningless. It feels like we're always on a quest to find purpose in life, if there is any.
  
 
 
