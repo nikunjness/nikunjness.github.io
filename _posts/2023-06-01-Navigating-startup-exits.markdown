@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Navigating Startup Exits: A Founder's Guide to Success"
-date:   2023-06-01 11:48:00
+date:   2023-06-01 05:48:00
 comments: true
 categories: thoughts
 tags: [experience, entrepreneurship]
