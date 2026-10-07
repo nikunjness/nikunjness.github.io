@@ -28,7 +28,10 @@ const year = new Date().getFullYear();
       </div>
     </div>
 
-    <p class="fine">© {year} {SITE.name}. Built with Astro, hosted on Cloudflare.</p>
+    <p class="fine">
+      © {year} {SITE.name}. Built with Astro, hosted on Cloudflare.
+      <button type="button" class="linkish" data-consent-settings>Cookie settings</button>
+    </p>
   </div>
 </footer>
 
@@ -161,5 +164,22 @@ const year = new Date().getFullYear();
     font-size: 0.85rem;
     color: var(--muted);
     margin: 1.75rem 0 0;
+  }
+  .linkish {
+    font: inherit;
+    color: inherit;
+    background: none;
+    border: 0;
+    padding: 0;
+    margin-left: 0.75rem;
+    text-decoration: underline;
+    text-underline-offset: 0.2em;
+    cursor: pointer;
+  }
+  .linkish:hover {
+    color: var(--ink);
+  }
+  .linkish[hidden] {
+    display: none;
   }
 </style>

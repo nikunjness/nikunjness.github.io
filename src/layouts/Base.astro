@@ -2,6 +2,7 @@
 import '../styles/global.css';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
+import ConsentBanner from '../components/ConsentBanner.astro';
 import { SITE } from '../lib/site';
 // Preload the two fonts used above the fold so headings don't reflow when they arrive.
 import displayFont from '@fontsource-variable/bricolage-grotesque/files/bricolage-grotesque-latin-wght-normal.woff2?url';
@@ -94,25 +95,68 @@ const ldList = jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : [];
     {
       import.meta.env.PROD && (
         <script is:inline define:vars={{ gaId: SITE.gaId, host: SITE.host }}>
-          // Google Analytics 4. The config call is queued now; gtag.js loads once the page is idle
-          // so it never competes with the page's own content.
-          if (location.hostname === host) {
-            window.dataLayer = window.dataLayer || [];
-            window.gtag = function () {
-              dataLayer.push(arguments);
+          // Google Analytics 4, consent first: gtag.js loads only after the visitor accepts.
+          // The choice is stored locally; window.siteConsent is used by the consent banner.
+          (() => {
+            const KEY = 'analytics-consent';
+            const onSite = location.hostname === host;
+            let loaded = false;
+            const read = () => {
+              try {
+                return localStorage.getItem(KEY);
+              } catch {
+                return null;
+              }
             };
-            gtag('js', new Date());
-            gtag('config', gaId);
+            const write = (v) => {
+              try {
+                v ? localStorage.setItem(KEY, v) : localStorage.removeItem(KEY);
+              } catch {}
+            };
             const load = () => {
+              if (loaded || !onSite) return;
+              loaded = true;
+              window.dataLayer = window.dataLayer || [];
+              window.gtag = function () {
+                dataLayer.push(arguments);
+              };
+              gtag('js', new Date());
+              gtag('config', gaId);
               const s = document.createElement('script');
               s.async = true;
               s.src = 'https://www.googletagmanager.com/gtag/js?id=' + gaId;
               document.head.appendChild(s);
             };
-            const idle = window.requestIdleCallback || ((cb) => setTimeout(cb, 1));
-            if (document.readyState === 'complete') idle(load);
-            else addEventListener('load', () => idle(load), { once: true });
-          }
+            const clearCookies = () => {
+              document.cookie.split(';').forEach((c) => {
+                const name = c.split('=')[0].trim();
+                if (!name.startsWith('_ga')) return;
+                ['', host, '.' + host].forEach((d) => {
+                  document.cookie = name + '=; Max-Age=0; path=/' + (d ? '; domain=' + d : '');
+                });
+              });
+            };
+            window.siteConsent = {
+              // Banner shows on the live site, or anywhere with ?consent-preview for testing.
+              enabled: onSite || new URLSearchParams(location.search).has('consent-preview'),
+              get: read,
+              accept() {
+                write('granted');
+                load();
+              },
+              decline() {
+                write('denied');
+                if (window.gtag) gtag('consent', 'update', { analytics_storage: 'denied' });
+                clearCookies();
+              },
+              reset: () => write(null),
+            };
+            if (read() === 'granted') {
+              const idle = window.requestIdleCallback || ((cb) => setTimeout(cb, 1));
+              if (document.readyState === 'complete') idle(load);
+              else addEventListener('load', () => idle(load), { once: true });
+            }
+          })();
         </script>
       )
     }
@@ -124,6 +168,7 @@ const ldList = jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : [];
       <slot />
     </main>
     <Footer />
+    <ConsentBanner />
     <script>
       // Fade sections in as they scroll into view.
       const els = document.querySelectorAll('.reveal');
