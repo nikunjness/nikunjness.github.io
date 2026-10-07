@@ -45,11 +45,10 @@ const imageUrl = new URL(image, Astro.site);
     <link rel="alternate" type="application/rss+xml" title={SITE.name} href="/rss.xml" />
     <link rel="sitemap" href="/sitemap-index.xml" />
 
-    <meta name="theme-color" content="#fbfaf7" media="(prefers-color-scheme: light)" />
-    <meta name="theme-color" content="#0c0b0a" media="(prefers-color-scheme: dark)" />
+    <meta name="theme-color" content="#fbfaf7" />
 
     <script is:inline>
-      // Apply the saved theme before first paint to avoid a flash, and flag JS for reveal animations.
+      // Light by default. Apply a saved theme choice before first paint, and flag JS for reveal animations.
       document.documentElement.classList.add('js');
       try {
         const t = localStorage.getItem('theme');

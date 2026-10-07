@@ -52,7 +52,7 @@ const isActive = (href: string) =>
   btn?.addEventListener('click', () => {
     const root = document.documentElement;
     const current =
-      root.dataset.theme ?? (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      root.dataset.theme ?? 'light'; // light is the default; dark only when chosen
     const next = current === 'dark' ? 'light' : 'dark';
     root.dataset.theme = next;
     try {
@@ -164,14 +164,6 @@ const isActive = (href: string) =>
   }
   :global(:root[data-theme='dark']) .moon {
     display: block;
-  }
-  @media (prefers-color-scheme: dark) {
-    :global(:root:not([data-theme='light'])) .sun {
-      display: none;
-    }
-    :global(:root:not([data-theme='light'])) .moon {
-      display: block;
-    }
   }
 
   /* Small screens: pill holds brand + toggle; nav scrolls on its own row below */

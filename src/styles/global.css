@@ -38,26 +38,6 @@
   color-scheme: light;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme='light']) {
-    --bg: #0c0b0a;
-    --bg-raised: #161513;
-    --bg-sunken: #121110;
-    --ink: #f4f1ea;
-    --ink-soft: #cdc9bf;
-    --muted: #8f8b82;
-    --line: #262420;
-    --line-strong: #36332d;
-    --accent: #ff6a33;
-    --accent-ink: #0c0b0a;
-    --accent-soft: #3a1c10;
-    --code-bg: #1d1b18;
-    --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.4);
-    --shadow-lg: 0 24px 60px -12px rgba(0, 0, 0, 0.6);
-    color-scheme: dark;
-  }
-}
-
 :root[data-theme='dark'] {
   --bg: #0c0b0a;
   --bg-raised: #161513;
@@ -332,12 +312,6 @@ a.tag:hover {
   opacity: 0.32;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme='light']) .mesh span {
-    opacity: 0.32;
-  }
-}
-
 @keyframes drift {
   0% {
     transform: translate(0, 0) scale(1);
@@ -546,14 +520,6 @@ a.tag:hover {
 :root[data-theme='dark'] .astro-code span {
   color: var(--shiki-dark) !important;
   background-color: var(--shiki-dark-bg) !important;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme='light']) .astro-code,
-  :root:not([data-theme='light']) .astro-code span {
-    color: var(--shiki-dark) !important;
-    background-color: var(--shiki-dark-bg) !important;
-  }
 }
 
 @media (prefers-reduced-motion: reduce) {
