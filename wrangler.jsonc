@@ -3,6 +3,13 @@
   "name": "nikunjthakkar-com",
   "main": "worker/index.js",
   "compatibility_date": "2026-10-01",
+  // Keep the *.workers.dev address and per-version preview URLs for testing
+  "workers_dev": true,
+  "preview_urls": true,
+  "routes": [
+    { "pattern": "nikunjthakkar.com", "custom_domain": true },
+    { "pattern": "www.nikunjthakkar.com", "custom_domain": true }
+  ],
   "assets": {
     "directory": "./dist",
     "binding": "ASSETS",
