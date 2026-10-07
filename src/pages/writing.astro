@@ -37,7 +37,7 @@ const tags = [...counts.entries()].filter(([, v]) => v.n > 1).sort((a, b) => b[1
       {
         posts.map((post, i) => (
           <div class:list={['cell', 'reveal', { feature: i === 0 }]} style={`--d:${(i % 3) * 0.06}s`} data-tags={post.data.tags.map(tagSlug).join(' ')}>
-            <PostCard post={post} />
+            <PostCard post={post} headingLevel="h2" />
           </div>
         ))
       }
@@ -120,7 +120,7 @@ const tags = [...counts.entries()].filter(([, v]) => v.n > 1).sort((a, b) => b[1
   .feature :global(.cover) {
     aspect-ratio: 16 / 9;
   }
-  .feature :global(h3) {
+  .feature :global(.title) {
     font-size: clamp(1.5rem, 3vw, 2.1rem);
   }
   .filtered .feature {

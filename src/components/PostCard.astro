@@ -4,8 +4,10 @@ import { postUrl, formatDate, excerpt, readingTime, tagSlug, type Post } from '.
 
 interface Props {
   post: Post;
+  /** Use 'h2' when the card list sits directly under the page's h1. */
+  headingLevel?: 'h2' | 'h3';
 }
-const { post } = Astro.props;
+const { post, headingLevel: Heading = 'h3' } = Astro.props;
 ---
 
 <article class="post-card" data-tags={post.data.tags.map(tagSlug).join(' ')}>
@@ -18,7 +20,7 @@ const { post } = Astro.props;
         <span aria-hidden="true">·</span>
         {readingTime(post)} min
       </p>
-      <h3>{post.data.title}</h3>
+      <Heading class="title">{post.data.title}</Heading>
       <p class="ex">{excerpt(post, 120)}</p>
     </div>
   </a>
@@ -67,13 +69,13 @@ const { post } = Astro.props;
     color: #0f0e0c;
     font-weight: 700;
   }
-  h3 {
+  .title {
     font-size: 1.22rem;
     line-height: 1.2;
     margin-top: 0.45rem;
     letter-spacing: -0.02em;
   }
-  .post-card a:hover h3 {
+  .post-card a:hover .title {
     color: var(--accent);
   }
   .ex {

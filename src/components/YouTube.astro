@@ -3,15 +3,21 @@
 interface Props {
   id: string;
   title: string;
-  /** YouTube thumbnail size; a few older videos have no maxres image. */
+  /** Some older videos have no 1280px thumbnail. */
   thumb?: 'maxresdefault' | 'hqdefault';
+  /** How wide the player renders, so the browser picks the smallest thumbnail that fits. */
+  sizes?: string;
 }
-const { id, title, thumb = 'maxresdefault' } = Astro.props;
+const { id, title, thumb = 'maxresdefault', sizes = '(max-width: 640px) 100vw, 400px' } = Astro.props;
+const base = `https://i.ytimg.com/vi_webp/${id}`;
+const srcset = [`${base}/mqdefault.webp 320w`, `${base}/sddefault.webp 640w`]
+  .concat(thumb === 'maxresdefault' ? [`${base}/maxresdefault.webp 1280w`] : [])
+  .join(', ');
 ---
 
 <div class="yt" data-id={id}>
   <button type="button" aria-label={`Play: ${title}`}>
-    <img src={`https://i.ytimg.com/vi/${id}/${thumb}.jpg`} alt="" loading="lazy" width="1280" height="720" />
+    <img src={`${base}/sddefault.webp`} srcset={srcset} sizes={sizes} alt="" loading="lazy" decoding="async" width="640" height="360" />
     <span class="play" aria-hidden="true">
       <svg viewBox="0 0 24 24" width="22" height="22"><path d="M8 5v14l11-7z" fill="currentColor"></path></svg>
     </span>

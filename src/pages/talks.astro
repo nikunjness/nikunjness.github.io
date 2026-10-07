@@ -23,7 +23,7 @@ const [latest, ...episodes] = startupOg;
     <!-- STARTUP OG -->
     <section class="og reveal">
       <div class="og-player">
-        <YouTube id={latest.id} title={latest.title} />
+        <YouTube id={latest.id} title={latest.title} sizes="(max-width: 960px) 100vw, 620px" />
       </div>
       <div class="og-copy">
         <p class="tag-pill"><span class="dot" aria-hidden="true"></span>Startup OG · Host</p>
@@ -45,7 +45,7 @@ const [latest, ...episodes] = startupOg;
       {
         episodes.map((e, i) => (
           <article class="ep reveal" style={`--d:${(i % 3) * 0.06}s`}>
-            <YouTube id={e.id} title={e.title} />
+            <YouTube id={e.id} title={e.title} sizes="(max-width: 640px) 100vw, (max-width: 960px) 50vw, 380px" />
             <div class="ep-body">
               <h3>{e.title}</h3>
               <p class="muted">
@@ -68,7 +68,7 @@ const [latest, ...episodes] = startupOg;
         {
           talks.map((t, i) => (
             <article class="talk reveal" style={`--d:${i * 0.06}s`}>
-              <YouTube id={t.id} title={t.title} thumb={t.thumb} />
+              <YouTube id={t.id} title={t.title} thumb={t.thumb} sizes="(max-width: 640px) 100vw, (max-width: 960px) 50vw, 380px" />
               <div class="talk-body">
                 <p class="meta">
                   <span class="kind">{t.kind}</span>
