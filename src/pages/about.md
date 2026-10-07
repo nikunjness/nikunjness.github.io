@@ -3,7 +3,7 @@ layout: ../layouts/Page.astro
 title: About
 eyebrow: About
 heading: 'Engineer, founder, product leader, <span class="it grad-text">founder again.</span>'
-lead: "I'm a product builder and entrepreneur. I've spent a little over a decade building things: data systems, a startup, SaaS products, product teams, and communities."
+lead: "I'm a product builder and entrepreneur. I've been building things professionally since 2013: data systems, a startup, SaaS products, product teams, and communities."
 brands: [gsoc, dataone, shoppr, whatfix, plivo, snezzi]
 ---
 

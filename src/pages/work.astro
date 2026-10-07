@@ -2,7 +2,7 @@
 import Base from '../layouts/Base.astro';
 import PageHero from '../components/PageHero.astro';
 import BrandMark from '../components/BrandMark.astro';
-import { SITE, SNEZZI_URL } from '../lib/site';
+import { SITE, SNEZZI_URL, YEARS_BUILDING } from '../lib/site';
 
 type Role = {
   brand: string;
@@ -114,7 +114,7 @@ const talks = [
 <Base title="Work" description="A timeline of Nikunj Thakkar's work: Snezzi, UpSurge Ventures, Plivo, Whatfix, DataOne and Shoppr.ai, and Big Data engineering.">
   <PageHero
     eyebrow="Work"
-    title='Ten years of building, <span class="it grad-text">zero to one.</span>'
+    title={`${YEARS_BUILDING} years of building, <span class="it grad-text">zero to one.</span>`}
     lead="Engineering, then a startup, then product leadership, and now building again. The common thread is taking products from zero to one where technology, product, and GTM meet."
     brands={['snezzi', 'whatfix', 'plivo', 'shoppr', 'gsoc']}
   />

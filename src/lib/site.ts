@@ -1,9 +1,13 @@
+/** Professional career start (Google Summer of Code, 2013). Years shown on the site are computed from this. */
+export const CAREER_START = 2013;
+export const YEARS_BUILDING = new Date().getFullYear() - CAREER_START;
+
 export const SITE = {
   name: 'Nikunj Thakkar',
   url: 'https://nikunjthakkar.com',
   title: 'Nikunj Thakkar: product builder and entrepreneur',
   description:
-    'Product builder and entrepreneur with 10+ years across engineering, SaaS, product, and GTM. Currently building Snezzi.',
+    `Product builder and entrepreneur with ${YEARS_BUILDING}+ years across engineering, SaaS, product, and GTM. Currently building Snezzi.`,
   email: 'me@nikunjthakkar.com',
   image: '/assets/img/avatar.jpg',
 };

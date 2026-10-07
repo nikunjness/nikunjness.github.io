@@ -2,7 +2,7 @@
 import Base from '../layouts/Base.astro';
 import PostCard from '../components/PostCard.astro';
 import { getPosts } from '../lib/posts';
-import { SITE, SNEZZI_URL } from '../lib/site';
+import { SITE, SNEZZI_URL, YEARS_BUILDING } from '../lib/site';
 
 const recent = (await getPosts()).slice(0, 3);
 
@@ -59,7 +59,7 @@ const jsonLd = {
         </h1>
 
         <p class="lead">
-          Engineer turned founder turned product leader, and now founder again. Ten years of taking products
+          Engineer turned founder turned product leader, and now founder again. {YEARS_BUILDING} years of taking products
           from zero to one across SaaS, AI, and go-to-market.
         </p>
 
@@ -111,7 +111,7 @@ const jsonLd = {
   <section class="wrap section">
     <div class="section-head reveal">
       <p class="eyebrow">At a glance</p>
-      <h2>Ten years, one habit: <span class="it">building</span>.</h2>
+      <h2>{YEARS_BUILDING} years, one habit: <span class="it">building</span>.</h2>
     </div>
 
     <div class="bento">
@@ -165,8 +165,8 @@ const jsonLd = {
 
       <!-- Years -->
       <div class="tile years reveal" style="--d:.04s">
-        <p class="big">10<span class="plus">+</span></p>
-        <p class="muted small">years across engineering, product, and GTM</p>
+        <p class="big">{YEARS_BUILDING}<span class="plus">+</span></p>
+        <p class="muted small">years since 2013, across engineering, product, and GTM</p>
         <div class="split" aria-hidden="true">
           <span style="--w:24%;--c:#3b82f6"></span>
           <span style="--w:34%;--c:#ff5b1f"></span>
