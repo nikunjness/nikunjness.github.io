@@ -8,7 +8,8 @@
   "preview_urls": true,
   "routes": [
     { "pattern": "nikunjthakkar.com", "custom_domain": true },
-    { "pattern": "www.nikunjthakkar.com", "custom_domain": true }
+    // www keeps its existing proxied DNS record; the worker redirects it to the apex
+    { "pattern": "www.nikunjthakkar.com/*", "zone_name": "nikunjthakkar.com" }
   ],
   "assets": {
     "directory": "./dist",

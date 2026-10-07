@@ -18,7 +18,7 @@ const posts = defineCollection({
     image: z.object({ path: z.string(), alt: z.string().optional() }).optional(),
     draft: z.boolean().default(false),
     // Original URL when the post was first published as a LinkedIn article
-    linkedin: z.string().url().optional(),
+    linkedin: z.url().optional(),
   }),
 });
 

@@ -4,6 +4,7 @@ title: Now
 eyebrow: Now
 heading: 'What I’m focused on <span class="it grad-text">right now.</span>'
 brands: [snezzi, startupog, upsurge]
+description: "What Nikunj Thakkar is focused on right now: building Snezzi, hosting Startup OG, and writing about startups, product, and GTM."
 ---
 
 *Last updated: October 2026.* This is a [now page](https://nownownow.com/about).

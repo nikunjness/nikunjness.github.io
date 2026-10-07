@@ -2,7 +2,8 @@
 import Base from '../layouts/Base.astro';
 import PostCard from '../components/PostCard.astro';
 import { getPosts } from '../lib/posts';
-import { SITE, SNEZZI_URL, YEARS_BUILDING } from '../lib/site';
+import { responsive } from '../lib/images';
+import { SITE, SNEZZI_URL, YEARS_BUILDING, PERSON_LD } from '../lib/site';
 
 const recent = (await getPosts()).slice(0, 3);
 
@@ -26,16 +27,19 @@ const chapters = [
   { year: '2025', role: 'Founder again', text: 'Started UpSurge Ventures. Now building Snezzi.' },
 ];
 
-const jsonLd = {
-  '@context': 'https://schema.org',
-  '@type': 'Person',
-  name: SITE.name,
-  url: SITE.url,
-  image: new URL('/assets/img/avatar.jpg', SITE.url).href,
-  jobTitle: 'Co-founder, Snezzi',
-  description: SITE.description,
-  sameAs: ['https://www.linkedin.com/in/nikunjness', 'https://x.com/nikunjness', 'https://github.com/nikunjness'],
-};
+const jsonLd = [
+  { '@context': 'https://schema.org', ...PERSON_LD },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    '@id': `${SITE.url}/#website`,
+    url: SITE.url,
+    name: SITE.name,
+    description: SITE.description,
+    publisher: { '@id': PERSON_LD['@id'] },
+    inLanguage: 'en',
+  },
+];
 ---
 
 <Base jsonLd={jsonLd}>
@@ -71,10 +75,13 @@ const jsonLd = {
 
       <div class="stage" aria-label="Highlights">
         <div class="halo" aria-hidden="true"></div>
-        <picture class="portrait">
-          <source srcset="/assets/img/portrait.webp" type="image/webp" />
-          <img src="/assets/img/portrait.png" alt="Illustrated portrait of Nikunj Thakkar" width="441" height="515" fetchpriority="high" />
-        </picture>
+        <div class="portrait">
+          <img
+            {...responsive('/assets/img/portrait.webp', '(max-width: 640px) 136px, 288px')}
+            alt="Illustrated portrait of Nikunj Thakkar"
+            fetchpriority="high"
+          />
+        </div>
         <span class="chip c1"><img src="/assets/img/brand/snezzi.png" alt="" width="20" height="20" />Co-founder, Snezzi</span>
         <span class="chip c2"><img src="/assets/img/brand/plivo.png" alt="" width="20" height="20" />0→1 products at Whatfix &amp; Plivo</span>
         <span class="chip c3"><img src="/assets/img/brand/whatfix.png" alt="" width="20" height="20" />Acquihired by Whatfix</span>
@@ -127,7 +134,12 @@ const jsonLd = {
           <span class="tile-link">snezzi.com <span class="arrow">→</span></span>
         </div>
         <div class="shot">
-          <img src="/assets/img/snezzi-dashboard.webp" alt="Snezzi dashboard showing AI visibility, share of voice and visibility by AI platform" width="1439" height="840" loading="lazy" />
+          <img
+            {...responsive('/assets/img/snezzi-dashboard.webp', '(max-width: 960px) 100vw, 640px')}
+            alt="Snezzi dashboard showing AI visibility, share of voice and visibility by AI platform"
+            loading="lazy"
+            decoding="async"
+          />
         </div>
       </a>
 

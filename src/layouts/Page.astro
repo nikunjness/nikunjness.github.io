@@ -1,6 +1,7 @@
 ---
 import Base from './Base.astro';
 import PageHero from '../components/PageHero.astro';
+import { PERSON_LD } from '../lib/site';
 
 interface Props {
   title: string;
@@ -9,13 +10,18 @@ interface Props {
   lead?: string;
   description?: string;
   brands?: string[];
+  /** Mark the page as the site owner's profile page (schema.org ProfilePage). */
+  profile?: boolean;
 }
 // Works both as a component layout and as a markdown page layout (props arrive under `frontmatter`).
 const props = (Astro.props as { frontmatter?: Props }).frontmatter ?? Astro.props;
-const { title, eyebrow, heading = title, lead, description, brands } = props;
+const { title, eyebrow, heading = title, lead, description, brands, profile } = props;
+const jsonLd = profile
+  ? { '@context': 'https://schema.org', '@type': 'ProfilePage', mainEntity: PERSON_LD }
+  : undefined;
 ---
 
-<Base title={title} description={description ?? lead}>
+<Base title={title} description={description ?? lead} jsonLd={jsonLd}>
   <PageHero eyebrow={eyebrow} title={heading} lead={lead} brands={brands} narrow />
   <div class="wrap-narrow">
     <div class="prose">

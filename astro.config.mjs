@@ -1,11 +1,11 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
-import sitemap from '@astrojs/sitemap';
 
 export default defineConfig({
   site: 'https://nikunjthakkar.com',
   trailingSlash: 'always',
-  integrations: [sitemap()],
+  // Inline page CSS so the first paint doesn't wait on a stylesheet request.
+  build: { inlineStylesheets: 'always' },
   markdown: {
     shikiConfig: { themes: { light: 'github-light', dark: 'github-dark' } },
   },

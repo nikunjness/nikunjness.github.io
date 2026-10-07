@@ -8,6 +8,8 @@
 /tags/ /writing/ 301
 /categories/ /writing/ 301
 /feed.xml /rss.xml 301
+/sitemap-index.xml /sitemap.xml 301
+/sitemap-0.xml /sitemap.xml 301
 /technology/2013/06/22/Introduction-to-apache-cassandra.html /posts/Introduction-to-apache-cassandra/ 301
 /thoughts/2013/07/11/grabbing-the-tag-of-gsocer.html /posts/grabbing-the-tag-of-gsocer/ 301
 /thoughts/2013/10/06/gsoc-2013-project-proposal.html /posts/gsoc-2013-project-proposal/ 301

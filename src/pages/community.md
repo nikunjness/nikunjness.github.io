@@ -4,6 +4,7 @@ title: Community
 eyebrow: Community
 heading: 'Bringing builders <span class="it grad-text">together.</span>'
 brands: [startupog, headstart, gdg, gsoc]
+description: "Communities Nikunj Thakkar has built and led: Startup OG, Headstart Gujarat, GDG Cloud Ahmedabad, and early open source work."
 ---
 
 Community building has run alongside my work for most of my career. I learned early on that bringing people together teaches you more than just showing up.

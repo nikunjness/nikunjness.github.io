@@ -1,5 +1,6 @@
 ---
 import type { Post } from '../lib/posts';
+import { responsive } from '../lib/images';
 
 interface Props {
   post: Post;
@@ -20,13 +21,25 @@ const palettes = [
 let h = 0;
 for (const c of post.id) h = (h * 31 + c.charCodeAt(0)) >>> 0;
 const [c1, c2] = palettes[h % palettes.length];
+const img = image
+  ? responsive(
+      image.path,
+      size === 'hero' ? '(max-width: 760px) 100vw, 672px' : '(max-width: 640px) 100vw, (max-width: 960px) 50vw, 400px',
+    )
+  : null;
 const angle = 100 + (h % 120);
 ---
 
 {
   image ? (
     <div class:list={['cover', size]}>
-      <img src={image.path} alt={image.alt ?? ''} loading={size === 'hero' ? 'eager' : 'lazy'} />
+      <img
+        {...img}
+        alt={image.alt ?? ''}
+        loading={size === 'hero' ? 'eager' : 'lazy'}
+        fetchpriority={size === 'hero' ? 'high' : undefined}
+        decoding="async"
+      />
     </div>
   ) : (
     <div

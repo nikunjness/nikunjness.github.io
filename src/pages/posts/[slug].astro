@@ -2,6 +2,8 @@
 import { render } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import PostCover from '../../components/PostCover.astro';
+import { SITE, PERSON_LD } from '../../lib/site';
+import { variantAtLeast } from '../../lib/images';
 import { getPosts, postUrl, formatDate, readingTime, excerpt, tagSlug, type Post } from '../../lib/posts';
 
 export async function getStaticPaths() {
@@ -21,9 +23,35 @@ const { post, newer, older } = Astro.props;
 const { Content } = await render(post);
 const { title, date, tags, image, linkedin } = post.data;
 const yearsOld = new Date().getFullYear() - date.getUTCFullYear();
+const url = new URL(postUrl(post), Astro.site).href;
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BlogPosting',
+  headline: title,
+  description: excerpt(post, 160),
+  datePublished: date.toISOString(),
+  url,
+  mainEntityOfPage: url,
+  image: new URL(image?.path ?? SITE.image, Astro.site).href,
+  author: { '@type': 'Person', '@id': PERSON_LD['@id'], name: SITE.name, url: SITE.url },
+  publisher: { '@type': 'Person', '@id': PERSON_LD['@id'], name: SITE.name },
+  keywords: tags.join(', '),
+  wordCount: (post.body ?? '').split(/\s+/).filter(Boolean).length,
+  inLanguage: 'en',
+  ...(post.data.linkedin ? { sameAs: post.data.linkedin } : {}),
+};
 ---
 
-<Base title={title} description={excerpt(post, 160)} image={image?.path} type="article" publishedTime={date}>
+<Base
+  title={title}
+  description={excerpt(post, 160)}
+  image={image?.path}
+  imageAlt={image?.alt ?? title}
+  type="article"
+  publishedTime={date}
+  tags={tags}
+  jsonLd={jsonLd}
+>
   <header class="page-hero post-hero">
     <div class="mesh" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
     <div class="dots" aria-hidden="true"></div>
@@ -32,7 +60,7 @@ const yearsOld = new Date().getFullYear() - date.getUTCFullYear();
       {post.data.draft && <p class="draft-banner">Draft: only visible in local dev, not published.</p>}
       <h1>{title}</h1>
       <p class="meta">
-        <span class="avatar"><img src="/assets/img/portrait.webp" alt="" width="28" height="28" /></span>
+        <span class="avatar"><img src={variantAtLeast('/assets/img/portrait.webp', 64)} alt="" width="28" height="33" /></span>
         <span>Nikunj Thakkar</span>
         <span aria-hidden="true">·</span>
         <time datetime={date.toISOString()}>{formatDate(date)}</time>

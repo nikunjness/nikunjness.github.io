@@ -1,0 +1,182 @@
+{
+  "/assets/img/GSoc-2013-logo.jpg": {
+    "width": 931,
+    "height": 496,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/GSoc-2013-logo-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/GSoc-2013-logo-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/GSoc-2013-logo-800.webp"
+      },
+      {
+        "w": 931,
+        "src": "/assets/img/opt/GSoc-2013-logo-931.webp"
+      }
+    ]
+  },
+  "/assets/img/gsoc-journey.png": {
+    "width": 701,
+    "height": 237,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/gsoc-journey-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/gsoc-journey-480.webp"
+      },
+      {
+        "w": 701,
+        "src": "/assets/img/opt/gsoc-journey-701.webp"
+      }
+    ]
+  },
+  "/assets/img/blurred-path.jpg": {
+    "width": 851,
+    "height": 315,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/blurred-path-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/blurred-path-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/blurred-path-800.webp"
+      },
+      {
+        "w": 851,
+        "src": "/assets/img/opt/blurred-path-851.webp"
+      }
+    ]
+  },
+  "/assets/img/linkedin/future-analytics-no-codelow-code-0.jpg": {
+    "width": 1280,
+    "height": 720,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/future-analytics-no-codelow-code-0-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/future-analytics-no-codelow-code-0-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/future-analytics-no-codelow-code-0-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/assets/img/opt/future-analytics-no-codelow-code-0-1200.webp"
+      },
+      {
+        "w": 1280,
+        "src": "/assets/img/opt/future-analytics-no-codelow-code-0-1280.webp"
+      }
+    ]
+  },
+  "/assets/img/startup_exits.jpg": {
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/startup_exits-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/startup_exits-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/startup_exits-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/assets/img/opt/startup_exits-1200.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/assets/img/opt/startup_exits-1600.webp"
+      }
+    ]
+  },
+  "/assets/img/linkedin/dishonesty-business-model-0.jpg": {
+    "width": 1280,
+    "height": 720,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/dishonesty-business-model-0-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/dishonesty-business-model-0-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/dishonesty-business-model-0-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/assets/img/opt/dishonesty-business-model-0-1200.webp"
+      },
+      {
+        "w": 1280,
+        "src": "/assets/img/opt/dishonesty-business-model-0-1280.webp"
+      }
+    ]
+  },
+  "/assets/img/snezzi-dashboard.webp": {
+    "width": 1439,
+    "height": 840,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/snezzi-dashboard-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/snezzi-dashboard-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/snezzi-dashboard-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/assets/img/opt/snezzi-dashboard-1200.webp"
+      },
+      {
+        "w": 1439,
+        "src": "/assets/img/opt/snezzi-dashboard-1439.webp"
+      }
+    ]
+  },
+  "/assets/img/portrait.webp": {
+    "width": 441,
+    "height": 515,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/portrait-320.webp"
+      },
+      {
+        "w": 441,
+        "src": "/assets/img/opt/portrait-441.webp"
+      }
+    ]
+  }
+}
