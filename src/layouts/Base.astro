@@ -90,6 +90,32 @@ const ldList = jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : [];
     </script>
 
     {ldList.map((ld) => <script type="application/ld+json" set:html={JSON.stringify(ld)} />)}
+
+    {
+      import.meta.env.PROD && (
+        <script is:inline define:vars={{ gaId: SITE.gaId, host: SITE.host }}>
+          // Google Analytics 4. The config call is queued now; gtag.js loads once the page is idle
+          // so it never competes with the page's own content.
+          if (location.hostname === host) {
+            window.dataLayer = window.dataLayer || [];
+            window.gtag = function () {
+              dataLayer.push(arguments);
+            };
+            gtag('js', new Date());
+            gtag('config', gaId);
+            const load = () => {
+              const s = document.createElement('script');
+              s.async = true;
+              s.src = 'https://www.googletagmanager.com/gtag/js?id=' + gaId;
+              document.head.appendChild(s);
+            };
+            const idle = window.requestIdleCallback || ((cb) => setTimeout(cb, 1));
+            if (document.readyState === 'complete') idle(load);
+            else addEventListener('load', () => idle(load), { once: true });
+          }
+        </script>
+      )
+    }
   </head>
   <body>
     <a class="skip" href="#main">Skip to content</a>

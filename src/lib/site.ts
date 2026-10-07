@@ -11,6 +11,10 @@ export const SITE = {
   description:
     `Product builder and entrepreneur with ${YEARS_BUILDING}+ years across engineering, SaaS, product, and GTM. Currently building Snezzi.`,
   email: 'me@nikunjthakkar.com',
+  /** Google Analytics 4 measurement ID (stream: notesofcode - GA4). */
+  gaId: 'G-XHHRRTNZ7V',
+  /** Analytics only runs on this hostname (not localhost, previews or workers.dev). */
+  host: 'nikunjthakkar.com',
   image: '/og-default.jpg',
   imageAlt: 'Nikunj Thakkar: I build products, companies & communities.',
 };
