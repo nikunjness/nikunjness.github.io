@@ -1,17 +1,18 @@
-# hidden files
-.*
+# build output
+dist/
+.astro/
 
-# python compiled files
-*.pyc
+# dependencies
+node_modules/
 
-# jekyll debug
-_site
+# wrangler
+.wrangler/
+.dev.vars*
 
-# Jeykll Gemfile.lock
-Gemfile.lock
+# logs and env
+npm-debug.log*
+.env
+.env.*
 
-# yui-compressor
-*.jar
-
-# bundle cache
-vendor
+# misc
+.DS_Store

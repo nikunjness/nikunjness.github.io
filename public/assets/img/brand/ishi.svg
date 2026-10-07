@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-14 -14 128 128">
+  <!-- Ishi Systems mark, redrawn as vector from the company logo -->
+  <rect x="-14" y="-14" width="128" height="128" fill="#ffffff"/>
+  <g fill="#ff6600">
+    <rect x="50" y="1" width="49" height="49"/>
+    <rect x="0" y="51" width="49" height="49"/>
+    <!-- bottom-right block: what's left outside a quarter circle centred on its top-left corner -->
+    <path d="M99 64 V100 H60 A50 50 0 0 0 99 64 Z"/>
+  </g>
+</svg>

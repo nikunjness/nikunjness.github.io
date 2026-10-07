@@ -1,0 +1,63 @@
+---
+import BrandMark from './BrandMark.astro';
+import { BRANDS } from '../lib/brands';
+
+interface Props {
+  brands?: string[];
+  eyebrow?: string;
+  title: string;
+  lead?: string;
+  narrow?: boolean;
+}
+const { eyebrow, title, lead, narrow = false, brands = [] } = Astro.props;
+---
+
+<header class="page-hero">
+  <div class="mesh" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
+  <div class="dots" aria-hidden="true"></div>
+  <div class:list={['page-hero-inner', narrow ? 'wrap-narrow' : 'wrap']}>
+    {eyebrow && <p class="eyebrow">{eyebrow}</p>}
+    <h1 set:html={title} />
+    {lead && <p class="lead">{lead}</p>}
+    {
+      brands.length > 0 && (
+        <ul class="brands">
+          {brands.map((id) => (
+            <li>
+              <BrandMark id={id} size={22} />
+              {BRANDS[id].name}
+            </li>
+          ))}
+        </ul>
+      )
+    }
+    <slot />
+  </div>
+</header>
+
+<style>
+  .brands {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    list-style: none;
+    margin: 1.75rem 0 0;
+    padding: 0;
+  }
+  .brands li {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    padding: 0.35rem 0.8rem 0.35rem 0.4rem;
+    border-radius: 999px;
+    background: color-mix(in srgb, var(--bg-raised) 85%, transparent);
+    border: 1px solid var(--line);
+    box-shadow: var(--shadow-sm);
+    font-size: 0.85rem;
+    font-weight: 600;
+  }
+  .page-hero {
+    margin-top: -4.4rem;
+    padding-top: 4.4rem;
+  }
+</style>

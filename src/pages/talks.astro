@@ -1,0 +1,291 @@
+---
+import Base from '../layouts/Base.astro';
+import PageHero from '../components/PageHero.astro';
+import YouTube from '../components/YouTube.astro';
+import { startupOg, talks, STARTUP_OG_PLAYLIST } from '../data/media';
+import { formatDate } from '../lib/posts';
+
+const [latest, ...episodes] = startupOg;
+---
+
+<Base
+  title="Talks & podcasts"
+  description="Startup OG, the founder podcast Nikunj Thakkar hosts, plus talks and podcast appearances on startups, failure, and AI search."
+>
+  <PageHero
+    eyebrow="Talks & podcasts"
+    title='Conversations with <span class="it grad-text">builders.</span>'
+    lead="I host Startup OG, where founders share what building is really like. I also speak at events and on podcasts about startups, failure, and AI search."
+    brands={['startupog']}
+  />
+
+  <div class="wrap">
+    <!-- STARTUP OG -->
+    <section class="og reveal">
+      <div class="og-player">
+        <YouTube id={latest.id} title={latest.title} />
+      </div>
+      <div class="og-copy">
+        <p class="tag-pill"><span class="dot" aria-hidden="true"></span>Startup OG · Host</p>
+        <h2>Real founder stories, <span class="it">no polish.</span></h2>
+        <p>
+          Startup OG (previously Entrepreneur's Cafe) is a free community and podcast I run in India. Through episodes,
+          meetups, and events, founders talk about pivots, pricing, bootstrapping, and exits.
+        </p>
+        <p class="now-playing">
+          <span class="muted">Latest episode</span>
+          <b>{latest.title}</b>
+          {latest.guest && <span class="muted">with {latest.guest} · {latest.minutes} min</span>}
+        </p>
+        <a class="btn btn-primary" href={STARTUP_OG_PLAYLIST} rel="noopener">Watch all episodes <span class="arrow">↗</span></a>
+      </div>
+    </section>
+
+    <div class="episodes">
+      {
+        episodes.map((e, i) => (
+          <article class="ep reveal" style={`--d:${(i % 3) * 0.06}s`}>
+            <YouTube id={e.id} title={e.title} />
+            <div class="ep-body">
+              <h3>{e.title}</h3>
+              <p class="muted">
+                {e.guest ? `with ${e.guest} · ` : ''}
+                {e.minutes} min
+              </p>
+            </div>
+          </article>
+        ))
+      }
+    </div>
+
+    <!-- TALKS -->
+    <section class="talks-section">
+      <div class="section-head reveal">
+        <p class="eyebrow">Where I've spoken</p>
+        <h2>Talks &amp; <span class="it">guest appearances.</span></h2>
+      </div>
+      <div class="talks">
+        {
+          talks.map((t, i) => (
+            <article class="talk reveal" style={`--d:${i * 0.06}s`}>
+              <YouTube id={t.id} title={t.title} thumb={t.thumb} />
+              <div class="talk-body">
+                <p class="meta">
+                  <span class="kind">{t.kind}</span>
+                  <span class="muted">
+                    {t.host} · {formatDate(new Date(t.date), 'short')} · {t.minutes} min
+                  </span>
+                </p>
+                <h3>{t.title}</h3>
+                <p class="muted">{t.note}</p>
+              </div>
+            </article>
+          ))
+        }
+      </div>
+    </section>
+
+    <section class="invite reveal">
+      <div>
+        <h2>Want me on your stage or show?</h2>
+        <p class="muted">
+          Building 0→1 SaaS, product-led GTM, AI search and GEO, startup failures, and building with limited
+          resources.
+        </p>
+      </div>
+      <a class="btn btn-primary" href="mailto:me@nikunjthakkar.com?subject=Speaking%20invite">Invite me to speak <span class="arrow">→</span></a>
+    </section>
+  </div>
+</Base>
+
+<style>
+  .og {
+    display: grid;
+    grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr);
+    gap: clamp(1.5rem, 4vw, 3rem);
+    align-items: center;
+    padding: clamp(1rem, 2.5vw, 1.5rem);
+    border-radius: 28px;
+    color: #fff;
+    background:
+      radial-gradient(90% 70% at 0% 0%, rgba(255, 77, 141, 0.5), transparent 60%),
+      radial-gradient(70% 70% at 100% 100%, rgba(123, 97, 255, 0.5), transparent 60%),
+      linear-gradient(150deg, #2a1559, #150d2a);
+    box-shadow: var(--shadow-lg);
+  }
+  .og-player {
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.45);
+  }
+  .og-copy {
+    padding: 0.5rem 1rem 0.5rem 0;
+  }
+  .tag-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 0;
+    padding: 0.3rem 0.8rem;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.12);
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+  .dot {
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background: #ff4d8d;
+    box-shadow: 0 0 0 4px rgba(255, 77, 141, 0.3);
+  }
+  .og h2 {
+    color: #fff;
+    font-size: clamp(1.8rem, 3.5vw, 2.6rem);
+    margin-top: 1rem;
+  }
+  .og h2 .it {
+    font-weight: 400;
+    color: #ffc2d8;
+  }
+  .og-copy > p:not(.tag-pill):not(.now-playing) {
+    color: rgba(255, 255, 255, 0.78);
+    margin: 0.9rem 0 0;
+  }
+  .now-playing {
+    display: grid;
+    gap: 0.15rem;
+    margin: 1.25rem 0 1.5rem;
+    padding: 0.85rem 1rem;
+    border-radius: 14px;
+    background: rgba(255, 255, 255, 0.08);
+    font-size: 0.9rem;
+  }
+  .now-playing .muted {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 0.8rem;
+  }
+  .og .btn-primary {
+    background: #fff;
+    border-color: #fff;
+    color: #150d2a;
+  }
+  .og .btn-primary:hover {
+    color: #fff;
+    background: var(--grad);
+  }
+
+  .episodes {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1.1rem;
+    margin-top: 1.25rem;
+  }
+  .ep,
+  .talk {
+    overflow: hidden;
+    border-radius: var(--radius);
+    background: var(--bg-raised);
+    border: 1px solid var(--line);
+    box-shadow: var(--shadow-sm);
+  }
+  .ep-body {
+    padding: 0.9rem 1.1rem 1.1rem;
+  }
+  .ep h3 {
+    font-size: 1.05rem;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+  }
+  .ep p {
+    margin: 0.35rem 0 0;
+    font-size: 0.85rem;
+  }
+
+  .talks-section {
+    margin-top: clamp(4rem, 9vw, 6rem);
+  }
+  .section-head {
+    margin-bottom: 1.75rem;
+  }
+  .section-head h2,
+  .invite h2 {
+    font-size: clamp(2rem, 5vw, 3.2rem);
+    letter-spacing: -0.045em;
+    margin-top: 0.75rem;
+  }
+  .section-head .it {
+    font-weight: 400;
+  }
+  .talks {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1.1rem;
+  }
+  .talk-body {
+    padding: 1rem 1.2rem 1.3rem;
+  }
+  .meta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.4rem 0.6rem;
+    margin: 0;
+    font-size: 0.8rem;
+  }
+  .kind {
+    padding: 0.1rem 0.55rem;
+    border-radius: 999px;
+    background: var(--accent-soft);
+    color: var(--accent);
+    font-weight: 650;
+  }
+  .talk h3 {
+    font-size: 1.3rem;
+    margin-top: 0.6rem;
+  }
+  .talk-body > p.muted {
+    margin: 0.5rem 0 0;
+    font-size: 0.93rem;
+    line-height: 1.55;
+  }
+
+  .invite {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem 2rem;
+    margin-top: clamp(3.5rem, 8vw, 5rem);
+    padding: clamp(1.5rem, 4vw, 2.5rem);
+    border-radius: var(--radius);
+    border: 1px dashed var(--line-strong);
+  }
+  .invite h2 {
+    font-size: clamp(1.6rem, 3.5vw, 2.2rem);
+    margin: 0;
+  }
+  .invite p {
+    margin: 0.5rem 0 0;
+    max-width: 36rem;
+  }
+
+  @media (max-width: 960px) {
+    .og {
+      grid-template-columns: 1fr;
+    }
+    .og-copy {
+      padding: 0 0.5rem 0.75rem;
+    }
+    .episodes,
+    .talks {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+  @media (max-width: 640px) {
+    .episodes,
+    .talks {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

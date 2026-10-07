@@ -1,0 +1,127 @@
+---
+import type { Post } from '../lib/posts';
+
+interface Props {
+  post: Post;
+  size?: 'card' | 'hero';
+}
+const { post, size = 'card' } = Astro.props;
+const { image, title, tags, date } = post.data;
+
+// Posts without an image get generated cover art: a gradient picked from the slug, plus the title.
+const palettes = [
+  ['#ff5b1f', '#ff4d8d'],
+  ['#7b61ff', '#ff4d8d'],
+  ['#0b8f63', '#2dd4bf'],
+  ['#ffb020', '#ff5b1f'],
+  ['#3b82f6', '#7b61ff'],
+  ['#ff4d8d', '#ffb020'],
+];
+let h = 0;
+for (const c of post.id) h = (h * 31 + c.charCodeAt(0)) >>> 0;
+const [c1, c2] = palettes[h % palettes.length];
+const angle = 100 + (h % 120);
+---
+
+{
+  image ? (
+    <div class:list={['cover', size]}>
+      <img src={image.path} alt={image.alt ?? ''} loading={size === 'hero' ? 'eager' : 'lazy'} />
+    </div>
+  ) : (
+    <div
+      class:list={['cover', 'art', size]}
+      style={`--c1:${c1};--c2:${c2};--a:${angle}deg`}
+      aria-hidden="true"
+    >
+      <span class="yr">{date.getUTCFullYear()}</span>
+      <span class="t">{title}</span>
+      {tags[0] && <span class="tg">#{tags[0]}</span>}
+    </div>
+  )
+}
+
+<style>
+  .cover {
+    position: relative;
+    overflow: hidden;
+    aspect-ratio: 16 / 10;
+    background: var(--bg-sunken);
+  }
+  .cover img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.6s cubic-bezier(0.2, 0.7, 0.2, 1);
+  }
+  .art {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 0.4rem;
+    padding: 1.2rem 1.3rem;
+    color: #fff;
+    background:
+      radial-gradient(circle at 85% 15%, rgba(255, 255, 255, 0.35), transparent 40%),
+      linear-gradient(var(--a), var(--c1), var(--c2));
+  }
+  .art::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: radial-gradient(rgba(255, 255, 255, 0.22) 1px, transparent 1px);
+    background-size: 16px 16px;
+    mask-image: linear-gradient(to top, transparent, #000);
+    -webkit-mask-image: linear-gradient(to top, transparent, #000);
+  }
+  .art > :not(.yr) {
+    position: relative;
+  }
+  .yr {
+    position: absolute;
+    top: 0.9rem;
+    right: 1.1rem;
+    font-family: var(--font-display);
+    font-weight: 800;
+    font-size: 2.6rem;
+    line-height: 1;
+    letter-spacing: -0.05em;
+    color: transparent;
+    -webkit-text-stroke: 1.5px rgba(255, 255, 255, 0.7);
+  }
+  .t {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 1.3rem;
+    line-height: 1.1;
+    letter-spacing: -0.03em;
+    max-width: 90%;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .tg {
+    font-size: 0.78rem;
+    opacity: 0.85;
+    font-weight: 600;
+  }
+  .cover.hero:not(.art) {
+    aspect-ratio: auto;
+    max-height: 30rem;
+  }
+  .cover.hero:not(.art) img {
+    max-height: 30rem;
+  }
+  .hero.art {
+    aspect-ratio: 21 / 9;
+    padding: 2rem;
+  }
+  .hero .t {
+    font-size: clamp(1.6rem, 4vw, 2.6rem);
+  }
+  .hero .yr {
+    font-size: 4.5rem;
+  }
+</style>

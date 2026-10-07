@@ -1,0 +1,27 @@
+# Old Jekyll URLs -> new pages (Cloudflare _redirects format)
+/tabs/about/ /about/ 301
+/tabs/archives/ /writing/ 301
+/tabs/categories/ /writing/ 301
+/tabs/tags/ /writing/ 301
+/archives/ /writing/ 301
+/categories/* /writing/ 301
+/tags/ /writing/ 301
+/categories/ /writing/ 301
+/feed.xml /rss.xml 301
+/technology/2013/06/22/Introduction-to-apache-cassandra.html /posts/Introduction-to-apache-cassandra/ 301
+/thoughts/2013/07/11/grabbing-the-tag-of-gsocer.html /posts/grabbing-the-tag-of-gsocer/ 301
+/thoughts/2013/10/06/gsoc-2013-project-proposal.html /posts/gsoc-2013-project-proposal/ 301
+/technology/2013/10/16/tackling-the-design-issue-using-cassandra-the-gsoc-journey-part-i.html /posts/tackling-the-design-issue-using-cassandra-the-gsoc-journey-part-i/ 301
+/technology/2013/12/21/building-java-framework-the-gsoc-journey-part-ii.html /posts/building-java-framework-the-gsoc-journey-part-ii/ 301
+/thoughts/2014/04/17/fossasia-2014-greet-meet-and-code.html /posts/fossasia-2014-greet-meet-and-code/ 301
+/thoughts/2014/06/06/working-as-a-devops-intern-ishisystems.html /posts/working-as-a-devops-intern-ishisystems/ 301
+/thoughts/2015/03/23/fossasia-2015-three-days-smart-city.html /posts/fossasia-2015-three-days-smart-city/ 301
+/thoughts/2015/04/07/fossasia-2015-experience-unveiled.html /posts/fossasia-2015-experience-unveiled/ 301
+/thoughts/2015/11/29/google-code-in-with-fossasia.html /posts/google-code-in-with-fossasia/ 301
+/thoughts/2016/04/19/carving-your-own-path.html /posts/carving-your-own-path/ 301
+/thoughts/2016/04/20/carving-your-own-path.html /posts/carving-your-own-path/ 301
+/thoughts/2016/08/10/presenting-dataone.html /posts/presenting-dataone/ 301
+/thoughts/2020/07/03/feeling-void-or-filling-the-void.html /posts/feeling-void-or-filling-the-void/ 301
+/thoughts/2023/06/01/Navigating-startup-exits.html /posts/Navigating-startup-exits/ 301
+/posts/navigating-startup-exits/ /posts/Navigating-startup-exits/ 301
+/posts/introduction-to-apache-cassandra/ /posts/Introduction-to-apache-cassandra/ 301

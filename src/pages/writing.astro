@@ -1,0 +1,144 @@
+---
+import Base from '../layouts/Base.astro';
+import PageHero from '../components/PageHero.astro';
+import PostCard from '../components/PostCard.astro';
+import { getPosts, tagSlug } from '../lib/posts';
+
+const posts = await getPosts();
+const counts = new Map<string, { label: string; n: number }>();
+for (const p of posts)
+  for (const t of p.data.tags) {
+    const k = tagSlug(t);
+    counts.set(k, { label: t, n: (counts.get(k)?.n ?? 0) + 1 });
+  }
+const tags = [...counts.entries()].filter(([, v]) => v.n > 1).sort((a, b) => b[1].n - a[1].n);
+---
+
+<Base title="Writing" description="Building in public: lessons on startups, product, and GTM from Nikunj Thakkar, including the failures.">
+  <PageHero
+    eyebrow="Writing"
+    title='Notes from <span class="it grad-text">building.</span>'
+    lead="Building in public: what I'm learning about startups, product, and GTM as I go, including the failures. The older posts are from my open source and early founder days, kept mostly as they were."
+  />
+
+  <div class="wrap">
+    <div class="filters" role="group" aria-label="Filter by topic">
+      <button type="button" data-tag="" aria-pressed="true">All <span>{posts.length}</span></button>
+      {
+        tags.map(([slug, { label, n }]) => (
+          <button type="button" data-tag={slug} aria-pressed="false">
+            {label} <span>{n}</span>
+          </button>
+        ))
+      }
+    </div>
+
+    <div class="grid">
+      {
+        posts.map((post, i) => (
+          <div class:list={['cell', 'reveal', { feature: i === 0 }]} style={`--d:${(i % 3) * 0.06}s`} data-tags={post.data.tags.map(tagSlug).join(' ')}>
+            <PostCard post={post} />
+          </div>
+        ))
+      }
+    </div>
+    <p class="empty muted" hidden>No posts with that tag yet.</p>
+  </div>
+</Base>
+
+<script>
+  const buttons = [...document.querySelectorAll<HTMLButtonElement>('.filters button')];
+  const cells = [...document.querySelectorAll<HTMLElement>('.grid .cell')];
+  const apply = (tag: string) => {
+    buttons.forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.tag === tag)));
+    let shown = 0;
+    cells.forEach((c) => {
+      const match = !tag || c.dataset.tags!.split(' ').includes(tag);
+      c.hidden = !match;
+      c.classList.add('in');
+      if (match) shown++;
+    });
+    document.querySelector('.grid')!.classList.toggle('filtered', !!tag);
+    document.querySelector<HTMLElement>('.empty')!.hidden = shown > 0;
+    const url = new URL(location.href);
+    tag ? url.searchParams.set('tag', tag) : url.searchParams.delete('tag');
+    history.replaceState(null, '', url);
+  };
+  buttons.forEach((b) => b.addEventListener('click', () => apply(b.dataset.tag ?? '')));
+  const initial = new URLSearchParams(location.search).get('tag');
+  if (initial) apply(initial);
+</script>
+
+<style>
+  .filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 2.25rem;
+  }
+  .filters button {
+    font: inherit;
+    font-size: 0.88rem;
+    font-weight: 500;
+    padding: 0.45rem 0.95rem;
+    border-radius: 999px;
+    border: 1px solid var(--line);
+    background: var(--bg-raised);
+    color: var(--ink-soft);
+    cursor: pointer;
+    transition: border-color 0.15s, background 0.15s, color 0.15s;
+  }
+  .filters button span {
+    color: var(--muted);
+    font-size: 0.78rem;
+    margin-left: 0.15rem;
+  }
+  .filters button:hover {
+    border-color: var(--ink);
+  }
+  .filters button[aria-pressed='true'] {
+    background: var(--ink);
+    border-color: var(--ink);
+    color: var(--bg);
+  }
+  .filters button[aria-pressed='true'] span {
+    color: inherit;
+    opacity: 0.7;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1.25rem;
+  }
+  .cell[hidden] {
+    display: none;
+  }
+  .feature {
+    grid-column: span 2;
+    grid-row: span 2;
+  }
+  .feature :global(.cover) {
+    aspect-ratio: 16 / 9;
+  }
+  .feature :global(h3) {
+    font-size: clamp(1.5rem, 3vw, 2.1rem);
+  }
+  .filtered .feature {
+    grid-column: auto;
+    grid-row: auto;
+  }
+  @media (max-width: 960px) {
+    .grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+  @media (max-width: 640px) {
+    .grid {
+      grid-template-columns: 1fr;
+    }
+    .feature {
+      grid-column: auto;
+      grid-row: auto;
+    }
+  }
+</style>

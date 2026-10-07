@@ -1,0 +1,309 @@
+---
+import Base from '../layouts/Base.astro';
+import PageHero from '../components/PageHero.astro';
+import BrandMark from '../components/BrandMark.astro';
+import { SITE, SNEZZI_URL } from '../lib/site';
+
+type Role = {
+  brand: string;
+  brand2?: string;
+  when: string;
+  org: string;
+  href?: string;
+  role: string;
+  text: string;
+  points?: string[];
+  current?: boolean;
+};
+
+const roles: Role[] = [
+  {
+    when: 'Oct 2025 to now',
+    org: 'Snezzi',
+    brand: 'snezzi',
+    href: SNEZZI_URL,
+    role: 'Co-founder',
+    current: true,
+    text: 'An AI visibility platform that helps brands understand how they appear across ChatGPT, Perplexity, Copilot, and other AI search engines, and improve it through Generative Engine Optimization (GEO).',
+    points: [
+      'Prompt-based visibility tracking, content optimization, and CMS-native agents',
+      'Also offered as a done-for-you service: content, technical SEO, backlinks, and authority building, with traffic and conversions measured',
+    ],
+  },
+  {
+    when: 'Jan 2025 to Oct 2025',
+    org: 'UpSurge Ventures',
+    brand: 'upsurge',
+    role: 'Founder, with two co-founders',
+    text: 'A product studio that helps founders and businesses build and launch MVPs and early-stage software. Build quickly, validate early, skip unnecessary features, learn from real users.',
+  },
+  {
+    when: 'Feb 2024 to Jan 2025',
+    org: 'Independent',
+    brand: 'independent',
+    role: 'Product and GTM consultant',
+    text: 'Worked with a US-based SaaS company, a Canadian university, a UK-based fintech entering India, and a B2B SaaS startup on product roadmaps, MVP scoping, and go-to-market.',
+  },
+  {
+    when: 'Apr 2023 to Jan 2024',
+    org: 'Plivo',
+    brand: 'plivo',
+    role: 'Associate Director, Product Management',
+    text: 'Led product for Contacto, an omnichannel contact center product (now part of Plivo CX) covering live chat, SMS, WhatsApp, and agent workflows.',
+    points: [
+      'Owned the short- and long-term product roadmap',
+      'Led the migration of the agent desktop to a web-based platform',
+      'Added knowledge base capabilities and conversational AI for frequent queries',
+      'Researched AI use cases in contact centers',
+      'Interviewed and hired product managers and business analysts',
+    ],
+  },
+  {
+    when: 'Dec 2020 to Mar 2023',
+    org: 'Whatfix',
+    brand: 'whatfix',
+    role: 'Senior Product Manager, Analytics (previously Product Manager)',
+    text: 'Joined after the Shoppr.ai team was acquihired.',
+    points: [
+      'Led the inception and launch of a no-code product analytics product line, which reached about $250K ARR within two quarters',
+      'Owned the roadmap for the analytics pod, a team of about 20 across engineering, QA, and design',
+      'Oversaw the rollout of an in-house analytics platform that cut data latency from 14 hours to under 30 minutes, and led the migration of 600+ enterprise customers onto it',
+      'Ran customer discovery and pre-sales demos for enterprise customers in North America and Europe, and worked with sales and marketing on use cases and case studies',
+    ],
+  },
+  {
+    when: 'Mar 2016 to Dec 2020',
+    org: 'DataOne Innovation Labs and Shoppr.ai',
+    brand: 'dataone',
+    brand2: 'shoppr',
+    role: 'Co-founder and CEO',
+    text: 'Bootstrapped for about five years. Started as a data and analytics services business, then built Shoppr.ai, a marketing analytics platform for D2C and ecommerce brands that connected Shopify, WooCommerce, Magento, BigCommerce, Instamojo, Facebook Ads, and Google Ads. I worked across product, technology, customers, and business development. After COVID turned a growth fundraise into a survival one, the team was acquihired by Whatfix.',
+  },
+  {
+    when: 'Jan 2014 to Feb 2016',
+    org: 'Ishi Systems',
+    brand: 'ishi',
+    role: 'Big Data engineer (DevOps intern, then Junior Programmer Analyst)',
+    text: 'Built Hadoop-based storage and data retention systems for telecom operators, including a lighter version for regional operators with smaller budgets. Worked with remote teams in Switzerland and the US.',
+  },
+  {
+    when: '2012 to 2014',
+    org: 'DA-IICT and Google Summer of Code',
+    brand: 'gsoc',
+    href: '/posts/grabbing-the-tag-of-gsocer/',
+    role: 'M.Sc. in Information Technology',
+    text: "The first student from my Master's stream to take part in Google Summer of Code. In 2013 I built an Apache Cassandra storage solution for a building-monitoring toolkit at Vienna University of Technology.",
+  },
+];
+
+const skills = [
+  { label: 'Product', items: '0→1 products, B2B SaaS, product analytics, data products, AI products, contact center software, marketing technology, discovery, roadmapping' },
+  { label: 'Technical', items: 'Big Data, ETL and data pipelines, analytics systems, integrations and third-party APIs, AI applications' },
+  { label: 'Business', items: 'Founder-led GTM, sales enablement, positioning, building with limited resources' },
+];
+
+const talks = [
+  'Building 0→1 SaaS products',
+  'Product-led GTM',
+  'AI search and GEO',
+  'Startup lessons and building with limited resources',
+  'Product management for engineers and founders',
+];
+---
+
+<Base title="Work" description="A timeline of Nikunj Thakkar's work: Snezzi, UpSurge Ventures, Plivo, Whatfix, DataOne and Shoppr.ai, and Big Data engineering.">
+  <PageHero
+    eyebrow="Work"
+    title='Ten years of building, <span class="it grad-text">zero to one.</span>'
+    lead="Engineering, then a startup, then product leadership, and now building again. The common thread is taking products from zero to one where technology, product, and GTM meet."
+    brands={['snezzi', 'whatfix', 'plivo', 'shoppr', 'gsoc']}
+  />
+  <div class="wrap">
+    <ol class="timeline">
+      {
+        roles.map((r) => (
+          <li class:list={['reveal', { current: r.current }]}>
+            <div class="when">
+              <span class="marks">
+                <BrandMark id={r.brand} size={52} />
+                {r.brand2 && <BrandMark id={r.brand2} size={52} />}
+              </span>
+              <span>
+                {r.when}
+                {r.current && <span class="now">Now</span>}
+              </span>
+            </div>
+            <div class="what">
+              <h2>{r.href ? <a href={r.href}>{r.org}</a> : r.org}</h2>
+              <p class="role">{r.role}</p>
+              <p class="text">{r.text}</p>
+              {r.points && (
+                <ul>
+                  {r.points.map((p) => (
+                    <li>{p}</li>
+                  ))}
+                </ul>
+              )}
+            </div>
+          </li>
+        ))
+      }
+    </ol>
+
+    <div class="grid">
+      <section>
+        <h2 class="serif">What I work on</h2>
+        <dl>
+          {
+            skills.map((s) => (
+              <>
+                <dt>{s.label}</dt>
+                <dd class="muted">{s.items}</dd>
+              </>
+            ))
+          }
+        </dl>
+      </section>
+      <section>
+        <h2 class="serif">Speaking</h2>
+        <p class="muted">Happy to speak at events and on podcasts about:</p>
+        <ul class="talks">{talks.map((t) => <li>{t}</li>)}</ul>
+        <a class="btn" href={`mailto:${SITE.email}?subject=Speaking`}>Invite me to speak</a>
+      </section>
+    </div>
+  </div>
+</Base>
+
+<style>
+  .timeline {
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: 1rem;
+  }
+  .timeline > li {
+    display: grid;
+    grid-template-columns: 12rem minmax(0, 1fr);
+    gap: 2rem;
+    padding: 1.75rem;
+    border-radius: var(--radius);
+    background: var(--bg-raised);
+    border: 1px solid var(--line);
+    box-shadow: var(--shadow-sm);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  .timeline > li:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-lg);
+  }
+  .timeline > li.current {
+    border-color: transparent;
+    background:
+      linear-gradient(var(--bg-raised), var(--bg-raised)) padding-box,
+      var(--grad) border-box;
+    border: 2px solid transparent;
+  }
+  .when {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    font-size: 0.88rem;
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+  }
+  .marks {
+    display: flex;
+    gap: 0.5rem;
+  }
+  .now {
+    display: inline-block;
+    margin-left: 0.4rem;
+    padding: 0.05rem 0.5rem;
+    border-radius: 999px;
+    background: var(--grad);
+    color: #fff;
+    font-size: 0.72rem;
+    font-weight: 650;
+    letter-spacing: 0.04em;
+    vertical-align: 1px;
+  }
+  .what h2 {
+    font-size: clamp(1.6rem, 3vw, 2.1rem);
+    line-height: 1.1;
+  }
+  .what h2 a {
+    text-decoration-color: var(--accent);
+  }
+  .role {
+    margin: 0.35rem 0 0;
+    font-weight: 600;
+    font-size: 0.98rem;
+    color: var(--accent);
+  }
+  .text {
+    margin: 0.8rem 0 0;
+    color: var(--ink-soft);
+    max-width: 46rem;
+  }
+  .what ul {
+    margin: 0.9rem 0 0;
+    padding-left: 1.2rem;
+    color: var(--ink-soft);
+    max-width: 46rem;
+    font-size: 0.97rem;
+  }
+  .what li + li {
+    margin-top: 0.35rem;
+  }
+  .what li::marker {
+    color: var(--accent);
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    margin-top: 4rem;
+    padding-top: 3rem;
+    border-top: 1px solid var(--line);
+  }
+  .grid h2 {
+    font-size: 2.2rem;
+    margin-bottom: 1.25rem;
+  }
+  dl {
+    margin: 0;
+  }
+  dt {
+    font-weight: 650;
+  }
+  dd {
+    margin: 0.25rem 0 1.1rem;
+    font-size: 0.97rem;
+  }
+  .talks {
+    padding-left: 1.2rem;
+    margin: 0.75rem 0 1.5rem;
+  }
+  .talks li + li {
+    margin-top: 0.3rem;
+  }
+  .talks li::marker {
+    color: var(--accent);
+  }
+  @media (max-width: 760px) {
+    .timeline > li {
+      grid-template-columns: 1fr;
+      gap: 1rem;
+      padding: 1.3rem;
+    }
+    .when {
+      flex-direction: row;
+      align-items: center;
+    }
+    .grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

@@ -1,0 +1,25 @@
+---
+import Base from './Base.astro';
+import PageHero from '../components/PageHero.astro';
+
+interface Props {
+  title: string;
+  eyebrow?: string;
+  heading?: string;
+  lead?: string;
+  description?: string;
+  brands?: string[];
+}
+// Works both as a component layout and as a markdown page layout (props arrive under `frontmatter`).
+const props = (Astro.props as { frontmatter?: Props }).frontmatter ?? Astro.props;
+const { title, eyebrow, heading = title, lead, description, brands } = props;
+---
+
+<Base title={title} description={description ?? lead}>
+  <PageHero eyebrow={eyebrow} title={heading} lead={lead} brands={brands} narrow />
+  <div class="wrap-narrow">
+    <div class="prose">
+      <slot />
+    </div>
+  </div>
+</Base>

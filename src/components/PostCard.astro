@@ -1,0 +1,89 @@
+---
+import PostCover from './PostCover.astro';
+import { postUrl, formatDate, excerpt, readingTime, tagSlug, type Post } from '../lib/posts';
+
+interface Props {
+  post: Post;
+}
+const { post } = Astro.props;
+---
+
+<article class="post-card" data-tags={post.data.tags.map(tagSlug).join(' ')}>
+  <a href={postUrl(post)}>
+    <PostCover post={post} />
+    <div class="body">
+      <p class="meta">
+        {post.data.draft && <span class="draft">Draft</span>}
+        <time datetime={post.data.date.toISOString()}>{formatDate(post.data.date, 'short')}</time>
+        <span aria-hidden="true">·</span>
+        {readingTime(post)} min
+      </p>
+      <h3>{post.data.title}</h3>
+      <p class="ex">{excerpt(post, 120)}</p>
+    </div>
+  </a>
+</article>
+
+<style>
+  /* Fill the grid cell so cards in a row share one height */
+  .post-card {
+    height: 100%;
+  }
+  .post-card a {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    text-decoration: none;
+    background: var(--bg-raised);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    overflow: hidden;
+    box-shadow: var(--shadow-sm);
+    transition: transform 0.3s cubic-bezier(0.2, 0.7, 0.2, 1), box-shadow 0.3s, border-color 0.3s;
+  }
+  .post-card a:hover {
+    color: var(--ink);
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-lg);
+    border-color: var(--line-strong);
+  }
+  .post-card a:hover :global(img) {
+    transform: scale(1.04);
+  }
+  .body {
+    padding: 1.1rem 1.25rem 1.4rem;
+  }
+  .meta {
+    display: flex;
+    gap: 0.4rem;
+    margin: 0;
+    font-size: 0.82rem;
+    color: var(--muted);
+  }
+  .draft {
+    padding: 0 0.45rem;
+    border-radius: 999px;
+    background: var(--sun);
+    color: #0f0e0c;
+    font-weight: 700;
+  }
+  h3 {
+    font-size: 1.22rem;
+    line-height: 1.2;
+    margin-top: 0.45rem;
+    letter-spacing: -0.02em;
+  }
+  .post-card a:hover h3 {
+    color: var(--accent);
+  }
+  .ex {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin: 0.55rem 0 0;
+    font-size: 0.93rem;
+    line-height: 1.55;
+    color: var(--muted);
+  }
+</style>

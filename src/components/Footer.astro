@@ -1,0 +1,165 @@
+---
+import { SITE, SOCIALS, NAV, FOOTER_EXTRA } from '../lib/site';
+const year = new Date().getFullYear();
+---
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="cta">
+      <div class="cta-mesh" aria-hidden="true"></div>
+      <p class="cta-eyebrow">Say hello</p>
+      <p class="cta-title">
+        Building something, or thinking about AI search? <span class="it">Let's talk.</span>
+      </p>
+      <div class="cta-actions">
+        <a class="pill solid" href={`mailto:${SITE.email}`}>{SITE.email}</a>
+        <a class="pill" href="https://www.linkedin.com/in/nikunjness" rel="me noopener">LinkedIn ↗</a>
+        <a class="pill" href="https://x.com/nikunjness" rel="me noopener">X ↗</a>
+      </div>
+    </div>
+
+    <div class="cols">
+      <a class="brand" href="/"><span class="mark" aria-hidden="true">N</span>{SITE.name}</a>
+      <nav aria-label="Footer">
+        {[...NAV, ...FOOTER_EXTRA].map((n) => <a href={n.href}>{n.label}</a>)}
+      </nav>
+      <div class="social">
+        {SOCIALS.map((s) => <a href={s.href} rel={s.href.startsWith('http') ? 'me noopener' : undefined}>{s.label}</a>)}
+      </div>
+    </div>
+
+    <p class="fine">© {year} {SITE.name}. Built with Astro, hosted on Cloudflare.</p>
+  </div>
+</footer>
+
+<style>
+  .site-footer {
+    margin-top: clamp(5rem, 11vw, 8rem);
+    padding-bottom: 2rem;
+  }
+  .cta {
+    position: relative;
+    isolation: isolate;
+    overflow: hidden;
+    padding: clamp(2.2rem, 6vw, 4.5rem);
+    border-radius: 32px;
+    background: #0f0e0c;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    color: #fff;
+  }
+  .cta-mesh {
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background:
+      radial-gradient(60% 90% at 100% 0%, rgba(255, 91, 31, 0.75), transparent 60%),
+      radial-gradient(50% 80% at 75% 100%, rgba(123, 97, 255, 0.7), transparent 60%),
+      radial-gradient(40% 60% at 40% 120%, rgba(255, 77, 141, 0.55), transparent 60%);
+    animation: breathe 12s ease-in-out infinite alternate;
+  }
+  @keyframes breathe {
+    to {
+      transform: scale(1.12) translateX(-3%);
+    }
+  }
+  .cta-eyebrow {
+    margin: 0;
+    font-size: 0.78rem;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.6);
+  }
+  .cta-title {
+    margin: 0.8rem 0 0;
+    font-family: var(--font-display);
+    font-weight: 800;
+    font-size: clamp(2rem, 5.5vw, 4rem);
+    line-height: 1;
+    letter-spacing: -0.045em;
+    max-width: 18ch;
+  }
+  .cta-title .it {
+    font-weight: 400;
+    color: #ffd2bd;
+  }
+  .cta-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    margin-top: 2rem;
+  }
+  .pill {
+    padding: 0.7rem 1.2rem;
+    border-radius: 999px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.95rem;
+    backdrop-filter: blur(6px);
+    transition: background 0.2s, color 0.2s, transform 0.2s;
+  }
+  .pill:hover {
+    background: rgba(255, 255, 255, 0.14);
+    color: #fff;
+    transform: translateY(-2px);
+  }
+  .pill.solid {
+    background: #fff;
+    color: #0f0e0c;
+    border-color: #fff;
+  }
+  .pill.solid:hover {
+    background: #ffe7dc;
+    color: #0f0e0c;
+  }
+  .cols {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.25rem 2rem;
+    margin-top: 2.5rem;
+  }
+  .brand {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.55rem;
+    font-family: var(--font-display);
+    font-weight: 700;
+    text-decoration: none;
+  }
+  .mark {
+    display: grid;
+    place-items: center;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background: var(--grad);
+    color: #fff;
+    font-weight: 800;
+    font-size: 0.9rem;
+  }
+  .cols nav,
+  .social {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem 1.2rem;
+    font-size: 0.93rem;
+  }
+  .cols nav a,
+  .social a {
+    color: var(--muted);
+    text-decoration: none;
+  }
+  .cols nav a:hover,
+  .social a:hover {
+    color: var(--ink);
+  }
+  .fine {
+    font-size: 0.85rem;
+    color: var(--muted);
+    margin: 1.75rem 0 0;
+  }
+</style>
