@@ -58,6 +58,8 @@ I care a lot about founder communities. I've led [Headstart Gujarat](/community/
 
 I also love to travel. So far that's 16 countries: Cambodia, Indonesia, Singapore, Malaysia, Thailand, Vietnam, the UAE, Nepal, Germany, Austria, Slovakia, the Czech Republic, Poland, Hungary, Switzerland, and France. A few photos from the road are on the [moments page](/moments/).
 
+For a long stretch I also wrote poetry, in English, Hindi, and Gujarati. Some of it lives at [notes of life](https://poetry.nikunjthakkar.com/).
+
 Along the way I received the Gujarat Entrepreneurship Award at the Sayaji Startup Summit for my work in the state's startup ecosystem.
 
 ## Say hello

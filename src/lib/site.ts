@@ -31,6 +31,7 @@ export const NAV = [
 export const FOOTER_EXTRA = [
   { href: '/moments/', label: 'Moments' },
   { href: '/now/', label: 'Now' },
+  { href: 'https://poetry.nikunjthakkar.com/', label: 'Poetry' },
 ];
 
 export const SOCIALS = [
