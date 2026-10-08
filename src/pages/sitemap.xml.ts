@@ -2,7 +2,7 @@ import type { APIContext } from 'astro';
 import { getPosts, postUrl } from '../lib/posts';
 
 // Hand-rolled so it lives at /sitemap.xml (the URL search engines and Search Console expect).
-const PAGES = ['/', '/writing/', '/work/', '/talks/', '/about/', '/now/', '/community/'];
+const PAGES = ['/', '/writing/', '/work/', '/talks/', '/about/', '/now/', '/community/', '/moments/'];
 
 export async function GET({ site }: APIContext) {
   const posts = await getPosts(); // drafts are excluded in production builds

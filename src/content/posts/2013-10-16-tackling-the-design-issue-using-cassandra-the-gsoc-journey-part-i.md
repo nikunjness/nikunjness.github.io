@@ -26,7 +26,7 @@ In MySQL it was only one table holding relationship between datapoint and data m
 
 The "Zero Row" Concept 
 ----
-![Google Summer Of Code 2013](/assets/img/zerorow.png) 
+![Google Summer Of Code 2013](/assets/img/zerorow.webp) 
 
 As per the requirements of our application we often need to fetch the latest value of datapoint. In Cassandra it doesn't guarantee that the latest value will be stored at last or at first position. We are not using the [Byteorder partitioner](https://www.datastax.com/docs/1.1/cluster_architecture/partitioning#byteorderedpartitioner) because of load balancing issues which stores the data in the order of row keys. We are using default [murmur3 partitioner](https://www.datastax.com/documentation/cassandra/1.2/webhelp/cassandra/architecture/architecturePartitionerAbout_c.html) and as per this partitioning scheme we can not say where the latest value is stored so we decided to create separate row holding the latest value. The reason for calling it "Zero Row" is we are using first day of month (timestamp) as row key which is inserted using long value and to store latest value we used "zero" (epoch time) so we call it "zero Row".
 
@@ -40,7 +40,7 @@ As I discussed in above point that we are managing the latest value in separate 
 
 Sharding is important
 ---- 
-![Google Summer Of Code 2013](/assets/img/sharding.png)
+![Google Summer Of Code 2013](/assets/img/sharding.webp)
 
 The main purpose of sharding is to take care of your row size. The cassandra allows 2 billion columns per row and it can hold around 2 GB of data but it is advised to keep the size of row minimum. Don't go too wide to avoid hotspots as a row never splits across nodes. So if some row is having huge amount of traffic can cause hotspot in the node.
 

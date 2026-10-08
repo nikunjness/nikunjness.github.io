@@ -623,6 +623,534 @@
       }
     ]
   },
+  "/assets/img/MOST-NoSQL-Solution-for-Building-Data-Warehouses-project-proposal.webp": {
+    "width": 700,
+    "height": 4804,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/MOST-NoSQL-Solution-for-Building-Data-Warehouses-project-proposal-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/MOST-NoSQL-Solution-for-Building-Data-Warehouses-project-proposal-480.webp"
+      },
+      {
+        "w": 700,
+        "src": "/assets/img/opt/MOST-NoSQL-Solution-for-Building-Data-Warehouses-project-proposal-700.webp"
+      }
+    ]
+  },
+  "/assets/img/zerorow.webp": {
+    "width": 725,
+    "height": 243,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/zerorow-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/zerorow-480.webp"
+      },
+      {
+        "w": 725,
+        "src": "/assets/img/opt/zerorow-725.webp"
+      }
+    ]
+  },
+  "/assets/img/sharding.webp": {
+    "width": 1263,
+    "height": 560,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/sharding-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/sharding-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/sharding-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/assets/img/opt/sharding-1200.webp"
+      },
+      {
+        "w": 1263,
+        "src": "/assets/img/opt/sharding-1263.webp"
+      }
+    ]
+  },
+  "/assets/img/silver-pagoda.webp": {
+    "width": 1600,
+    "height": 1200,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/silver-pagoda-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/silver-pagoda-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/silver-pagoda-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/assets/img/opt/silver-pagoda-1200.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/assets/img/opt/silver-pagoda-1600.webp"
+      }
+    ]
+  },
+  "/assets/img/wat-phnom.webp": {
+    "width": 1600,
+    "height": 1200,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/wat-phnom-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/wat-phnom-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/wat-phnom-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/assets/img/opt/wat-phnom-1200.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/assets/img/opt/wat-phnom-1600.webp"
+      }
+    ]
+  },
+  "/assets/img/serendipity.webp": {
+    "width": 1600,
+    "height": 1200,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/serendipity-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/serendipity-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/serendipity-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/assets/img/opt/serendipity-1200.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/assets/img/opt/serendipity-1600.webp"
+      }
+    ]
+  },
+  "/assets/img/otres.webp": {
+    "width": 1600,
+    "height": 1200,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/otres-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/otres-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/otres-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/assets/img/opt/otres-1200.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/assets/img/opt/otres-1600.webp"
+      }
+    ]
+  },
+  "/assets/img/kohrong.webp": {
+    "width": 1600,
+    "height": 1067,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/kohrong-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/kohrong-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/kohrong-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/assets/img/opt/kohrong-1200.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/assets/img/opt/kohrong-1600.webp"
+      }
+    ]
+  },
+  "/assets/img/longbeach.webp": {
+    "width": 1600,
+    "height": 1067,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/longbeach-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/longbeach-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/longbeach-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/assets/img/opt/longbeach-1200.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/assets/img/opt/longbeach-1600.webp"
+      }
+    ]
+  },
+  "/assets/img/fossasia_group.webp": {
+    "width": 1024,
+    "height": 408,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/fossasia_group-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/fossasia_group-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/fossasia_group-800.webp"
+      },
+      {
+        "w": 1024,
+        "src": "/assets/img/opt/fossasia_group-1024.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/echai-ecommerce-meet.webp": {
+    "width": 800,
+    "height": 450,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/echai-ecommerce-meet-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/echai-ecommerce-meet-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/echai-ecommerce-meet-800.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/gccd-2019-speakers.webp": {
+    "width": 800,
+    "height": 538,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/gccd-2019-speakers-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/gccd-2019-speakers-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/gccd-2019-speakers-800.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/gdg-cloud-ahmedabad.webp": {
+    "width": 800,
+    "height": 800,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/gdg-cloud-ahmedabad-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/gdg-cloud-ahmedabad-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/gdg-cloud-ahmedabad-800.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/google-cloud-community-day-2019.webp": {
+    "width": 800,
+    "height": 800,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/google-cloud-community-day-2019-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/google-cloud-community-day-2019-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/google-cloud-community-day-2019-800.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/google-developers-thank-you.webp": {
+    "width": 800,
+    "height": 599,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/google-developers-thank-you-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/google-developers-thank-you-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/google-developers-thank-you-800.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/headstart-mou-gujarat.webp": {
+    "width": 800,
+    "height": 533,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/headstart-mou-gujarat-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/headstart-mou-gujarat-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/headstart-mou-gujarat-800.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/headstart-virtual-kickstart.webp": {
+    "width": 800,
+    "height": 670,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/headstart-virtual-kickstart-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/headstart-virtual-kickstart-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/headstart-virtual-kickstart-800.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/hsx-2018-bengaluru.webp": {
+    "width": 800,
+    "height": 800,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/hsx-2018-bengaluru-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/hsx-2018-bengaluru-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/hsx-2018-bengaluru-800.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/hsx-2019-panel.webp": {
+    "width": 800,
+    "height": 562,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/hsx-2019-panel-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/hsx-2019-panel-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/hsx-2019-panel-800.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/ignite-mentor-recognition.webp": {
+    "width": 800,
+    "height": 600,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/ignite-mentor-recognition-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/ignite-mentor-recognition-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/ignite-mentor-recognition-800.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/nirma-ai-tech-talk.webp": {
+    "width": 793,
+    "height": 1122,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/nirma-ai-tech-talk-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/nirma-ai-tech-talk-480.webp"
+      },
+      {
+        "w": 793,
+        "src": "/assets/img/opt/nirma-ai-tech-talk-793.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/startup-saturday-growth-hacking.webp": {
+    "width": 800,
+    "height": 1235,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/startup-saturday-growth-hacking-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/startup-saturday-growth-hacking-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/startup-saturday-growth-hacking-800.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/talk-future-ready-digital-finance.webp": {
+    "width": 800,
+    "height": 1032,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/talk-future-ready-digital-finance-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/talk-future-ready-digital-finance-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/talk-future-ready-digital-finance-800.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/talk-human-intuition-ai.webp": {
+    "width": 800,
+    "height": 800,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/talk-human-intuition-ai-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/talk-human-intuition-ai-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/talk-human-intuition-ai-800.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/webinar-ecommerce-brands.webp": {
+    "width": 800,
+    "height": 960,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/webinar-ecommerce-brands-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/webinar-ecommerce-brands-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/webinar-ecommerce-brands-800.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/women-entrepreneurs-potluck.webp": {
+    "width": 800,
+    "height": 800,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/women-entrepreneurs-potluck-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/women-entrepreneurs-potluck-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/women-entrepreneurs-potluck-800.webp"
+      }
+    ]
+  },
   "/assets/img/snezzi-dashboard.webp": {
     "width": 1439,
     "height": 840,

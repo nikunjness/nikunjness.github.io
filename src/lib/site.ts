@@ -28,7 +28,10 @@ export const NAV = [
 ];
 
 // Pages linked from the footer only
-export const FOOTER_EXTRA = [{ href: '/now/', label: 'Now' }];
+export const FOOTER_EXTRA = [
+  { href: '/moments/', label: 'Moments' },
+  { href: '/now/', label: 'Now' },
+];
 
 export const SOCIALS = [
   { href: 'https://www.linkedin.com/in/nikunjness', label: 'LinkedIn' },

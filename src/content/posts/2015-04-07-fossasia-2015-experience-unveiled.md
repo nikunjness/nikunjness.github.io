@@ -6,7 +6,9 @@ tags: [fossasia, singapore, travel, experience]
 image:
   path: /assets/img/covers/2015-04-07-fossasia-2015-experience-unveiled.webp
   alt: "Illustration: a small stage with a microphone and many colorful speech bubbles floating above it"
----![Fossasia 2015](/assets/img/fossasia_group.jpg)
+---
+
+![FOSSASIA 2015 group photo](/assets/img/fossasia_group.webp)
 
 
 Howdy? It's strange that I am writing another blog post in such a short time. I along with my colleagues [@yourfrienddhruv](https://twitter.com/yourfrienddhruv) and [@priyank_it](https://twitter.com/priyank_it) from [Ishi Systems](https://www.ishisystems.com/) attended [Fossasia 2015](https://fossasia.org/) and we would like to share our learning with all of you.

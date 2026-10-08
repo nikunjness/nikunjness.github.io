@@ -7,7 +7,7 @@ brands: [startupog, headstart, gdg, gsoc]
 description: "Communities Nikunj Thakkar has built and led, with 200+ events hosted: Startup OG, Headstart Gujarat, GDG Cloud Ahmedabad, and early open source work."
 ---
 
-Community building has run alongside my work for most of my career. Across Headstart, GDG Cloud Ahmedabad, Startup OG, and partner communities, I've hosted more than 200 events: meetups, workshops, founder sessions, demo days, and summits. I learned early on that bringing people together teaches you more than just showing up.
+Community building has run alongside my work for most of my career. Across Headstart, GDG Cloud Ahmedabad, Startup OG, and partner communities, I've hosted more than 200 events: meetups, workshops, founder sessions, demo days, and summits. A few of them are on the [moments page](/moments/). I learned early on that bringing people together teaches you more than just showing up.
 
 ## Startup OG
 

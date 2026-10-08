@@ -10,7 +10,7 @@ image:
 
 
 As I promised in my earlier blog post to share my GSoC proposal, you can see the proposal below.
-![Google Summer Of Code 2013 Proposal](/assets/img/MOST-NoSQL-Solution-for-Building-Data-Warehouses-project-proposal.png)
+![Google Summer Of Code 2013 Proposal](/assets/img/MOST-NoSQL-Solution-for-Building-Data-Warehouses-project-proposal.webp)
 
 
 Few points to note about writing proposal :

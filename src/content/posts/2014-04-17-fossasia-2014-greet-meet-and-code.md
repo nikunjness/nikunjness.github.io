@@ -40,21 +40,21 @@ Fun@Cambodia
 ----
 
 Apart from the event, we also had some fun staying few more days at Cambodia and roaming around the places. We enjoyed the night life of Cambodia (No, Not that much :P ). Also visited places like The Royal palace, Silver Pagoda, Wat Phnom and obviously the Central market.
-![Silver Pagoda, Phnom Penh, Cambodia](/assets/img/silver-pagoda.jpg)
-![Wat Phnom, Phnom Penh, Cambodia](/assets/img/wat-phnom.jpg)
+![Silver Pagoda, Phnom Penh, Cambodia](/assets/img/silver-pagoda.webp)
+![Wat Phnom, Phnom Penh, Cambodia](/assets/img/wat-phnom.webp)
 
 After Phnom Penh, we headed towards the [Sihanoukville,](https://en.wikipedia.org/wiki/Sihanoukville) the port city of Cambodia and a popular tourist destination for beaches. You will find many beaches in Sihanoukville. We preferred to stay at Serendipity Beach.
-![Serendipity beach, Sihanoukville, Cambodia](/assets/img/serendipity.jpg)
-![Otres Beach, Sihanoukville, Cambodia.](/assets/img/otres.jpg)
+![Serendipity beach, Sihanoukville, Cambodia](/assets/img/serendipity.webp)
+![Otres Beach, Sihanoukville, Cambodia.](/assets/img/otres.webp)
 
 After spending a night at Sihanoukville, we continued our journey towards the [Koh Rong island](https://en.wikipedia.org/wiki/Koh_Rong) in the morning. Koh Rong is paradise — a few bungalow operations, perfect beaches, and jungle.
-![Koh Rong Island, Cambodia](/assets/img/kohrong.jpg)
+![Koh Rong Island, Cambodia](/assets/img/kohrong.webp)
 
 The Long Beach
 ----
 
 we decided to experience some trekking through the island. The hike was not long, but quite strenuous as we had to negotiate dense jungle and steep slopes strewn with boulders. But the beach waiting for us was somehow even more beautiful than the others.
-![Long Beach, Koh Rong Island, Cambodia](/assets/img/longbeach.jpg)
+![Long Beach, Koh Rong Island, Cambodia](/assets/img/longbeach.webp)
 
 Final Words
 ----

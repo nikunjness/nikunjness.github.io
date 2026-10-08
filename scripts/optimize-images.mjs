@@ -19,8 +19,16 @@ const covers = fs
   .readdirSync(postsDir)
   .map((f) => fs.readFileSync(path.join(postsDir, f), 'utf8').match(/^\s+path:\s*(\/assets\/img\/\S+)$/m)?.[1])
   .filter(Boolean);
+// Images used inside post bodies (markdown image syntax)
+const inline = fs
+  .readdirSync(postsDir)
+  .flatMap((f) => [...fs.readFileSync(path.join(postsDir, f), 'utf8').matchAll(/!\[[^\]]*\]\((\/assets\/img\/[^)\s]+)\)/g)].map((m) => m[1]));
+const gallery = fs
+  .readdirSync(path.join(PUBLIC, 'assets/img/gallery'))
+  .filter((f) => /\.(webp|jpe?g|png)$/.test(f))
+  .map((f) => `/assets/img/gallery/${f}`);
 const extra = ['/assets/img/snezzi-dashboard.webp', '/assets/img/portrait.webp'];
-const sources = [...new Set([...covers, ...extra])];
+const sources = [...new Set([...covers, ...inline, ...gallery, ...extra])];
 
 fs.mkdirSync(OUT_DIR, { recursive: true });
 const manifest = {};

@@ -1,0 +1,377 @@
+---
+import Base from '../layouts/Base.astro';
+import PageHero from '../components/PageHero.astro';
+import { photos, posters, CATEGORIES, type Moment } from '../data/gallery';
+import { responsive } from '../lib/images';
+
+const when = (d: string) => {
+  const [y, m] = d.split('-').map(Number);
+  return m ? new Date(Date.UTC(y, m - 1)).toLocaleDateString('en-US', { month: 'short', year: 'numeric', timeZone: 'UTC' }) : String(y);
+};
+const meta = (m: Moment) => [m.place, when(m.date)].filter(Boolean).join(' · ');
+const largest = (m: Moment) => responsive(m.src, '100vw').src;
+
+const stats = [
+  { n: '200+', label: 'events hosted' },
+  { n: '16', label: 'countries visited' },
+  { n: '2,400+', label: 'GDG Cloud Ahmedabad members in year one' },
+];
+---
+
+<Base
+  title="Moments"
+  description="Photos from Nikunj Thakkar's community work, talks, and travels: Headstart, GDG Cloud Ahmedabad, Startup Saturday, HSX, FOSSASIA, and more."
+>
+  <PageHero
+    eyebrow="Moments"
+    title='Out in the <span class="it grad-text">room.</span>'
+    lead="Most of what I've learned came from being in the room: hosting meetups, speaking, mentoring, and traveling. A few moments along the way."
+  />
+
+  <div class="wrap">
+    <ul class="stats reveal" role="list">
+      {stats.map((s) => <li><b>{s.n}</b><span>{s.label}</span></li>)}
+    </ul>
+
+    <div class="filters reveal" role="group" aria-label="Filter moments">
+      <button type="button" class="chip" data-filter="all" aria-pressed="true">All</button>
+      {CATEGORIES.map((c) => <button type="button" class="chip" data-filter={c.key} aria-pressed="false">{c.label}</button>)}
+    </div>
+
+    <section class="masonry" aria-label="Photos" data-group>
+      {
+        photos.map((m) => (
+          <figure class="shot" data-cat={m.category}>
+            <button type="button" class="open" data-full={largest(m)} data-caption={m.caption} data-meta={meta(m)} aria-label={`View larger: ${m.caption}`}>
+              <img {...responsive(m.src, '(max-width: 640px) 100vw, (max-width: 960px) 50vw, 380px')} alt={m.alt} loading="lazy" decoding="async" />
+            </button>
+            <figcaption>
+              <span class="cap">{m.caption}</span>
+              <span class="meta">{meta(m)}</span>
+            </figcaption>
+          </figure>
+        ))
+      }
+    </section>
+
+    <section class="wall-section" data-group>
+      <div class="section-head reveal">
+        <p class="eyebrow">From the event archive</p>
+        <h2>Meetups, conclaves, and <span class="it">late-night sessions.</span></h2>
+        <p class="muted">A handful of the events I hosted, organized, or spoke at with Headstart, GDG Cloud Ahmedabad, eChai, and others.</p>
+      </div>
+      <div class="wall">
+        {
+          posters.map((m) => (
+            <figure class="poster" data-cat={m.category}>
+              <button type="button" class="open" data-full={largest(m)} data-caption={m.caption} data-meta={meta(m)} aria-label={`View larger: ${m.caption}`}>
+                <img {...responsive(m.src, '(max-width: 640px) 50vw, (max-width: 960px) 33vw, 240px')} alt={m.alt} loading="lazy" decoding="async" />
+              </button>
+              <figcaption>
+                <span class="cap">{m.caption}</span>
+                <span class="meta">{meta(m)}</span>
+              </figcaption>
+            </figure>
+          ))
+        }
+      </div>
+    </section>
+  </div>
+
+  <dialog class="lightbox" aria-label="Photo viewer">
+    <button type="button" class="lb-close" aria-label="Close">×</button>
+    <button type="button" class="lb-nav prev" aria-label="Previous photo">‹</button>
+    <figure>
+      <img alt="" />
+      <figcaption><span class="cap"></span><span class="meta"></span></figcaption>
+    </figure>
+    <button type="button" class="lb-nav next" aria-label="Next photo">›</button>
+  </dialog>
+</Base>
+
+<script>
+  const chips = [...document.querySelectorAll<HTMLButtonElement>('[data-filter]')];
+  const items = [...document.querySelectorAll<HTMLElement>('[data-cat]')];
+  const groups = [...document.querySelectorAll<HTMLElement>('[data-group]')];
+
+  chips.forEach((chip) =>
+    chip.addEventListener('click', () => {
+      const f = chip.dataset.filter;
+      chips.forEach((c) => c.setAttribute('aria-pressed', String(c === chip)));
+      items.forEach((el) => (el.hidden = f !== 'all' && el.dataset.cat !== f));
+      groups.forEach((g) => (g.hidden = ![...g.querySelectorAll<HTMLElement>('[data-cat]')].some((el) => !el.hidden)));
+    }),
+  );
+
+  const dlg = document.querySelector<HTMLDialogElement>('.lightbox')!;
+  const img = dlg.querySelector('img')!;
+  const cap = dlg.querySelector('.cap')!;
+  const meta = dlg.querySelector('.meta')!;
+  let current = -1;
+  const visible = () => [...document.querySelectorAll<HTMLButtonElement>('.open')].filter((b) => !b.closest<HTMLElement>('[data-cat]')!.hidden);
+
+  const show = (btn: HTMLButtonElement) => {
+    const list = visible();
+    current = list.indexOf(btn);
+    img.src = btn.dataset.full!;
+    img.alt = btn.querySelector('img')!.alt;
+    cap.textContent = btn.dataset.caption!;
+    meta.textContent = btn.dataset.meta!;
+  };
+  const step = (d: number) => {
+    const list = visible();
+    if (list.length) show(list[(current + d + list.length) % list.length]);
+  };
+
+  document.querySelectorAll<HTMLButtonElement>('.open').forEach((btn) =>
+    btn.addEventListener('click', () => {
+      show(btn);
+      dlg.showModal();
+    }),
+  );
+  dlg.querySelector('.lb-close')!.addEventListener('click', () => dlg.close());
+  dlg.querySelector('.prev')!.addEventListener('click', () => step(-1));
+  dlg.querySelector('.next')!.addEventListener('click', () => step(1));
+  dlg.addEventListener('click', (e) => e.target === dlg && dlg.close());
+  dlg.addEventListener('keydown', (e) => {
+    if (e.key === 'ArrowLeft') step(-1);
+    if (e.key === 'ArrowRight') step(1);
+  });
+</script>
+
+<style>
+  .stats {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1rem;
+    margin: 0 0 2rem;
+    padding: 0;
+    list-style: none;
+  }
+  .stats li {
+    padding: 1.1rem 1.25rem;
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    background: var(--bg-raised);
+    box-shadow: var(--shadow-sm);
+  }
+  .stats b {
+    display: block;
+    font-family: var(--font-display);
+    font-size: clamp(1.8rem, 4vw, 2.4rem);
+    line-height: 1;
+    background: var(--grad);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  .stats span {
+    display: block;
+    margin-top: 0.35rem;
+    color: var(--muted);
+    font-size: 0.9rem;
+  }
+
+  .filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
+  .chip {
+    font: inherit;
+    font-size: 0.9rem;
+    font-weight: 600;
+    padding: 0.45rem 1rem;
+    border-radius: 999px;
+    border: 1px solid var(--line-strong);
+    background: var(--bg-raised);
+    color: var(--ink);
+    cursor: pointer;
+  }
+  .chip[aria-pressed='true'] {
+    background: var(--ink);
+    border-color: var(--ink);
+    color: var(--bg);
+  }
+  .chip:focus-visible,
+  .open:focus-visible {
+    outline: 3px solid var(--accent);
+    outline-offset: 3px;
+  }
+
+  [hidden] {
+    display: none !important;
+  }
+
+  /* Masonry via CSS columns: keeps each photo's natural aspect ratio */
+  .masonry {
+    columns: 3 300px;
+    column-gap: 1rem;
+  }
+  .shot {
+    break-inside: avoid;
+    margin: 0 0 1rem;
+    border-radius: 18px;
+    overflow: hidden;
+    background: var(--bg-raised);
+    border: 1px solid var(--line);
+    box-shadow: var(--shadow-sm);
+  }
+  .open {
+    display: block;
+    width: 100%;
+    padding: 0;
+    border: 0;
+    background: var(--bg-sunken);
+    cursor: zoom-in;
+  }
+  .open img {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: transform 0.4s ease;
+  }
+  .open:hover img {
+    transform: scale(1.03);
+  }
+  figcaption {
+    display: grid;
+    gap: 0.2rem;
+    padding: 0.8rem 1rem 0.95rem;
+  }
+  .cap {
+    font-weight: 600;
+    line-height: 1.35;
+  }
+  .meta {
+    color: var(--muted);
+    font-size: 0.85rem;
+  }
+
+  .wall-section {
+    margin-top: clamp(3rem, 8vw, 5rem);
+  }
+  .wall-section .section-head {
+    margin-bottom: 1.5rem;
+  }
+  .wall-section .section-head .muted {
+    max-width: 60ch;
+  }
+  .wall {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+  }
+  .poster {
+    margin: 0;
+    border-radius: 16px;
+    overflow: hidden;
+    background: var(--bg-raised);
+    border: 1px solid var(--line);
+  }
+  .poster .open {
+    aspect-ratio: 1;
+    overflow: hidden;
+  }
+  .poster .open img {
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+  }
+  .poster figcaption {
+    padding: 0.7rem 0.85rem 0.85rem;
+  }
+  .poster .cap {
+    font-size: 0.9rem;
+  }
+
+  .lightbox {
+    width: min(1100px, 100vw - 2rem);
+    max-height: calc(100vh - 2rem);
+    padding: 0;
+    border: 0;
+    border-radius: 20px;
+    background: #111;
+    color: #fff;
+    overflow: hidden;
+  }
+  .lightbox::backdrop {
+    background: rgba(10, 8, 20, 0.82);
+    backdrop-filter: blur(4px);
+  }
+  .lightbox figure {
+    margin: 0;
+    display: grid;
+  }
+  .lightbox img {
+    display: block;
+    width: 100%;
+    max-height: calc(100vh - 8rem);
+    object-fit: contain;
+    background: #000;
+  }
+  .lightbox .meta {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  .lb-close,
+  .lb-nav {
+    position: absolute;
+    z-index: 1;
+    width: 44px;
+    height: 44px;
+    border: 0;
+    border-radius: 999px;
+    background: rgba(0, 0, 0, 0.55);
+    color: #fff;
+    font-size: 1.6rem;
+    line-height: 1;
+    cursor: pointer;
+  }
+  .lb-close {
+    top: 0.75rem;
+    right: 0.75rem;
+  }
+  .lb-nav {
+    top: 40%;
+  }
+  .prev {
+    left: 0.75rem;
+  }
+  .next {
+    right: 0.75rem;
+  }
+
+  @media (max-width: 640px) {
+    .stats {
+      grid-template-columns: 1fr;
+      gap: 0.5rem;
+    }
+    .stats li {
+      display: flex;
+      align-items: baseline;
+      gap: 0.75rem;
+      padding: 0.75rem 1rem;
+    }
+    .stats b {
+      flex: none;
+      min-width: 4.2ch;
+      font-size: 1.6rem;
+    }
+    .stats span {
+      margin-top: 0;
+    }
+    .masonry {
+      columns: 1;
+    }
+    .wall {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 0.6rem;
+    }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .open img {
+      transition: none;
+    }
+  }
+</style>
