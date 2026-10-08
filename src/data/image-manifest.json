@@ -863,6 +863,24 @@
       }
     ]
   },
+  "/assets/img/gallery/blockchain-dev-session.webp": {
+    "width": 800,
+    "height": 450,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/blockchain-dev-session-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/blockchain-dev-session-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/blockchain-dev-session-800.webp"
+      }
+    ]
+  },
   "/assets/img/gallery/echai-ecommerce-meet.webp": {
     "width": 800,
     "height": 450,
@@ -878,6 +896,42 @@
       {
         "w": 800,
         "src": "/assets/img/opt/echai-ecommerce-meet-800.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/echai-with-pioneers.webp": {
+    "width": 800,
+    "height": 1132,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/echai-with-pioneers-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/echai-with-pioneers-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/echai-with-pioneers-800.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/gccd-2019-keynote.webp": {
+    "width": 800,
+    "height": 1201,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/gccd-2019-keynote-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/gccd-2019-keynote-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/gccd-2019-keynote-800.webp"
       }
     ]
   },
@@ -1007,6 +1061,24 @@
       }
     ]
   },
+  "/assets/img/gallery/hsx-2019-hyderabad.webp": {
+    "width": 800,
+    "height": 800,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/hsx-2019-hyderabad-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/hsx-2019-hyderabad-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/hsx-2019-hyderabad-800.webp"
+      }
+    ]
+  },
   "/assets/img/gallery/hsx-2019-panel.webp": {
     "width": 800,
     "height": 562,
@@ -1043,6 +1115,24 @@
       }
     ]
   },
+  "/assets/img/gallery/leaf-incubation-drive.webp": {
+    "width": 794,
+    "height": 1123,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/leaf-incubation-drive-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/leaf-incubation-drive-480.webp"
+      },
+      {
+        "w": 794,
+        "src": "/assets/img/opt/leaf-incubation-drive-794.webp"
+      }
+    ]
+  },
   "/assets/img/gallery/nirma-ai-tech-talk.webp": {
     "width": 793,
     "height": 1122,
@@ -1061,6 +1151,42 @@
       }
     ]
   },
+  "/assets/img/gallery/shoppr-vibrant-gujarat-2019.webp": {
+    "width": 800,
+    "height": 273,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/shoppr-vibrant-gujarat-2019-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/shoppr-vibrant-gujarat-2019-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/shoppr-vibrant-gujarat-2019-800.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/startup-saturday-digital-marketing.webp": {
+    "width": 800,
+    "height": 1034,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/startup-saturday-digital-marketing-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/startup-saturday-digital-marketing-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/startup-saturday-digital-marketing-800.webp"
+      }
+    ]
+  },
   "/assets/img/gallery/startup-saturday-growth-hacking.webp": {
     "width": 800,
     "height": 1235,
@@ -1076,6 +1202,24 @@
       {
         "w": 800,
         "src": "/assets/img/opt/startup-saturday-growth-hacking-800.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/startup-saturday-ux-design.webp": {
+    "width": 800,
+    "height": 1235,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/startup-saturday-ux-design-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/startup-saturday-ux-design-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/startup-saturday-ux-design-800.webp"
       }
     ]
   },
