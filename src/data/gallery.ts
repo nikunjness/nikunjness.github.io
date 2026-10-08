@@ -591,6 +591,27 @@ export const photos: Moment[] = [
     place: 'Ahmedabad',
     category: 'community',
   },
+  {
+    src: '/assets/img/press/dau-where-ideas-take-off.webp',
+    alt: 'Opening spread of the chapter Snezzi: Building Impactful AI Designs, with a portrait of Nikunj',
+    caption: 'My chapter in Where Ideas Take Off, Dhirubhai Ambani University’s Silver Jubilee book of alumni stories',
+    date: '2026-08',
+    category: 'community',
+  },
+  {
+    src: '/assets/img/gallery/startup-saturday-ama-hosting.webp',
+    alt: 'Nikunj hosting Startup Saturday on stage with a mic',
+    caption: 'Hosting Startup Saturday at the Ahmedabad Management Association (photo from Where Ideas Take Off)',
+    place: 'Ahmedabad',
+    category: 'community',
+  },
+  {
+    src: '/assets/img/gallery/ciie-iima-speaking.webp',
+    alt: 'Nikunj speaking on a panel at CIIE, IIM Ahmedabad',
+    caption: 'Speaking at CIIE, IIM Ahmedabad, now IIMA Ventures (photo from Where Ideas Take Off)',
+    place: 'Ahmedabad',
+    category: 'speaking',
+  },
 ];
 
 export const posters: Moment[] = [

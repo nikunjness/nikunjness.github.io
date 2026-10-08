@@ -27,7 +27,11 @@ const gallery = fs
   .readdirSync(path.join(PUBLIC, 'assets/img/gallery'))
   .filter((f) => /\.(webp|jpe?g|png)$/.test(f))
   .map((f) => `/assets/img/gallery/${f}`);
-const extra = ['/assets/img/snezzi-dashboard.webp', '/assets/img/portrait.webp'];
+const press = fs
+  .readdirSync(path.join(PUBLIC, 'assets/img/press'))
+  .filter((f) => /\.(webp|jpe?g|png)$/.test(f))
+  .map((f) => `/assets/img/press/${f}`);
+const extra = ['/assets/img/snezzi-dashboard.webp', '/assets/img/portrait.webp', ...press];
 const sources = [...new Set([...covers, ...inline, ...gallery, ...extra])];
 
 fs.mkdirSync(OUT_DIR, { recursive: true });

@@ -63,8 +63,9 @@ const jsonLd = [
         </h1>
 
         <p class="lead">
-          Engineer turned founder turned product leader, and now founder again. {YEARS_BUILDING} years of taking products
-          from zero to one across SaaS, AI, and go-to-market.
+          Right now I'm co-founding Snezzi, an AI visibility platform. Before that I bootstrapped DataOne and Shoppr
+          until Whatfix acquihired the team, then built new product lines at Whatfix and Plivo. Along the way I've
+          hosted 200+ events for founders.
         </p>
 
         <div class="actions">
@@ -112,6 +113,27 @@ const jsonLd = [
         }
       </ul>
     </div>
+  </section>
+
+  <!-- FEATURED -->
+  <section class="wrap featured-wrap">
+    <a class="featured reveal" href="/about/#featured-in-where-ideas-take-off">
+      <img
+        {...responsive('/assets/img/press/dau-where-ideas-take-off.webp', '(max-width: 760px) 100vw, 420px')}
+        alt="Opening spread of the chapter Snezzi: Building Impactful AI Designs, with a portrait of Nikunj"
+        loading="lazy"
+        decoding="async"
+      />
+      <div class="featured-copy">
+        <p class="featured-eyebrow">Featured · Dhirubhai Ambani University at 25</p>
+        <h2>A chapter in <span class="it">Where Ideas Take Off.</span></h2>
+        <p>
+          For its Silver Jubilee, DAU published a book of alumni stories. Mine is one of them: “Snezzi: Building
+          Impactful AI Designs,” by Shraddha Rathod.
+        </p>
+        <span class="featured-more">Read more <span class="arrow">→</span></span>
+      </div>
+    </a>
   </section>
 
   <!-- BENTO -->
@@ -1028,6 +1050,62 @@ const jsonLd = [
     .section-head.row {
       flex-direction: column;
       align-items: start;
+    }
+  }
+  .featured-wrap {
+    margin-top: clamp(1.5rem, 4vw, 2.5rem);
+  }
+  .featured {
+    display: grid;
+    grid-template-columns: minmax(0, 420px) minmax(0, 1fr);
+    gap: clamp(1.25rem, 3vw, 2.25rem);
+    align-items: center;
+    padding: clamp(0.9rem, 2vw, 1.25rem);
+    border: 1px solid var(--line);
+    border-radius: 24px;
+    background: var(--bg-raised);
+    box-shadow: var(--shadow-sm);
+    color: inherit;
+    text-decoration: none;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+  }
+  .featured:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-lg);
+  }
+  .featured img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 14px;
+  }
+  .featured-eyebrow {
+    margin: 0 0 0.5rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  .featured h2 {
+    margin: 0 0 0.6rem;
+    font-size: clamp(1.5rem, 3vw, 2.1rem);
+    line-height: 1.15;
+  }
+  .featured p {
+    margin: 0 0 0.9rem;
+  }
+  .featured-more {
+    font-weight: 600;
+  }
+  @media (max-width: 760px) {
+    .featured {
+      grid-template-columns: 1fr;
+    }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .featured {
+      transition: none;
     }
   }
 </style>

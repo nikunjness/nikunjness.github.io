@@ -1115,6 +1115,28 @@
       }
     ]
   },
+  "/assets/img/gallery/ciie-iima-speaking.webp": {
+    "width": 847,
+    "height": 455,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/ciie-iima-speaking-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/ciie-iima-speaking-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/ciie-iima-speaking-800.webp"
+      },
+      {
+        "w": 847,
+        "src": "/assets/img/opt/ciie-iima-speaking-847.webp"
+      }
+    ]
+  },
   "/assets/img/gallery/corise-networking-circle-2022.webp": {
     "width": 1080,
     "height": 1080,
@@ -2735,6 +2757,28 @@
       }
     ]
   },
+  "/assets/img/gallery/startup-saturday-ama-hosting.webp": {
+    "width": 855,
+    "height": 507,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/startup-saturday-ama-hosting-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/startup-saturday-ama-hosting-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/startup-saturday-ama-hosting-800.webp"
+      },
+      {
+        "w": 855,
+        "src": "/assets/img/opt/startup-saturday-ama-hosting-855.webp"
+      }
+    ]
+  },
   "/assets/img/gallery/startup-saturday-blr-d2c-2022-1.webp": {
     "width": 800,
     "height": 585,
@@ -3094,6 +3138,32 @@
       {
         "w": 441,
         "src": "/assets/img/opt/portrait-441.webp"
+      }
+    ]
+  },
+  "/assets/img/press/dau-where-ideas-take-off.webp": {
+    "width": 1600,
+    "height": 1131,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/dau-where-ideas-take-off-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/dau-where-ideas-take-off-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/dau-where-ideas-take-off-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/assets/img/opt/dau-where-ideas-take-off-1200.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/assets/img/opt/dau-where-ideas-take-off-1600.webp"
       }
     ]
   }

@@ -16,7 +16,13 @@ I studied at DA-IICT (now Dhirubhai Ambani University). During my Master's in IT
 
 It mattered more than the project itself. It showed me I could work with people around the world on real software. The $5,000 stipend also covered college fees I would otherwise have borrowed for.
 
-In 2026, for its 25th anniversary, the university published *Where Ideas Take Off*, a collection of alumni stories. Mine is one of them. One line from that chapter probably sums up the last decade better than anything else:
+## Featured in *Where Ideas Take Off*
+
+In 2026, for its 25th anniversary, Dhirubhai Ambani University published *Where Ideas Take Off*, a book of alumni stories. Mine is one of them: "Snezzi: Building Impactful AI Designs," written by Shraddha Rathod. It follows the whole path, from Deesa and DA-IICT to Google Summer of Code, DataOne, Shoppr, Whatfix, and now Snezzi.
+
+![Opening spread of the chapter Snezzi: Building Impactful AI Designs, with a portrait of Nikunj](/assets/img/press/dau-where-ideas-take-off.webp)
+
+One line from the chapter probably sums up the last decade better than anything else:
 
 > Don't chase short-term gains. Open the door, even if it looks difficult. Stay curious, because curiosity compounds faster than capital.
 

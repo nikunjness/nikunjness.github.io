@@ -27,7 +27,8 @@ Before any of that, open source was my first community. I took part in [Google S
 
 ## Recognition
 
-I received the **Gujarat Entrepreneurship Award** at the Sayaji Startup Summit for contributions to the entrepreneurial ecosystem in Gujarat.
+- I received the **Gujarat Entrepreneurship Award** at the Sayaji Startup Summit for contributions to the entrepreneurial ecosystem in Gujarat.
+- My story is a chapter in ***Where Ideas Take Off***, the book Dhirubhai Ambani University published for its 25th anniversary. [Read more](/about/#featured-in-where-ideas-take-off).
 
 ---
 

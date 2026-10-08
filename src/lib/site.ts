@@ -53,6 +53,12 @@ export const PERSON_LD = {
   jobTitle: 'Co-founder',
   worksFor: { '@type': 'Organization', name: 'Snezzi', url: SNEZZI_URL },
   alumniOf: { '@type': 'CollegeOrUniversity', name: 'Dhirubhai Ambani University (DA-IICT)' },
+  subjectOf: {
+    '@type': 'Book',
+    name: 'Where Ideas Take Off',
+    datePublished: '2026',
+    publisher: { '@type': 'CollegeOrUniversity', name: 'Dhirubhai Ambani University' },
+  },
   description: SITE.description,
   knowsAbout: ['SaaS', 'Product management', 'Go-to-market', 'AI search', 'Startups', 'Big Data'],
   sameAs: ['https://www.linkedin.com/in/nikunjness', 'https://x.com/nikunjness', 'https://github.com/nikunjness'],
