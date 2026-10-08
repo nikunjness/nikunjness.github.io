@@ -863,6 +863,64 @@
       }
     ]
   },
+  "/assets/img/gallery/bangalore-tech-summit-2024.webp": {
+    "width": 800,
+    "height": 450,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/bangalore-tech-summit-2024-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/bangalore-tech-summit-2024-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/bangalore-tech-summit-2024-800.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/bharat-pitchathon-2-2023.webp": {
+    "width": 800,
+    "height": 449,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/bharat-pitchathon-2-2023-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/bharat-pitchathon-2-2023-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/bharat-pitchathon-2-2023-800.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/bharat-pitchathon-2022.webp": {
+    "width": 1080,
+    "height": 864,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/bharat-pitchathon-2022-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/bharat-pitchathon-2022-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/bharat-pitchathon-2022-800.webp"
+      },
+      {
+        "w": 1080,
+        "src": "/assets/img/opt/bharat-pitchathon-2022-1080.webp"
+      }
+    ]
+  },
   "/assets/img/gallery/blockchain-dev-session.webp": {
     "width": 800,
     "height": 450,
@@ -878,6 +936,466 @@
       {
         "w": 800,
         "src": "/assets/img/opt/blockchain-dev-session-800.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/blr-meetups-jul-2022-1.webp": {
+    "width": 800,
+    "height": 599,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/blr-meetups-jul-2022-1-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/blr-meetups-jul-2022-1-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/blr-meetups-jul-2022-1-800.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/blr-meetups-jul-2022-2.webp": {
+    "width": 800,
+    "height": 450,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/blr-meetups-jul-2022-2-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/blr-meetups-jul-2022-2-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/blr-meetups-jul-2022-2-800.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/blr-meetups-jul-2022-3.webp": {
+    "width": 800,
+    "height": 599,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/blr-meetups-jul-2022-3-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/blr-meetups-jul-2022-3-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/blr-meetups-jul-2022-3-800.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/blr-meetups-jul-2022-4.webp": {
+    "width": 960,
+    "height": 1280,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/blr-meetups-jul-2022-4-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/blr-meetups-jul-2022-4-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/blr-meetups-jul-2022-4-800.webp"
+      },
+      {
+        "w": 960,
+        "src": "/assets/img/opt/blr-meetups-jul-2022-4-960.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/cto-talks-2022.webp": {
+    "width": 1080,
+    "height": 864,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/cto-talks-2022-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/cto-talks-2022-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/cto-talks-2022-800.webp"
+      },
+      {
+        "w": 1080,
+        "src": "/assets/img/opt/cto-talks-2022-1080.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/d2c-mixer-2024-1.webp": {
+    "width": 800,
+    "height": 451,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/d2c-mixer-2024-1-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/d2c-mixer-2024-1-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/d2c-mixer-2024-1-800.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/d2c-mixer-2024-2.webp": {
+    "width": 800,
+    "height": 451,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/d2c-mixer-2024-2-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/d2c-mixer-2024-2-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/d2c-mixer-2024-2-800.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/d2c-mixer-2024-3.webp": {
+    "width": 800,
+    "height": 451,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/d2c-mixer-2024-3-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/d2c-mixer-2024-3-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/d2c-mixer-2024-3-800.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/d2c-mixer-2024-poster.webp": {
+    "width": 800,
+    "height": 800,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/d2c-mixer-2024-poster-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/d2c-mixer-2024-poster-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/d2c-mixer-2024-poster-800.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/decoding-d2c-2022.webp": {
+    "width": 996,
+    "height": 796,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/decoding-d2c-2022-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/decoding-d2c-2022-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/decoding-d2c-2022-800.webp"
+      },
+      {
+        "w": 996,
+        "src": "/assets/img/opt/decoding-d2c-2022-996.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/devcon24-saas-insider.webp": {
+    "width": 800,
+    "height": 450,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/devcon24-saas-insider-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/devcon24-saas-insider-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/devcon24-saas-insider-800.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/echai-blr-startup-meetup-2024.webp": {
+    "width": 900,
+    "height": 1600,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/echai-blr-startup-meetup-2024-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/echai-blr-startup-meetup-2024-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/echai-blr-startup-meetup-2024-800.webp"
+      },
+      {
+        "w": 900,
+        "src": "/assets/img/opt/echai-blr-startup-meetup-2024-900.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/echai-demo-day-blr-2022-1.webp": {
+    "width": 800,
+    "height": 600,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/echai-demo-day-blr-2022-1-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/echai-demo-day-blr-2022-1-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/echai-demo-day-blr-2022-1-800.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/echai-demo-day-blr-2022-2.webp": {
+    "width": 800,
+    "height": 600,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/echai-demo-day-blr-2022-2-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/echai-demo-day-blr-2022-2-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/echai-demo-day-blr-2022-2-800.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/echai-demo-day-blr-2022-3.webp": {
+    "width": 800,
+    "height": 600,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/echai-demo-day-blr-2022-3-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/echai-demo-day-blr-2022-3-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/echai-demo-day-blr-2022-3-800.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/echai-demo-day-draper-2023-1.webp": {
+    "width": 800,
+    "height": 451,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/echai-demo-day-draper-2023-1-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/echai-demo-day-draper-2023-1-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/echai-demo-day-draper-2023-1-800.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/echai-demo-day-draper-2023-2.webp": {
+    "width": 800,
+    "height": 451,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/echai-demo-day-draper-2023-2-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/echai-demo-day-draper-2023-2-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/echai-demo-day-draper-2023-2-800.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/echai-demo-day-jun-2023-1.webp": {
+    "width": 1152,
+    "height": 1536,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/echai-demo-day-jun-2023-1-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/echai-demo-day-jun-2023-1-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/echai-demo-day-jun-2023-1-800.webp"
+      },
+      {
+        "w": 1152,
+        "src": "/assets/img/opt/echai-demo-day-jun-2023-1-1152.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/echai-demo-day-jun-2023-2.webp": {
+    "width": 960,
+    "height": 1280,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/echai-demo-day-jun-2023-2-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/echai-demo-day-jun-2023-2-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/echai-demo-day-jun-2023-2-800.webp"
+      },
+      {
+        "w": 960,
+        "src": "/assets/img/opt/echai-demo-day-jun-2023-2-960.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/echai-demo-day-jun-2023-3.webp": {
+    "width": 800,
+    "height": 600,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/echai-demo-day-jun-2023-3-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/echai-demo-day-jun-2023-3-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/echai-demo-day-jun-2023-3-800.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/echai-demo-day-jun-2023-4.webp": {
+    "width": 1152,
+    "height": 864,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/echai-demo-day-jun-2023-4-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/echai-demo-day-jun-2023-4-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/echai-demo-day-jun-2023-4-800.webp"
+      },
+      {
+        "w": 1152,
+        "src": "/assets/img/opt/echai-demo-day-jun-2023-4-1152.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/echai-demo-day-whatfix-host.webp": {
+    "width": 800,
+    "height": 599,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/echai-demo-day-whatfix-host-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/echai-demo-day-whatfix-host-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/echai-demo-day-whatfix-host-800.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/echai-dubai-mixer-2025-1.webp": {
+    "width": 800,
+    "height": 600,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/echai-dubai-mixer-2025-1-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/echai-dubai-mixer-2025-1-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/echai-dubai-mixer-2025-1-800.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/echai-dubai-mixer-2025-3.webp": {
+    "width": 800,
+    "height": 600,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/echai-dubai-mixer-2025-3-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/echai-dubai-mixer-2025-3-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/echai-dubai-mixer-2025-3-800.webp"
       }
     ]
   },
@@ -899,6 +1417,82 @@
       }
     ]
   },
+  "/assets/img/gallery/echai-growth-meetup-2022-1.webp": {
+    "width": 800,
+    "height": 600,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/echai-growth-meetup-2022-1-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/echai-growth-meetup-2022-1-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/echai-growth-meetup-2022-1-800.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/echai-growth-meetup-2022-2.webp": {
+    "width": 960,
+    "height": 1280,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/echai-growth-meetup-2022-2-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/echai-growth-meetup-2022-2-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/echai-growth-meetup-2022-2-800.webp"
+      },
+      {
+        "w": 960,
+        "src": "/assets/img/opt/echai-growth-meetup-2022-2-960.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/echai-product-social-2024-1.webp": {
+    "width": 800,
+    "height": 600,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/echai-product-social-2024-1-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/echai-product-social-2024-1-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/echai-product-social-2024-1-800.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/echai-product-social-2024-2.webp": {
+    "width": 800,
+    "height": 600,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/echai-product-social-2024-2-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/echai-product-social-2024-2-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/echai-product-social-2024-2-800.webp"
+      }
+    ]
+  },
   "/assets/img/gallery/echai-with-pioneers.webp": {
     "width": 800,
     "height": 1132,
@@ -914,6 +1508,64 @@
       {
         "w": 800,
         "src": "/assets/img/opt/echai-with-pioneers-800.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/fintech-mixer-2024-poster.webp": {
+    "width": 800,
+    "height": 800,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/fintech-mixer-2024-poster-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/fintech-mixer-2024-poster-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/fintech-mixer-2024-poster-800.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/fintech-mixer-2024.webp": {
+    "width": 800,
+    "height": 418,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/fintech-mixer-2024-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/fintech-mixer-2024-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/fintech-mixer-2024-800.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/fireside-aditi-avasthi-2020.webp": {
+    "width": 1000,
+    "height": 1000,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/fireside-aditi-avasthi-2020-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/fireside-aditi-avasthi-2020-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/fireside-aditi-avasthi-2020-800.webp"
+      },
+      {
+        "w": 1000,
+        "src": "/assets/img/opt/fireside-aditi-avasthi-2020-1000.webp"
       }
     ]
   },
@@ -1007,6 +1659,50 @@
       }
     ]
   },
+  "/assets/img/gallery/headstart-ama-2023.webp": {
+    "width": 1085,
+    "height": 1536,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/headstart-ama-2023-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/headstart-ama-2023-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/headstart-ama-2023-800.webp"
+      },
+      {
+        "w": 1085,
+        "src": "/assets/img/opt/headstart-ama-2023-1085.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/headstart-kickstart-2022.webp": {
+    "width": 992,
+    "height": 793,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/headstart-kickstart-2022-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/headstart-kickstart-2022-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/headstart-kickstart-2022-800.webp"
+      },
+      {
+        "w": 992,
+        "src": "/assets/img/opt/headstart-kickstart-2022-992.webp"
+      }
+    ]
+  },
   "/assets/img/gallery/headstart-mou-gujarat.webp": {
     "width": 800,
     "height": 533,
@@ -1097,6 +1793,90 @@
       }
     ]
   },
+  "/assets/img/gallery/hsx-2022-announce.webp": {
+    "width": 1080,
+    "height": 610,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/hsx-2022-announce-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/hsx-2022-announce-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/hsx-2022-announce-800.webp"
+      },
+      {
+        "w": 1080,
+        "src": "/assets/img/opt/hsx-2022-announce-1080.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/hsx-2022-thank-you.webp": {
+    "width": 800,
+    "height": 640,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/hsx-2022-thank-you-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/hsx-2022-thank-you-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/hsx-2022-thank-you-800.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/hsx-2022.webp": {
+    "width": 1152,
+    "height": 1536,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/hsx-2022-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/hsx-2022-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/hsx-2022-800.webp"
+      },
+      {
+        "w": 1152,
+        "src": "/assets/img/opt/hsx-2022-1152.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/idea-validation-workshop-2020.webp": {
+    "width": 831,
+    "height": 315,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/idea-validation-workshop-2020-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/idea-validation-workshop-2020-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/idea-validation-workshop-2020-800.webp"
+      },
+      {
+        "w": 831,
+        "src": "/assets/img/opt/idea-validation-workshop-2020-831.webp"
+      }
+    ]
+  },
   "/assets/img/gallery/ignite-mentor-recognition.webp": {
     "width": 800,
     "height": 600,
@@ -1133,6 +1913,28 @@
       }
     ]
   },
+  "/assets/img/gallery/moneycontrol-startup-conclave-2024.webp": {
+    "width": 1080,
+    "height": 1080,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/moneycontrol-startup-conclave-2024-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/moneycontrol-startup-conclave-2024-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/moneycontrol-startup-conclave-2024-800.webp"
+      },
+      {
+        "w": 1080,
+        "src": "/assets/img/opt/moneycontrol-startup-conclave-2024-1080.webp"
+      }
+    ]
+  },
   "/assets/img/gallery/nirma-ai-tech-talk.webp": {
     "width": 793,
     "height": 1122,
@@ -1151,6 +1953,306 @@
       }
     ]
   },
+  "/assets/img/gallery/panel-going-global-2025.webp": {
+    "width": 800,
+    "height": 600,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/panel-going-global-2025-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/panel-going-global-2025-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/panel-going-global-2025-800.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/product-growth-meetup-2023.webp": {
+    "width": 1086,
+    "height": 1536,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/product-growth-meetup-2023-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/product-growth-meetup-2023-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/product-growth-meetup-2023-800.webp"
+      },
+      {
+        "w": 1086,
+        "src": "/assets/img/opt/product-growth-meetup-2023-1086.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/product-growth-playbook-2025.webp": {
+    "width": 1080,
+    "height": 1350,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/product-growth-playbook-2025-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/product-growth-playbook-2025-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/product-growth-playbook-2025-800.webp"
+      },
+      {
+        "w": 1080,
+        "src": "/assets/img/opt/product-growth-playbook-2025-1080.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/red-bull-basement-2018.webp": {
+    "width": 876,
+    "height": 1280,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/red-bull-basement-2018-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/red-bull-basement-2018-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/red-bull-basement-2018-800.webp"
+      },
+      {
+        "w": 876,
+        "src": "/assets/img/opt/red-bull-basement-2018-876.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/saas-founders-meetup-2024-1.webp": {
+    "width": 800,
+    "height": 450,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/saas-founders-meetup-2024-1-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/saas-founders-meetup-2024-1-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/saas-founders-meetup-2024-1-800.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/saas-founders-meetup-2024-2.webp": {
+    "width": 800,
+    "height": 451,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/saas-founders-meetup-2024-2-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/saas-founders-meetup-2024-2-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/saas-founders-meetup-2024-2-800.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/saas-founders-meetup-2024-3.webp": {
+    "width": 800,
+    "height": 451,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/saas-founders-meetup-2024-3-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/saas-founders-meetup-2024-3-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/saas-founders-meetup-2024-3-800.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/saas-founders-meetup-2024-4.webp": {
+    "width": 800,
+    "height": 600,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/saas-founders-meetup-2024-4-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/saas-founders-meetup-2024-4-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/saas-founders-meetup-2024-4-800.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/saas-founders-meetup-2024-poster.webp": {
+    "width": 800,
+    "height": 800,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/saas-founders-meetup-2024-poster-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/saas-founders-meetup-2024-poster-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/saas-founders-meetup-2024-poster-800.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/saas-founders-meetup-whatfix-2022-1.webp": {
+    "width": 800,
+    "height": 600,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/saas-founders-meetup-whatfix-2022-1-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/saas-founders-meetup-whatfix-2022-1-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/saas-founders-meetup-whatfix-2022-1-800.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/saas-founders-meetup-whatfix-2022-2.webp": {
+    "width": 800,
+    "height": 600,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/saas-founders-meetup-whatfix-2022-2-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/saas-founders-meetup-whatfix-2022-2-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/saas-founders-meetup-whatfix-2022-2-800.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/saas-founders-meetup-whatfix-2022-3.webp": {
+    "width": 800,
+    "height": 600,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/saas-founders-meetup-whatfix-2022-3-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/saas-founders-meetup-whatfix-2022-3-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/saas-founders-meetup-whatfix-2022-3-800.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/saas-founders-meetup-whatfix-2022-4.webp": {
+    "width": 800,
+    "height": 600,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/saas-founders-meetup-whatfix-2022-4-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/saas-founders-meetup-whatfix-2022-4-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/saas-founders-meetup-whatfix-2022-4-800.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/saas-founders-meetup-whatfix-poster.webp": {
+    "width": 800,
+    "height": 450,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/saas-founders-meetup-whatfix-poster-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/saas-founders-meetup-whatfix-poster-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/saas-founders-meetup-whatfix-poster-800.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/saas-session-echai-2022-1.webp": {
+    "width": 800,
+    "height": 437,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/saas-session-echai-2022-1-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/saas-session-echai-2022-1-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/saas-session-echai-2022-1-800.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/saas-session-echai-2022-2.webp": {
+    "width": 800,
+    "height": 599,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/saas-session-echai-2022-2-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/saas-session-echai-2022-2-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/saas-session-echai-2022-2-800.webp"
+      }
+    ]
+  },
   "/assets/img/gallery/shoppr-vibrant-gujarat-2019.webp": {
     "width": 800,
     "height": 273,
@@ -1166,6 +2268,90 @@
       {
         "w": 800,
         "src": "/assets/img/opt/shoppr-vibrant-gujarat-2019-800.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/startup-saturday-abhay-tandon.webp": {
+    "width": 1080,
+    "height": 1440,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/startup-saturday-abhay-tandon-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/startup-saturday-abhay-tandon-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/startup-saturday-abhay-tandon-800.webp"
+      },
+      {
+        "w": 1080,
+        "src": "/assets/img/opt/startup-saturday-abhay-tandon-1080.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/startup-saturday-ahd-unlocked-2022.webp": {
+    "width": 990,
+    "height": 792,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/startup-saturday-ahd-unlocked-2022-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/startup-saturday-ahd-unlocked-2022-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/startup-saturday-ahd-unlocked-2022-800.webp"
+      },
+      {
+        "w": 990,
+        "src": "/assets/img/opt/startup-saturday-ahd-unlocked-2022-990.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/startup-saturday-blr-d2c-2022-1.webp": {
+    "width": 800,
+    "height": 585,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/startup-saturday-blr-d2c-2022-1-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/startup-saturday-blr-d2c-2022-1-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/startup-saturday-blr-d2c-2022-1-800.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/startup-saturday-blr-d2c-2022-2.webp": {
+    "width": 1024,
+    "height": 682,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/startup-saturday-blr-d2c-2022-2-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/startup-saturday-blr-d2c-2022-2-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/startup-saturday-blr-d2c-2022-2-800.webp"
+      },
+      {
+        "w": 1024,
+        "src": "/assets/img/opt/startup-saturday-blr-d2c-2022-2-1024.webp"
       }
     ]
   },
@@ -1223,6 +2409,24 @@
       }
     ]
   },
+  "/assets/img/gallery/startup-september-2022.webp": {
+    "width": 800,
+    "height": 450,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/startup-september-2022-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/startup-september-2022-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/startup-september-2022-800.webp"
+      }
+    ]
+  },
   "/assets/img/gallery/talk-future-ready-digital-finance.webp": {
     "width": 800,
     "height": 1032,
@@ -1259,6 +2463,28 @@
       }
     ]
   },
+  "/assets/img/gallery/vibrant-gujarat-preview-2018.webp": {
+    "width": 1144,
+    "height": 763,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/vibrant-gujarat-preview-2018-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/vibrant-gujarat-preview-2018-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/vibrant-gujarat-preview-2018-800.webp"
+      },
+      {
+        "w": 1144,
+        "src": "/assets/img/opt/vibrant-gujarat-preview-2018-1144.webp"
+      }
+    ]
+  },
   "/assets/img/gallery/webinar-ecommerce-brands.webp": {
     "width": 800,
     "height": 960,
@@ -1274,6 +2500,78 @@
       {
         "w": 800,
         "src": "/assets/img/opt/webinar-ecommerce-brands-800.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/whatfix-alumni-2024-1.webp": {
+    "width": 800,
+    "height": 449,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/whatfix-alumni-2024-1-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/whatfix-alumni-2024-1-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/whatfix-alumni-2024-1-800.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/whatfix-alumni-2024-2.webp": {
+    "width": 800,
+    "height": 445,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/whatfix-alumni-2024-2-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/whatfix-alumni-2024-2-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/whatfix-alumni-2024-2-800.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/whatfix-hackathon-2022-1.webp": {
+    "width": 800,
+    "height": 450,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/whatfix-hackathon-2022-1-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/whatfix-hackathon-2022-1-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/whatfix-hackathon-2022-1-800.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/whatfix-hackathon-2022-2.webp": {
+    "width": 800,
+    "height": 533,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/whatfix-hackathon-2022-2-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/whatfix-hackathon-2022-2-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/whatfix-hackathon-2022-2-800.webp"
       }
     ]
   },

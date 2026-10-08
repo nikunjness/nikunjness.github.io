@@ -1,8 +1,13 @@
 ---
 import Base from '../layouts/Base.astro';
 import PageHero from '../components/PageHero.astro';
-import { photos, posters, CATEGORIES, type Moment } from '../data/gallery';
+import { photos as allPhotos, posters as allPosters, CATEGORIES, type Moment } from '../data/gallery';
 import { responsive } from '../lib/images';
+
+// Newest first
+const byDate = (a: Moment, b: Moment) => b.date.localeCompare(a.date);
+const photos = [...allPhotos].sort(byDate);
+const posters = [...allPosters].sort(byDate);
 
 const when = (d: string) => {
   const [y, m] = d.split('-').map(Number);
