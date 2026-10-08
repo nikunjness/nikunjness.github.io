@@ -8,7 +8,8 @@
     "preview": "astro build && wrangler dev",
     "deploy": "astro build && wrangler deploy",
     "check": "astro check",
-    "images": "node scripts/optimize-images.mjs"
+    "images": "node scripts/optimize-images.mjs",
+    "og": "node scripts/og-images.mjs"
   },
   "dependencies": {
     "@astrojs/markdown-remark": "^7.3.2",
