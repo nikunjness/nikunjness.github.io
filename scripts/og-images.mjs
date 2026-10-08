@@ -19,6 +19,7 @@ const font = (p) => file(path.join(ROOT, 'node_modules', p));
 const esc = (s) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 
 const PAGES = [
+  { url: '/', eyebrow: 'Product builder & entrepreneur', title: 'I build products, companies & communities.', lead: 'Building Snezzi, an AI visibility platform, with my co-founders.' },
   { url: '/writing/', eyebrow: 'Writing', title: 'Notes from building.', lead: 'Startups, product, and GTM, including the failures.' },
   { url: '/work/', eyebrow: 'Work', title: `${new Date().getFullYear() - 2013} years of building, zero to one.`, lead: 'Engineer, founder, product leader, and founder again.' },
   { url: '/talks/', eyebrow: 'Talks & podcasts', title: 'Conversations with builders.', lead: 'Startup OG, plus talks on startups, failure, and AI search.' },
@@ -60,7 +61,7 @@ body{font-family:Body,sans-serif;color:#0f0e0c;background:#fbfaf7;position:relat
 .dots{position:absolute;inset:0;background-image:radial-gradient(rgba(15,14,12,.09) 1px,transparent 1px);background-size:22px 22px}
 .wrap{position:absolute;inset:0;padding:64px 72px;display:flex;flex-direction:column}
 .brand{display:flex;align-items:center;gap:14px;font-family:Display;font-weight:700;font-size:26px}
-.mark{width:46px;height:46px;border-radius:50%;background:linear-gradient(135deg,#ff5b1f,#ff4d8d 55%,#7b61ff);color:#fff;display:grid;place-items:center;font-size:22px}
+.mark{width:50px;height:50px;padding:3px;border-radius:50%;background:linear-gradient(135deg,#ff5b1f,#ff4d8d 55%,#7b61ff)}.mark img{display:block;width:100%;height:100%;border-radius:50%;object-fit:cover;background:#111}
 .eyebrow{display:flex;align-items:center;gap:12px;font-weight:600;font-size:20px;letter-spacing:.08em;text-transform:uppercase;color:#6b665e}
 .eyebrow:before{content:"";width:34px;height:2px;background:linear-gradient(90deg,#ff5b1f,#ff4d8d)}
 h1{font-family:Display;font-weight:800;letter-spacing:-.025em;line-height:1.04}
@@ -82,7 +83,7 @@ function postCard(p) {
   const date = p.date.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric', timeZone: 'UTC' });
   const cover = p.cover && fs.existsSync(path.join(PUBLIC, p.cover)) ? file(path.join(PUBLIC, p.cover)) : null;
   return shell(`<div class="wrap" style="padding-right:${cover ? 560 : 72}px">
-    <div class="brand"><span class="mark">N</span>Nikunj Thakkar</div>
+    <div class="brand"><span class="mark"><img src="${file(path.join(PUBLIC, 'assets/img/avatar-mark.webp'))}"></span>Nikunj Thakkar</div>
     <div style="margin-top:auto;margin-bottom:auto">
       <p class="eyebrow">Writing · ${date}</p>
       <h1 style="font-size:${size}px;margin-top:22px">${esc(p.title)}</h1>
@@ -96,7 +97,7 @@ function pageCard(p) {
   const portrait = file(path.join(PUBLIC, 'assets/img/portrait.webp'));
   const size = p.title.length > 34 ? 64 : 78;
   return shell(`<div class="wrap" style="padding-right:470px">
-    <div class="brand"><span class="mark">N</span>Nikunj Thakkar</div>
+    <div class="brand"><span class="mark"><img src="${file(path.join(PUBLIC, 'assets/img/avatar-mark.webp'))}"></span>Nikunj Thakkar</div>
     <div style="margin-top:auto;margin-bottom:auto">
       <p class="eyebrow">${esc(p.eyebrow)}</p>
       <h1 style="font-size:${size}px;margin-top:22px">${accent(p.title)}</h1>
@@ -124,7 +125,7 @@ async function render(html, out) {
 fs.mkdirSync(path.join(OUT, 'posts'), { recursive: true });
 const manifest = {};
 for (const p of PAGES) {
-  const name = p.url.replace(/\//g, '') + '.jpg';
+  const name = (p.url.replace(/\//g, '') || 'home') + '.jpg';
   await render(pageCard(p), path.join(OUT, name));
   manifest[p.url] = `/og/${name}`;
 }
