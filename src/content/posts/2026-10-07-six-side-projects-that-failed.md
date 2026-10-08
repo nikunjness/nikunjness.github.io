@@ -4,6 +4,9 @@ date: 2026-10-07 10:00:00
 description: "Between 2015 and 2018 I started and shut down six side projects. Here's what each one was, why it died, and the patterns I only saw once I lined them up."
 tags: [startups, failure, side projects, lessons]
 draft: true
+image:
+  path: /assets/img/covers/2026-10-07-six-side-projects-that-failed.webp
+  alt: "Illustration: six small prototype gadgets on a shelf"
 ---
 
 I've started a lot of things that didn't work.

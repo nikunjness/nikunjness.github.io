@@ -4,10 +4,10 @@ date: 2022-08-29 14:34:00
 description: "When it comes to analyzing data, many of us struggle. Working with data is messy in more ways than one can count. And one of the reasons that it’s considered messy is that traditionally most data…"
 category: linkedin
 tags: [product, analytics, saas, no-code]
-image:
-  path: /assets/img/linkedin/future-analytics-no-codelow-code-0.jpg
-  alt: "The Future of Product Analytics is No-Code/Low-Code"
 linkedin: https://www.linkedin.com/pulse/future-analytics-no-codelow-code-nikunj-thakkar
+image:
+  path: /assets/img/covers/2022-08-29-future-analytics-no-codelow-code.webp
+  alt: "Illustration: dashboard chart tiles snapping together like puzzle pieces"
 ---
 
 When it comes to analyzing data, many of us struggle. Working with data is messy in more ways than one can count. And one of the reasons that it’s considered messy is that traditionally most data analytics tools require coding skills. But what if you could get the same insightful data without the need to know how to code?

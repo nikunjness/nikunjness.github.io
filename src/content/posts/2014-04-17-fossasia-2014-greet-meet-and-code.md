@@ -3,6 +3,9 @@ title: "Fossasia 2014 : Meet, greet and Code!"
 date: 2014-04-17 19:41:00
 category: thoughts
 tags: [fossasia, open source, travel, cambodia]
+image:
+  path: /assets/img/covers/2014-04-17-fossasia-2014-greet-meet-and-code.webp
+  alt: "Illustration: a conference lanyard badge"
 ---
 
 Today I am gonna tell you about my experience of international open source community meet up. It was Jan 15, when I received email from the organizer that my proposal for the Fossasia 2014 is accepted and I can attend the event. It was Hakuna matata moment for me. 

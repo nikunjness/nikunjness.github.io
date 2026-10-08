@@ -4,8 +4,8 @@ date: 2013-12-21 11:42:00
 category: technology
 tags: [most, gsoc]
 image:
-  path: /assets/img/gsoc-journey.png
-  alt: "Google Summer Of Code 2013"
+  path: /assets/img/covers/2013-12-21-building-java-framework-the-gsoc-journey-part-ii.webp
+  alt: "Illustration: building blocks forming a scaffold structure next to a steaming coffee cup"
 ---
 After a long break I would like to present the second part of our GSoC 2013 journey for the project MOST. After tackling the design issue the second major part was to build the Java framework which handle the Data Migration and provide the interface to access the newly created Cassandra database. I have summarized whole task into following points. I hope the information provided below will give you the basic idea about the framework. Feel free to ask any questions related to the framework.
 

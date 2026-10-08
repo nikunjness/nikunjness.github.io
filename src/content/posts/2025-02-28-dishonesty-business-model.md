@@ -4,10 +4,10 @@ date: 2025-02-28 09:16:00
 description: "We live in a capitalist world, and every man has the right to explore and exploit opportunities."
 category: linkedin
 tags: [startups, business]
-image:
-  path: /assets/img/linkedin/dishonesty-business-model-0.jpg
-  alt: "Dishonesty as a Business Model"
 linkedin: https://www.linkedin.com/pulse/dishonesty-business-model-nikunj-thakkar-nuozf
+image:
+  path: /assets/img/covers/2025-02-28-dishonesty-business-model.webp
+  alt: "Illustration: a shopping cart with a hidden price tag peeking out from behind a smiling mask"
 ---
 
 We live in a capitalist world, and every man has the right to explore and exploit opportunities.

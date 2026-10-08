@@ -3,6 +3,9 @@ title: "Fossasia 2015 - Three days in a smart city with Open Source"
 date: 2015-03-23 20:28:00
 category: thoughts
 tags: [fossasia, singapore, technology, conference, travel]
+image:
+  path: /assets/img/covers/2015-03-23-fossasia-2015-three-days-smart-city.webp
+  alt: "Illustration: a miniature smart city of rounded buildings connected by glowing lines"
 ---
 
 

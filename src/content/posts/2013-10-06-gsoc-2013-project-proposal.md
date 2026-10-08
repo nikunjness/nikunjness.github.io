@@ -3,6 +3,9 @@ title: "GSoC 2013 project proposal"
 date: 2013-10-06 13:19:00
 category: thoughts
 tags: [gsoc, most, nosql, proposal]
+image:
+  path: /assets/img/covers/2013-10-06-gsoc-2013-project-proposal.webp
+  alt: "Illustration: a neat stack of proposal papers with a blueprint sheet"
 ---
 
 

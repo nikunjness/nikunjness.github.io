@@ -3,6 +3,9 @@ title: "Working as a DevOps Intern @Ishisystems"
 date: 2014-06-06 05:47:00
 category: thoughts
 tags: [experience, internship, devops]
+image:
+  path: /assets/img/covers/2014-06-06-working-as-a-devops-intern-ishisystems.webp
+  alt: "Illustration: interlocking gears feeding a conveyor belt that launches a small rocket from a server rack"
 ---
 
 

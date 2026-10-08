@@ -3,6 +3,9 @@ title: "Introduction to Apache Cassandra"
 date: 2013-06-22 17:34:00
 category: technology
 tags: [database, apache cassandra, nosql]
+image:
+  path: /assets/img/covers/2013-06-22-Introduction-to-apache-cassandra.webp
+  alt: "Illustration: a ring of glowing rounded database nodes connected in a circle"
 ---
 
 Apache Cassanrda, simply it is a " massively scalable, decentralized, structured datastore (aka database)".

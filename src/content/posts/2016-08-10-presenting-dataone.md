@@ -3,6 +3,9 @@ title: "Presenting DataOne – The Company and The platform"
 date: 2016-08-10 12:38:00
 category: thoughts
 tags: [dataone, big data, analytics, announcement]
+image:
+  path: /assets/img/covers/2016-08-10-presenting-dataone.webp
+  alt: "Illustration: a launch pad made of stacked data cubes with a small rocket lifting off"
 ---
 
 Hello world!

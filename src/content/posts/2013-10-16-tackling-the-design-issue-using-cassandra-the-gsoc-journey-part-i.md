@@ -4,8 +4,8 @@ date: 2013-10-16 08:17:00
 category: technology
 tags: [apache cassandra, datastax]
 image:
-  path: /assets/img/gsoc-journey.png
-  alt: "Google Summer Of Code 2013"
+  path: /assets/img/covers/2013-10-16-tackling-the-design-issue-using-cassandra-the-gsoc-journey-part-i.webp
+  alt: "Illustration: a large data block splitting into smaller shards that arrange themselves into a ring of nodes"
 ---
 We often travel across the places and these journeys often teach us valuable lessons which we never want to forget. The word journey not only relates to the journeys we do across the places but it also involves the journeys we do across the time. The time is great teacher but this is partially true. The experiences that we gain during that time are the great teacher. As a part of [GSoC 2013](https://www.google-melange.com/gsoc/homepage/google/gsoc2013), my journey with [Cassandra](https://cassandra.apache.org/) for the [project MOST](https://most.bpi.tuwien.ac.at/) has also given me the bunch of experiences which I never want to forget.
 

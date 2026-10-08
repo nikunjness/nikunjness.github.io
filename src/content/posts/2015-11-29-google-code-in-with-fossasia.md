@@ -3,6 +3,9 @@ title: "Google Code-in 2015 with Fossasia"
 date: 2015-11-29 14:16:00
 category: thoughts
 tags: [google code-in, fossasia, mentorship, open source]
+image:
+  path: /assets/img/covers/2015-11-29-google-code-in-with-fossasia.webp
+  alt: "Illustration: two hands passing a glowing lightbulb"
 ---
 
 Hello all, Today I'm so excited to introduce Google Code-in, a program from Google to make pre-university students aware with open source software development.

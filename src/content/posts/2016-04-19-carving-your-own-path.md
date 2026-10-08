@@ -4,11 +4,9 @@ date: 2016-04-20 13:30:00
 category: thoughts
 tags: [experience]
 image:
-  path: /assets/img/blurred-path.jpg
-  alt: "Carving your own path"
+  path: /assets/img/covers/2016-04-19-carving-your-own-path.webp
+  alt: "Illustration: a single winding path carved through soft rolling hills toward a rising sun"
 ---
-Image Credits: https://bestcoverphoto.com/handbag-grass-blurred-path-rural-landscape-twitter-cover-photos/
-
 > "When something is important enough, you do it even if the odds are not in your favor." - Elon Musk
 
 * Struggle

@@ -3,6 +3,9 @@ title: "Feeling void or filling the void?"
 date: 2020-07-02 22:55:00
 category: thoughts
 tags: [experience, entrepreneurship]
+image:
+  path: /assets/img/covers/2020-07-03-feeling-void-or-filling-the-void.webp
+  alt: "Illustration: an empty cup slowly being filled with warm glowing light"
 ---
 It’s 4 A.M, and something doesn't let you sleep. And in this state, you stumble upon the story of a founder who is doing really well but is not satisfied with what he has. (Link below).
  

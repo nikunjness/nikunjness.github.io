@@ -4,8 +4,8 @@ date: 2013-07-11 7:34:00
 category: thoughts
 tags: [gsoc, google summer of code, vienna university, daiict]
 image:
-  path: /assets/img/GSoc-2013-logo.jpg
-  alt: "Google Summer Of Code 2013"
+  path: /assets/img/covers/2013-07-11-grabbing-the-tag-of-gsocer.webp
+  alt: "Illustration: a shiny summer sun medal with a code bracket symbol"
 ---
 >“Always be yourself, express yourself, have faith in yourself, do not go out and look for a successful personality and duplicate it." ― Bruce Lee
 

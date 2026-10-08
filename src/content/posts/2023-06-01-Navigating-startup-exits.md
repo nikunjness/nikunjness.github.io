@@ -4,8 +4,8 @@ date: 2023-06-01 05:48:00
 category: thoughts
 tags: [experience, entrepreneurship]
 image:
-  path: /assets/img/startup_exits.jpg
-  alt: "Navigating Startup Exits: A Founder's Guide to Success"
+  path: /assets/img/covers/2023-06-01-Navigating-startup-exits.webp
+  alt: "Illustration: an open door with a glowing exit arrow"
 ---
 Embarking on the entrepreneurial journey is a thrilling yet challenging path. While statistics indicate that the majority of startups fail, it's essential to remember that failures can lead to valuable lessons and future successes. Recently, I had the opportunity to discuss startup exits with three different founders who were seeking guidance. In light of these conversations, I've compiled a set of essential pointers for founders contemplating an exit strategy. By acknowledging the reality, planning carefully, exploring alternative options, supporting your team, and tying up loose ends, you can make the most out of your exit and set yourself up for future endeavors.
 

@@ -1,141 +1,625 @@
 {
-  "/assets/img/GSoc-2013-logo.jpg": {
-    "width": 931,
-    "height": 496,
-    "variants": [
-      {
-        "w": 320,
-        "src": "/assets/img/opt/GSoc-2013-logo-320.webp"
-      },
-      {
-        "w": 480,
-        "src": "/assets/img/opt/GSoc-2013-logo-480.webp"
-      },
-      {
-        "w": 800,
-        "src": "/assets/img/opt/GSoc-2013-logo-800.webp"
-      },
-      {
-        "w": 931,
-        "src": "/assets/img/opt/GSoc-2013-logo-931.webp"
-      }
-    ]
-  },
-  "/assets/img/gsoc-journey.png": {
-    "width": 701,
-    "height": 237,
-    "variants": [
-      {
-        "w": 320,
-        "src": "/assets/img/opt/gsoc-journey-320.webp"
-      },
-      {
-        "w": 480,
-        "src": "/assets/img/opt/gsoc-journey-480.webp"
-      },
-      {
-        "w": 701,
-        "src": "/assets/img/opt/gsoc-journey-701.webp"
-      }
-    ]
-  },
-  "/assets/img/blurred-path.jpg": {
-    "width": 851,
-    "height": 315,
-    "variants": [
-      {
-        "w": 320,
-        "src": "/assets/img/opt/blurred-path-320.webp"
-      },
-      {
-        "w": 480,
-        "src": "/assets/img/opt/blurred-path-480.webp"
-      },
-      {
-        "w": 800,
-        "src": "/assets/img/opt/blurred-path-800.webp"
-      },
-      {
-        "w": 851,
-        "src": "/assets/img/opt/blurred-path-851.webp"
-      }
-    ]
-  },
-  "/assets/img/linkedin/future-analytics-no-codelow-code-0.jpg": {
-    "width": 1280,
-    "height": 720,
-    "variants": [
-      {
-        "w": 320,
-        "src": "/assets/img/opt/future-analytics-no-codelow-code-0-320.webp"
-      },
-      {
-        "w": 480,
-        "src": "/assets/img/opt/future-analytics-no-codelow-code-0-480.webp"
-      },
-      {
-        "w": 800,
-        "src": "/assets/img/opt/future-analytics-no-codelow-code-0-800.webp"
-      },
-      {
-        "w": 1200,
-        "src": "/assets/img/opt/future-analytics-no-codelow-code-0-1200.webp"
-      },
-      {
-        "w": 1280,
-        "src": "/assets/img/opt/future-analytics-no-codelow-code-0-1280.webp"
-      }
-    ]
-  },
-  "/assets/img/startup_exits.jpg": {
+  "/assets/img/covers/2013-06-22-Introduction-to-apache-cassandra.webp": {
     "width": 1600,
-    "height": 900,
+    "height": 893,
     "variants": [
       {
         "w": 320,
-        "src": "/assets/img/opt/startup_exits-320.webp"
+        "src": "/assets/img/opt/2013-06-22-Introduction-to-apache-cassandra-320.webp"
       },
       {
         "w": 480,
-        "src": "/assets/img/opt/startup_exits-480.webp"
+        "src": "/assets/img/opt/2013-06-22-Introduction-to-apache-cassandra-480.webp"
       },
       {
         "w": 800,
-        "src": "/assets/img/opt/startup_exits-800.webp"
+        "src": "/assets/img/opt/2013-06-22-Introduction-to-apache-cassandra-800.webp"
       },
       {
         "w": 1200,
-        "src": "/assets/img/opt/startup_exits-1200.webp"
+        "src": "/assets/img/opt/2013-06-22-Introduction-to-apache-cassandra-1200.webp"
       },
       {
         "w": 1600,
-        "src": "/assets/img/opt/startup_exits-1600.webp"
+        "src": "/assets/img/opt/2013-06-22-Introduction-to-apache-cassandra-1600.webp"
       }
     ]
   },
-  "/assets/img/linkedin/dishonesty-business-model-0.jpg": {
-    "width": 1280,
-    "height": 720,
+  "/assets/img/covers/2013-07-11-grabbing-the-tag-of-gsocer.webp": {
+    "width": 1600,
+    "height": 893,
     "variants": [
       {
         "w": 320,
-        "src": "/assets/img/opt/dishonesty-business-model-0-320.webp"
+        "src": "/assets/img/opt/2013-07-11-grabbing-the-tag-of-gsocer-320.webp"
       },
       {
         "w": 480,
-        "src": "/assets/img/opt/dishonesty-business-model-0-480.webp"
+        "src": "/assets/img/opt/2013-07-11-grabbing-the-tag-of-gsocer-480.webp"
       },
       {
         "w": 800,
-        "src": "/assets/img/opt/dishonesty-business-model-0-800.webp"
+        "src": "/assets/img/opt/2013-07-11-grabbing-the-tag-of-gsocer-800.webp"
       },
       {
         "w": 1200,
-        "src": "/assets/img/opt/dishonesty-business-model-0-1200.webp"
+        "src": "/assets/img/opt/2013-07-11-grabbing-the-tag-of-gsocer-1200.webp"
       },
       {
-        "w": 1280,
-        "src": "/assets/img/opt/dishonesty-business-model-0-1280.webp"
+        "w": 1600,
+        "src": "/assets/img/opt/2013-07-11-grabbing-the-tag-of-gsocer-1600.webp"
+      }
+    ]
+  },
+  "/assets/img/covers/2013-10-06-gsoc-2013-project-proposal.webp": {
+    "width": 1600,
+    "height": 893,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/2013-10-06-gsoc-2013-project-proposal-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/2013-10-06-gsoc-2013-project-proposal-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/2013-10-06-gsoc-2013-project-proposal-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/assets/img/opt/2013-10-06-gsoc-2013-project-proposal-1200.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/assets/img/opt/2013-10-06-gsoc-2013-project-proposal-1600.webp"
+      }
+    ]
+  },
+  "/assets/img/covers/2013-10-16-tackling-the-design-issue-using-cassandra-the-gsoc-journey-part-i.webp": {
+    "width": 1600,
+    "height": 893,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/2013-10-16-tackling-the-design-issue-using-cassandra-the-gsoc-journey-part-i-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/2013-10-16-tackling-the-design-issue-using-cassandra-the-gsoc-journey-part-i-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/2013-10-16-tackling-the-design-issue-using-cassandra-the-gsoc-journey-part-i-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/assets/img/opt/2013-10-16-tackling-the-design-issue-using-cassandra-the-gsoc-journey-part-i-1200.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/assets/img/opt/2013-10-16-tackling-the-design-issue-using-cassandra-the-gsoc-journey-part-i-1600.webp"
+      }
+    ]
+  },
+  "/assets/img/covers/2013-12-21-building-java-framework-the-gsoc-journey-part-ii.webp": {
+    "width": 1600,
+    "height": 893,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/2013-12-21-building-java-framework-the-gsoc-journey-part-ii-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/2013-12-21-building-java-framework-the-gsoc-journey-part-ii-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/2013-12-21-building-java-framework-the-gsoc-journey-part-ii-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/assets/img/opt/2013-12-21-building-java-framework-the-gsoc-journey-part-ii-1200.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/assets/img/opt/2013-12-21-building-java-framework-the-gsoc-journey-part-ii-1600.webp"
+      }
+    ]
+  },
+  "/assets/img/covers/2014-04-17-fossasia-2014-greet-meet-and-code.webp": {
+    "width": 1600,
+    "height": 893,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/2014-04-17-fossasia-2014-greet-meet-and-code-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/2014-04-17-fossasia-2014-greet-meet-and-code-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/2014-04-17-fossasia-2014-greet-meet-and-code-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/assets/img/opt/2014-04-17-fossasia-2014-greet-meet-and-code-1200.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/assets/img/opt/2014-04-17-fossasia-2014-greet-meet-and-code-1600.webp"
+      }
+    ]
+  },
+  "/assets/img/covers/2014-06-06-working-as-a-devops-intern-ishisystems.webp": {
+    "width": 1600,
+    "height": 893,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/2014-06-06-working-as-a-devops-intern-ishisystems-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/2014-06-06-working-as-a-devops-intern-ishisystems-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/2014-06-06-working-as-a-devops-intern-ishisystems-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/assets/img/opt/2014-06-06-working-as-a-devops-intern-ishisystems-1200.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/assets/img/opt/2014-06-06-working-as-a-devops-intern-ishisystems-1600.webp"
+      }
+    ]
+  },
+  "/assets/img/covers/2015-03-23-fossasia-2015-three-days-smart-city.webp": {
+    "width": 1600,
+    "height": 893,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/2015-03-23-fossasia-2015-three-days-smart-city-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/2015-03-23-fossasia-2015-three-days-smart-city-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/2015-03-23-fossasia-2015-three-days-smart-city-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/assets/img/opt/2015-03-23-fossasia-2015-three-days-smart-city-1200.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/assets/img/opt/2015-03-23-fossasia-2015-three-days-smart-city-1600.webp"
+      }
+    ]
+  },
+  "/assets/img/covers/2015-04-07-fossasia-2015-experience-unveiled.webp": {
+    "width": 1600,
+    "height": 893,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/2015-04-07-fossasia-2015-experience-unveiled-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/2015-04-07-fossasia-2015-experience-unveiled-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/2015-04-07-fossasia-2015-experience-unveiled-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/assets/img/opt/2015-04-07-fossasia-2015-experience-unveiled-1200.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/assets/img/opt/2015-04-07-fossasia-2015-experience-unveiled-1600.webp"
+      }
+    ]
+  },
+  "/assets/img/covers/2015-11-29-google-code-in-with-fossasia.webp": {
+    "width": 1600,
+    "height": 893,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/2015-11-29-google-code-in-with-fossasia-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/2015-11-29-google-code-in-with-fossasia-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/2015-11-29-google-code-in-with-fossasia-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/assets/img/opt/2015-11-29-google-code-in-with-fossasia-1200.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/assets/img/opt/2015-11-29-google-code-in-with-fossasia-1600.webp"
+      }
+    ]
+  },
+  "/assets/img/covers/2016-04-19-carving-your-own-path.webp": {
+    "width": 1600,
+    "height": 893,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/2016-04-19-carving-your-own-path-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/2016-04-19-carving-your-own-path-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/2016-04-19-carving-your-own-path-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/assets/img/opt/2016-04-19-carving-your-own-path-1200.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/assets/img/opt/2016-04-19-carving-your-own-path-1600.webp"
+      }
+    ]
+  },
+  "/assets/img/covers/2016-08-10-presenting-dataone.webp": {
+    "width": 1600,
+    "height": 893,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/2016-08-10-presenting-dataone-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/2016-08-10-presenting-dataone-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/2016-08-10-presenting-dataone-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/assets/img/opt/2016-08-10-presenting-dataone-1200.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/assets/img/opt/2016-08-10-presenting-dataone-1600.webp"
+      }
+    ]
+  },
+  "/assets/img/covers/2018-01-01-sales-lessons-selling-balloons.webp": {
+    "width": 1600,
+    "height": 893,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/2018-01-01-sales-lessons-selling-balloons-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/2018-01-01-sales-lessons-selling-balloons-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/2018-01-01-sales-lessons-selling-balloons-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/assets/img/opt/2018-01-01-sales-lessons-selling-balloons-1200.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/assets/img/opt/2018-01-01-sales-lessons-selling-balloons-1600.webp"
+      }
+    ]
+  },
+  "/assets/img/covers/2020-07-03-feeling-void-or-filling-the-void.webp": {
+    "width": 1600,
+    "height": 893,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/2020-07-03-feeling-void-or-filling-the-void-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/2020-07-03-feeling-void-or-filling-the-void-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/2020-07-03-feeling-void-or-filling-the-void-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/assets/img/opt/2020-07-03-feeling-void-or-filling-the-void-1200.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/assets/img/opt/2020-07-03-feeling-void-or-filling-the-void-1600.webp"
+      }
+    ]
+  },
+  "/assets/img/covers/2022-08-29-future-analytics-no-codelow-code.webp": {
+    "width": 1600,
+    "height": 893,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/2022-08-29-future-analytics-no-codelow-code-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/2022-08-29-future-analytics-no-codelow-code-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/2022-08-29-future-analytics-no-codelow-code-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/assets/img/opt/2022-08-29-future-analytics-no-codelow-code-1200.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/assets/img/opt/2022-08-29-future-analytics-no-codelow-code-1600.webp"
+      }
+    ]
+  },
+  "/assets/img/covers/2023-06-01-Navigating-startup-exits.webp": {
+    "width": 1600,
+    "height": 893,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/2023-06-01-Navigating-startup-exits-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/2023-06-01-Navigating-startup-exits-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/2023-06-01-Navigating-startup-exits-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/assets/img/opt/2023-06-01-Navigating-startup-exits-1200.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/assets/img/opt/2023-06-01-Navigating-startup-exits-1600.webp"
+      }
+    ]
+  },
+  "/assets/img/covers/2025-01-10-work-hours-two-way-street.webp": {
+    "width": 1600,
+    "height": 893,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/2025-01-10-work-hours-two-way-street-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/2025-01-10-work-hours-two-way-street-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/2025-01-10-work-hours-two-way-street-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/assets/img/opt/2025-01-10-work-hours-two-way-street-1200.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/assets/img/opt/2025-01-10-work-hours-two-way-street-1600.webp"
+      }
+    ]
+  },
+  "/assets/img/covers/2025-02-28-dishonesty-business-model.webp": {
+    "width": 1600,
+    "height": 893,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/2025-02-28-dishonesty-business-model-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/2025-02-28-dishonesty-business-model-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/2025-02-28-dishonesty-business-model-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/assets/img/opt/2025-02-28-dishonesty-business-model-1200.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/assets/img/opt/2025-02-28-dishonesty-business-model-1600.webp"
+      }
+    ]
+  },
+  "/assets/img/covers/2026-10-07-before-you-bet-on-one-partner.webp": {
+    "width": 1600,
+    "height": 893,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/2026-10-07-before-you-bet-on-one-partner-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/2026-10-07-before-you-bet-on-one-partner-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/2026-10-07-before-you-bet-on-one-partner-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/assets/img/opt/2026-10-07-before-you-bet-on-one-partner-1200.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/assets/img/opt/2026-10-07-before-you-bet-on-one-partner-1600.webp"
+      }
+    ]
+  },
+  "/assets/img/covers/2026-10-07-six-side-projects-that-failed.webp": {
+    "width": 1600,
+    "height": 893,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/2026-10-07-six-side-projects-that-failed-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/2026-10-07-six-side-projects-that-failed-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/2026-10-07-six-side-projects-that-failed-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/assets/img/opt/2026-10-07-six-side-projects-that-failed-1200.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/assets/img/opt/2026-10-07-six-side-projects-that-failed-1600.webp"
+      }
+    ]
+  },
+  "/assets/img/covers/2026-10-08-building-is-cheap-now.webp": {
+    "width": 1600,
+    "height": 893,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/2026-10-08-building-is-cheap-now-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/2026-10-08-building-is-cheap-now-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/2026-10-08-building-is-cheap-now-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/assets/img/opt/2026-10-08-building-is-cheap-now-1200.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/assets/img/opt/2026-10-08-building-is-cheap-now-1600.webp"
+      }
+    ]
+  },
+  "/assets/img/covers/2026-10-08-building-snezzi-in-public.webp": {
+    "width": 1600,
+    "height": 893,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/2026-10-08-building-snezzi-in-public-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/2026-10-08-building-snezzi-in-public-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/2026-10-08-building-snezzi-in-public-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/assets/img/opt/2026-10-08-building-snezzi-in-public-1200.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/assets/img/opt/2026-10-08-building-snezzi-in-public-1600.webp"
+      }
+    ]
+  },
+  "/assets/img/covers/2026-10-08-customer-service-is-a-choice.webp": {
+    "width": 1600,
+    "height": 893,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/2026-10-08-customer-service-is-a-choice-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/2026-10-08-customer-service-is-a-choice-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/2026-10-08-customer-service-is-a-choice-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/assets/img/opt/2026-10-08-customer-service-is-a-choice-1200.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/assets/img/opt/2026-10-08-customer-service-is-a-choice-1600.webp"
+      }
+    ]
+  },
+  "/assets/img/covers/2026-10-08-lessons-from-enterprise-saas.webp": {
+    "width": 1600,
+    "height": 893,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/2026-10-08-lessons-from-enterprise-saas-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/2026-10-08-lessons-from-enterprise-saas-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/2026-10-08-lessons-from-enterprise-saas-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/assets/img/opt/2026-10-08-lessons-from-enterprise-saas-1200.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/assets/img/opt/2026-10-08-lessons-from-enterprise-saas-1600.webp"
       }
     ]
   },

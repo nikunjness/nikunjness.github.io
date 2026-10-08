@@ -3,6 +3,9 @@ title: "Fossasia 2015 : Experience unveiled"
 date: 2015-04-01 12:05:00
 category: thoughts
 tags: [fossasia, singapore, travel, experience]
+image:
+  path: /assets/img/covers/2015-04-07-fossasia-2015-experience-unveiled.webp
+  alt: "Illustration: a small stage with a microphone and many colorful speech bubbles floating above it"
 ---![Fossasia 2015](/assets/img/fossasia_group.jpg)
 
 
