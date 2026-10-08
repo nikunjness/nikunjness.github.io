@@ -3,7 +3,6 @@ title: "From founder to product manager: lessons from building inside enterprise
 date: 2025-08-12 10:00:00
 description: "After the acquihire, I spent three years building new products inside Whatfix and Plivo. What changed when I went from founder to PM, and the product lessons I still use."
 tags: [product management, saas, lessons, whatfix, plivo]
-draft: true
 image:
   path: /assets/img/covers/2025-08-12-lessons-from-enterprise-saas.webp
   alt: "Illustration: a compass resting on a roadmap next to a tall tower of stacked building blocks"

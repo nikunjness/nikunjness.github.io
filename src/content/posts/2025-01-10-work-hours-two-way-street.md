@@ -4,7 +4,6 @@ date: 2025-01-10 12:00:00
 description: "When business leaders called for 70 to 90-hour work weeks, I'd seen both sides: as a founder and as an employee. Long hours can work, but only when companies give something back."
 tags: [work culture, startups, leadership]
 linkedin: https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7283401464411037696
-draft: true
 image:
   path: /assets/img/covers/2025-01-10-work-hours-two-way-street.webp
   alt: "Illustration: a balance scale with a clock on one side and a small house and a heart on the other"

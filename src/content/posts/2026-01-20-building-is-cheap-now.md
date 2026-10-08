@@ -3,7 +3,6 @@ title: "Building is cheap now. Here's what isn't."
 date: 2026-01-20 10:00:00
 description: "I've built working products in a weekend, and one in 30 minutes. AI made building almost free. It didn't make adoption, judgment, or maintenance any cheaper."
 tags: [ai, startups, build in public, product]
-draft: true
 image:
   path: /assets/img/covers/2026-01-20-building-is-cheap-now.webp
   alt: "Illustration: small robotic arms quickly assembling app blocks"

@@ -3,7 +3,6 @@ title: "Customer service is a choice"
 date: 2026-09-26 10:00:00
 description: "Collecting money is instant. Getting a refund takes months. After two frustrating years with Indian telecom providers, here's why I think broken customer service is a system choice, not a staffing problem."
 tags: [customer experience, business, opinion]
-draft: true
 image:
   path: /assets/img/covers/2026-09-26-customer-service-is-a-choice.webp
   alt: "Illustration: a call center headset with a tangled cord and a long paper receipt"

@@ -4,7 +4,6 @@ date: 2018-01-01 12:00:00
 description: "On New Year's evening, I joined a friend helping balloon sellers at traffic signals. It turned out to be a surprisingly good lesson in selling."
 tags: [sales, lessons, startups]
 linkedin: https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A6353522212489785344
-draft: true
 image:
   path: /assets/img/covers/2018-01-01-sales-lessons-selling-balloons.webp
   alt: "Illustration: a bunch of colorful balloons tied near a small traffic light"

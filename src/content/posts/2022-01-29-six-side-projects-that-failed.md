@@ -3,7 +3,6 @@ title: "Six side projects that failed, and what they had in common"
 date: 2022-01-29 10:00:00
 description: "Between 2015 and 2018 I started and shut down six side projects. Here's what each one was, why it died, and the patterns I only saw once I lined them up."
 tags: [startups, failure, side projects, lessons]
-draft: true
 image:
   path: /assets/img/covers/2022-01-29-six-side-projects-that-failed.webp
   alt: "Illustration: six small prototype gadgets on a shelf"

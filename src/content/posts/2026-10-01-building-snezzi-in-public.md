@@ -3,7 +3,6 @@ title: "Building Snezzi in public: lessons from year one"
 date: 2026-10-01 10:00:00
 description: "A year into building Snezzi, the lessons that surprised me weren't technical. They were about naming a new category, choosing what to give away, and earning trust with skeptical buyers."
 tags: [build in public, startups, gtm, snezzi]
-draft: true
 image:
   path: /assets/img/covers/2026-10-01-building-snezzi-in-public.webp
   alt: "Illustration: a glass workshop with open walls"

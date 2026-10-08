@@ -3,7 +3,6 @@ title: "The year I started over"
 date: 2025-02-05 10:00:00
 description: "In January 2024 I left my job burned out, posted #OpenToWork in public, and spent a year freelancing and shipping small experiments. Here's what that year looked like from the inside."
 tags: [build in public, startups, lessons, entrepreneurship]
-draft: true
 image:
   path: /assets/img/covers/2025-02-05-the-year-i-started-over.webp
   alt: "Illustration: a fork in a road at sunrise with a small green seedling growing at the split"
@@ -42,8 +41,6 @@ The bigger change was that I started building again.
 I'd been away from coding for a while, and AI had quietly made building fast. In late 2023 I'd started a content site on one of my spare domains. For two months, nothing. No visitors, nothing indexed. I kept publishing anyway. Then it tipped: more than 1,300 pages indexed, 23 organic clicks and 831 impressions in a single week. Tiny numbers, but they proved the compounding was real.
 
 In July 2024 I built JobReferral over a weekend, a tool that lets companies post jobs with referral rewards and lets people earn by referring friends. Within days, 66 people had signed up as referrers and 51 recruiters had joined the waitlist. Then came the part nobody posts about: when you build solo, development is the easy bit. My days filled up with industry calls, outbound campaigns, Reddit threads, and waitlist emails.
-
-<!-- TODO (Nikunj): one line on what happened to JobReferral, if you want to share it. -->
 
 Around the same time I restarted my podcast. After three episodes I had stalled, not on recording but on editing. Bringing on an intern to edit fixed it, and the podcast that became Startup OG got going again. The lesson was embarrassingly simple: the bottleneck is rarely the part you're good at.
 

@@ -3,17 +3,10 @@ title: "Before you bet your startup on one partner"
 date: 2022-02-15 10:00:00
 description: "Early at DataOne, we put almost everything we had earned into one partnership. It fell apart and we lost that investment. Three lessons I'd give any founder before signing that kind of deal."
 tags: [startups, failure, lessons, entrepreneurship]
-draft: true
 image:
   path: /assets/img/covers/2022-02-15-before-you-bet-on-one-partner.webp
   alt: "Illustration: two hands shaking above a single narrow bridge over a gap"
 ---
-
-<!--
-DRAFT NOTES FOR NIKUNJ: this is built from the eChai Ventures "Learnings from Failures" talk (Jan 2022).
-The YouTube auto-transcript is a machine translation and garbled, so the specifics below are deliberately vague.
-Fill in or correct everything marked TODO before publishing. Keep the lessons, they came through clearly.
--->
 
 We started DataOne Innovation Labs in March 2016. Like a lot of bootstrapped companies, we began as a services business, building data and analytics products for clients through our network.
 
@@ -21,15 +14,11 @@ Early on, one opportunity looked like it could change everything.
 
 ## The deal
 
-<!-- TODO: who the partner was (no names needed, e.g. "a senior person at a large enterprise customer"), what the arrangement was (joint venture? subscription? revenue share?), and roughly when. -->
-
 A senior person we knew through our network wanted us to build a product with them. Our team was good at exactly this kind of work, the opportunity looked big, and it was moving fast. So we signed an agreement and committed to it.
 
 Then we did the thing that made it hurt: we invested almost all the money we had earned so far into building that product. It seemed big enough to focus on.
 
 ## How it fell apart
-
-<!-- TODO: what actually happened, how long it took (the talk mentions about six months), and what the legal side looked like. -->
 
 Within about six months, the partnership fell apart. Whatever we had invested, in money and in progress, was gone. We had also made the classic mistake of not having a lawyer properly involved in the agreement, so we had very little to fall back on.
 
