@@ -108,7 +108,8 @@ const stats = [
   const cap = dlg.querySelector('.cap')!;
   const meta = dlg.querySelector('.meta')!;
   let current = -1;
-  const visible = () => [...document.querySelectorAll<HTMLButtonElement>('.open')].filter((b) => !b.closest<HTMLElement>('[data-cat]')!.hidden);
+  const buttons = [...document.querySelectorAll<HTMLButtonElement>('[data-cat] .open')];
+  const visible = () => buttons.filter((b) => !b.closest<HTMLElement>('[data-cat]')?.hidden);
 
   const show = (btn: HTMLButtonElement) => {
     const list = visible();
@@ -123,7 +124,7 @@ const stats = [
     if (list.length) show(list[(current + d + list.length) % list.length]);
   };
 
-  document.querySelectorAll<HTMLButtonElement>('.open').forEach((btn) =>
+  buttons.forEach((btn) =>
     btn.addEventListener('click', () => {
       show(btn);
       dlg.showModal();

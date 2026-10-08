@@ -1,6 +1,6 @@
 ---
 title: "What bootstrapping DataOne and Shoppr taught me"
-date: 2026-10-08 11:00:00
+date: 2025-03-05 10:00:00
 description: "Five years of bootstrapping a data company and a marketing analytics product, condensed into the lessons I still use: first customers, MVPs, hiring, investors, and content."
 tags: [startups, bootstrapping, lessons, dataone, shoppr]
 draft: true

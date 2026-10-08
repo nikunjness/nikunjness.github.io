@@ -1,6 +1,6 @@
 ---
 title: "What thirteen years of community building gave me"
-date: 2026-10-08 10:00:00
+date: 2026-01-12 10:00:00
 description: "I moved to Ahmedabad knowing almost nobody. One free event in 2013 led to Headstart, GDG Cloud Ahmedabad, and eventually Startup OG. Here's what paying it forward actually paid back."
 tags: [community, startups, lessons, startup og]
 draft: true

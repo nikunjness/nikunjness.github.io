@@ -1,6 +1,6 @@
 ---
 title: "The year I started over"
-date: 2026-10-08 09:00:00
+date: 2025-02-05 10:00:00
 description: "In January 2024 I left my job burned out, posted #OpenToWork in public, and spent a year freelancing and shipping small experiments. Here's what that year looked like from the inside."
 tags: [build in public, startups, lessons, entrepreneurship]
 draft: true
@@ -52,7 +52,7 @@ By the end of 2024 I could see the pattern. I loved helping founders take an ide
 
 So on January 1, 2025, we launched UpSurge Ventures, a product studio for founders who want to turn ideas into real products. The first week: five calls booked, two warm leads, and a second proposal sent. On day seven we closed our first deal, partly because we met the customer face to face. By January 20 we'd closed two projects. A few weeks later Upahar Sood joined, and FormSubmit kept quietly picking up paid users.
 
-That chapter led to the one I'm in now. In October 2025 I co-founded [Snezzi](https://snezzi.com).
+A year after leaving my job burned out, I was building again.
 
 ## What that year taught me
 

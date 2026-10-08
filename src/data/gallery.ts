@@ -68,7 +68,7 @@ export const photos: Moment[] = [
   },
   {
     src: '/assets/img/otres.webp',
-    alt: 'A person sitting on the sand at Otres Beach at dusk',
+    alt: 'Nikunj sitting on the sand at Otres Beach at dusk',
     caption: 'Otres Beach, after FOSSASIA 2014',
     place: 'Sihanoukville, Cambodia',
     date: '2014',

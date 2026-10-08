@@ -363,6 +363,58 @@
       }
     ]
   },
+  "/assets/img/covers/2022-01-29-six-side-projects-that-failed.webp": {
+    "width": 1600,
+    "height": 893,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/2022-01-29-six-side-projects-that-failed-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/2022-01-29-six-side-projects-that-failed-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/2022-01-29-six-side-projects-that-failed-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/assets/img/opt/2022-01-29-six-side-projects-that-failed-1200.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/assets/img/opt/2022-01-29-six-side-projects-that-failed-1600.webp"
+      }
+    ]
+  },
+  "/assets/img/covers/2022-02-15-before-you-bet-on-one-partner.webp": {
+    "width": 1600,
+    "height": 893,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/2022-02-15-before-you-bet-on-one-partner-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/2022-02-15-before-you-bet-on-one-partner-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/2022-02-15-before-you-bet-on-one-partner-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/assets/img/opt/2022-02-15-before-you-bet-on-one-partner-1200.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/assets/img/opt/2022-02-15-before-you-bet-on-one-partner-1600.webp"
+      }
+    ]
+  },
   "/assets/img/covers/2022-08-29-future-analytics-no-codelow-code.webp": {
     "width": 1600,
     "height": 893,
@@ -467,159 +519,107 @@
       }
     ]
   },
-  "/assets/img/covers/2026-10-07-before-you-bet-on-one-partner.webp": {
+  "/assets/img/covers/2025-08-12-lessons-from-enterprise-saas.webp": {
     "width": 1600,
     "height": 893,
     "variants": [
       {
         "w": 320,
-        "src": "/assets/img/opt/2026-10-07-before-you-bet-on-one-partner-320.webp"
+        "src": "/assets/img/opt/2025-08-12-lessons-from-enterprise-saas-320.webp"
       },
       {
         "w": 480,
-        "src": "/assets/img/opt/2026-10-07-before-you-bet-on-one-partner-480.webp"
+        "src": "/assets/img/opt/2025-08-12-lessons-from-enterprise-saas-480.webp"
       },
       {
         "w": 800,
-        "src": "/assets/img/opt/2026-10-07-before-you-bet-on-one-partner-800.webp"
+        "src": "/assets/img/opt/2025-08-12-lessons-from-enterprise-saas-800.webp"
       },
       {
         "w": 1200,
-        "src": "/assets/img/opt/2026-10-07-before-you-bet-on-one-partner-1200.webp"
+        "src": "/assets/img/opt/2025-08-12-lessons-from-enterprise-saas-1200.webp"
       },
       {
         "w": 1600,
-        "src": "/assets/img/opt/2026-10-07-before-you-bet-on-one-partner-1600.webp"
+        "src": "/assets/img/opt/2025-08-12-lessons-from-enterprise-saas-1600.webp"
       }
     ]
   },
-  "/assets/img/covers/2026-10-07-six-side-projects-that-failed.webp": {
+  "/assets/img/covers/2026-01-20-building-is-cheap-now.webp": {
     "width": 1600,
     "height": 893,
     "variants": [
       {
         "w": 320,
-        "src": "/assets/img/opt/2026-10-07-six-side-projects-that-failed-320.webp"
+        "src": "/assets/img/opt/2026-01-20-building-is-cheap-now-320.webp"
       },
       {
         "w": 480,
-        "src": "/assets/img/opt/2026-10-07-six-side-projects-that-failed-480.webp"
+        "src": "/assets/img/opt/2026-01-20-building-is-cheap-now-480.webp"
       },
       {
         "w": 800,
-        "src": "/assets/img/opt/2026-10-07-six-side-projects-that-failed-800.webp"
+        "src": "/assets/img/opt/2026-01-20-building-is-cheap-now-800.webp"
       },
       {
         "w": 1200,
-        "src": "/assets/img/opt/2026-10-07-six-side-projects-that-failed-1200.webp"
+        "src": "/assets/img/opt/2026-01-20-building-is-cheap-now-1200.webp"
       },
       {
         "w": 1600,
-        "src": "/assets/img/opt/2026-10-07-six-side-projects-that-failed-1600.webp"
+        "src": "/assets/img/opt/2026-01-20-building-is-cheap-now-1600.webp"
       }
     ]
   },
-  "/assets/img/covers/2026-10-08-building-is-cheap-now.webp": {
+  "/assets/img/covers/2026-09-26-customer-service-is-a-choice.webp": {
     "width": 1600,
     "height": 893,
     "variants": [
       {
         "w": 320,
-        "src": "/assets/img/opt/2026-10-08-building-is-cheap-now-320.webp"
+        "src": "/assets/img/opt/2026-09-26-customer-service-is-a-choice-320.webp"
       },
       {
         "w": 480,
-        "src": "/assets/img/opt/2026-10-08-building-is-cheap-now-480.webp"
+        "src": "/assets/img/opt/2026-09-26-customer-service-is-a-choice-480.webp"
       },
       {
         "w": 800,
-        "src": "/assets/img/opt/2026-10-08-building-is-cheap-now-800.webp"
+        "src": "/assets/img/opt/2026-09-26-customer-service-is-a-choice-800.webp"
       },
       {
         "w": 1200,
-        "src": "/assets/img/opt/2026-10-08-building-is-cheap-now-1200.webp"
+        "src": "/assets/img/opt/2026-09-26-customer-service-is-a-choice-1200.webp"
       },
       {
         "w": 1600,
-        "src": "/assets/img/opt/2026-10-08-building-is-cheap-now-1600.webp"
+        "src": "/assets/img/opt/2026-09-26-customer-service-is-a-choice-1600.webp"
       }
     ]
   },
-  "/assets/img/covers/2026-10-08-building-snezzi-in-public.webp": {
+  "/assets/img/covers/2026-10-01-building-snezzi-in-public.webp": {
     "width": 1600,
     "height": 893,
     "variants": [
       {
         "w": 320,
-        "src": "/assets/img/opt/2026-10-08-building-snezzi-in-public-320.webp"
+        "src": "/assets/img/opt/2026-10-01-building-snezzi-in-public-320.webp"
       },
       {
         "w": 480,
-        "src": "/assets/img/opt/2026-10-08-building-snezzi-in-public-480.webp"
+        "src": "/assets/img/opt/2026-10-01-building-snezzi-in-public-480.webp"
       },
       {
         "w": 800,
-        "src": "/assets/img/opt/2026-10-08-building-snezzi-in-public-800.webp"
+        "src": "/assets/img/opt/2026-10-01-building-snezzi-in-public-800.webp"
       },
       {
         "w": 1200,
-        "src": "/assets/img/opt/2026-10-08-building-snezzi-in-public-1200.webp"
+        "src": "/assets/img/opt/2026-10-01-building-snezzi-in-public-1200.webp"
       },
       {
         "w": 1600,
-        "src": "/assets/img/opt/2026-10-08-building-snezzi-in-public-1600.webp"
-      }
-    ]
-  },
-  "/assets/img/covers/2026-10-08-customer-service-is-a-choice.webp": {
-    "width": 1600,
-    "height": 893,
-    "variants": [
-      {
-        "w": 320,
-        "src": "/assets/img/opt/2026-10-08-customer-service-is-a-choice-320.webp"
-      },
-      {
-        "w": 480,
-        "src": "/assets/img/opt/2026-10-08-customer-service-is-a-choice-480.webp"
-      },
-      {
-        "w": 800,
-        "src": "/assets/img/opt/2026-10-08-customer-service-is-a-choice-800.webp"
-      },
-      {
-        "w": 1200,
-        "src": "/assets/img/opt/2026-10-08-customer-service-is-a-choice-1200.webp"
-      },
-      {
-        "w": 1600,
-        "src": "/assets/img/opt/2026-10-08-customer-service-is-a-choice-1600.webp"
-      }
-    ]
-  },
-  "/assets/img/covers/2026-10-08-lessons-from-enterprise-saas.webp": {
-    "width": 1600,
-    "height": 893,
-    "variants": [
-      {
-        "w": 320,
-        "src": "/assets/img/opt/2026-10-08-lessons-from-enterprise-saas-320.webp"
-      },
-      {
-        "w": 480,
-        "src": "/assets/img/opt/2026-10-08-lessons-from-enterprise-saas-480.webp"
-      },
-      {
-        "w": 800,
-        "src": "/assets/img/opt/2026-10-08-lessons-from-enterprise-saas-800.webp"
-      },
-      {
-        "w": 1200,
-        "src": "/assets/img/opt/2026-10-08-lessons-from-enterprise-saas-1200.webp"
-      },
-      {
-        "w": 1600,
-        "src": "/assets/img/opt/2026-10-08-lessons-from-enterprise-saas-1600.webp"
+        "src": "/assets/img/opt/2026-10-01-building-snezzi-in-public-1600.webp"
       }
     ]
   },

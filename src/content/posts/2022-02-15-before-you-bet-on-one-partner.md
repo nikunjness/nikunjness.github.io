@@ -1,11 +1,11 @@
 ---
 title: "Before you bet your startup on one partner"
-date: 2026-10-07 11:00:00
+date: 2022-02-15 10:00:00
 description: "Early at DataOne, we put almost everything we had earned into one partnership. It fell apart and we lost that investment. Three lessons I'd give any founder before signing that kind of deal."
 tags: [startups, failure, lessons, entrepreneurship]
 draft: true
 image:
-  path: /assets/img/covers/2026-10-07-before-you-bet-on-one-partner.webp
+  path: /assets/img/covers/2022-02-15-before-you-bet-on-one-partner.webp
   alt: "Illustration: two hands shaking above a single narrow bridge over a gap"
 ---
 
