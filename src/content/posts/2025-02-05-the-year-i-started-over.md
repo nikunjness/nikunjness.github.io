@@ -40,7 +40,7 @@ The bigger change was that I started building again.
 
 I'd been away from coding for a while, and AI had quietly made building fast. In late 2023 I'd started a content site on one of my spare domains. For two months, nothing. No visitors, nothing indexed. I kept publishing anyway. Then it tipped: more than 1,300 pages indexed, 23 organic clicks and 831 impressions in a single week. Tiny numbers, but they proved the compounding was real.
 
-In July 2024 I built JobReferral over a weekend, a tool that lets companies post jobs with referral rewards and lets people earn by referring friends. Within days, 66 people had signed up as referrers and 51 recruiters had joined the waitlist. Then came the part nobody posts about: when you build solo, development is the easy bit. My days filled up with industry calls, outbound campaigns, Reddit threads, and waitlist emails.
+In July 2024 I built JobReferral over a weekend, a tool that lets companies post jobs with referral rewards and lets people earn by referring friends. Within days, 66 people had signed up as referrers and 51 recruiters had joined the waitlist. Then came the part nobody posts about: when you build solo, development is the easy bit. My days filled up with industry calls, outbound campaigns, Reddit threads, and waitlist emails. JobReferral stayed an experiment, and I didn't pursue it further, but it taught me where the real work in a solo product sits.
 
 Around the same time I restarted my podcast. After three episodes I had stalled, not on recording but on editing. Bringing on an intern to edit fixed it, and the podcast that became Startup OG got going again. The lesson was embarrassingly simple: the bottleneck is rarely the part you're good at.
 
