@@ -3,7 +3,7 @@ layout: ../layouts/Page.astro
 title: Now
 eyebrow: Now
 heading: 'What I’m focused on <span class="it grad-text">right now.</span>'
-brands: [snezzi, startupog, upsurge]
+brands: [snezzi, startupog]
 description: "What Nikunj Thakkar is focused on right now: building Snezzi, hosting Startup OG, and writing about startups, product, and GTM."
 ---
 
@@ -20,6 +20,5 @@ If you run marketing or growth and AI search is a blind spot for you, [let's tal
 ## Also
 
 - **Startup OG.** Hosting conversations with founders across SaaS, fintech, ecommerce, and marketing, plus meetups and events.
-- **UpSurge Ventures.** The product studio I started with two co-founders in January 2025, helping founders get MVPs out the door.
 - **Writing.** Short, practical notes on SaaS, product, GTM, AI, and AI search. You'll find them under [writing](/writing/).
 - **Community.** Spending time with founders in Bengaluru and Gujarat. See [community](/community/).
