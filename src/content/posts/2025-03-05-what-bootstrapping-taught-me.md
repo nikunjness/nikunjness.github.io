@@ -4,6 +4,9 @@ date: 2025-03-05 10:00:00
 description: "Five years of bootstrapping a data company and a marketing analytics product, condensed into the lessons I still use: first customers, MVPs, hiring, investors, and content."
 tags: [startups, bootstrapping, lessons, dataone, shoppr]
 draft: true
+image:
+  path: /assets/img/covers/2025-03-05-what-bootstrapping-taught-me.webp
+  alt: "Illustration: a sturdy boot with a small plant sprouting from it, a few coins beside it"
 ---
 
 From 2016 to 2020 I co-founded and ran DataOne Innovation Labs. We started as a data services company and later built Shoppr.ai, a marketing analytics product for ecommerce brands. We bootstrapped the whole way, and the team was eventually acquihired by Whatfix.

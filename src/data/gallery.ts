@@ -389,7 +389,7 @@ export const photos: Moment[] = [
   {
     src: '/assets/img/gallery/saas-founders-meetup-2024-1.webp',
     alt: 'SaaS Founders Meetup panel and attendees',
-    caption: 'SaaS Founders Meetup by Entrepreneur’s Cafe, powered by GitHub',
+    caption: 'SaaS Founders Meetup by Startup OG (then Entrepreneur’s Cafe), powered by GitHub',
     place: 'Bengaluru',
     date: '2024-06',
     category: 'community',
@@ -397,7 +397,7 @@ export const photos: Moment[] = [
   {
     src: '/assets/img/gallery/saas-founders-meetup-2024-2.webp',
     alt: 'SaaS Founders Meetup panel and attendees',
-    caption: 'SaaS Founders Meetup by Entrepreneur’s Cafe, powered by GitHub',
+    caption: 'SaaS Founders Meetup by Startup OG (then Entrepreneur’s Cafe), powered by GitHub',
     place: 'Bengaluru',
     date: '2024-06',
     category: 'community',
@@ -405,7 +405,7 @@ export const photos: Moment[] = [
   {
     src: '/assets/img/gallery/saas-founders-meetup-2024-3.webp',
     alt: 'SaaS Founders Meetup panel and attendees',
-    caption: 'SaaS Founders Meetup by Entrepreneur’s Cafe, powered by GitHub',
+    caption: 'SaaS Founders Meetup by Startup OG (then Entrepreneur’s Cafe), powered by GitHub',
     place: 'Bengaluru',
     date: '2024-06',
     category: 'community',
@@ -413,7 +413,7 @@ export const photos: Moment[] = [
   {
     src: '/assets/img/gallery/saas-founders-meetup-2024-4.webp',
     alt: 'SaaS Founders Meetup panel and attendees',
-    caption: 'SaaS Founders Meetup by Entrepreneur’s Cafe, powered by GitHub',
+    caption: 'SaaS Founders Meetup by Startup OG (then Entrepreneur’s Cafe), powered by GitHub',
     place: 'Bengaluru',
     date: '2024-06',
     category: 'community',
@@ -421,7 +421,7 @@ export const photos: Moment[] = [
   {
     src: '/assets/img/gallery/fintech-mixer-2024.webp',
     alt: 'Fintech Mixer session',
-    caption: 'Fintech Mixer by Entrepreneur’s Cafe: insights for early-stage founders',
+    caption: 'Fintech Mixer by Startup OG (then Entrepreneur’s Cafe): insights for early-stage founders',
     place: 'Bengaluru',
     date: '2024-08',
     category: 'community',
@@ -437,7 +437,7 @@ export const photos: Moment[] = [
   {
     src: '/assets/img/gallery/d2c-mixer-2024-1.webp',
     alt: 'D2C Mixer audience and speakers',
-    caption: 'D2C Mixer with Pruthvi Gowda of Gro Club and Sagnik Ghose of Those Woof Guys',
+    caption: 'Startup OG D2C Mixer with Pruthvi Gowda of Gro Club and Sagnik Ghose of Those Woof Guys',
     place: 'Bengaluru',
     date: '2024-10',
     category: 'community',
@@ -445,7 +445,7 @@ export const photos: Moment[] = [
   {
     src: '/assets/img/gallery/d2c-mixer-2024-2.webp',
     alt: 'D2C Mixer audience and speakers',
-    caption: 'D2C Mixer with Pruthvi Gowda of Gro Club and Sagnik Ghose of Those Woof Guys',
+    caption: 'Startup OG D2C Mixer with Pruthvi Gowda of Gro Club and Sagnik Ghose of Those Woof Guys',
     place: 'Bengaluru',
     date: '2024-10',
     category: 'community',
@@ -453,7 +453,7 @@ export const photos: Moment[] = [
   {
     src: '/assets/img/gallery/d2c-mixer-2024-3.webp',
     alt: 'D2C Mixer audience and speakers',
-    caption: 'D2C Mixer with Pruthvi Gowda of Gro Club and Sagnik Ghose of Those Woof Guys',
+    caption: 'Startup OG D2C Mixer with Pruthvi Gowda of Gro Club and Sagnik Ghose of Those Woof Guys',
     place: 'Bengaluru',
     date: '2024-10',
     category: 'community',
@@ -865,23 +865,23 @@ export const posters: Moment[] = [
   {
     src: '/assets/img/gallery/saas-founders-meetup-2024-poster.webp',
     alt: 'Event poster: SaaS Founders Meetup, powered by GitHub',
-    caption: 'SaaS Founders Meetup, powered by GitHub',
+    caption: 'SaaS Founders Meetup by Startup OG (then Entrepreneur’s Cafe), powered by GitHub',
     date: '2024-06',
     category: 'community',
     poster: true,
   },
   {
     src: '/assets/img/gallery/fintech-mixer-2024-poster.webp',
-    alt: 'Event poster: Fintech Mixer by Entrepreneur’s Cafe',
-    caption: 'Fintech Mixer by Entrepreneur’s Cafe',
+    alt: 'Event poster: Fintech Mixer by Startup OG (then Entrepreneur’s Cafe)',
+    caption: 'Fintech Mixer by Startup OG (then Entrepreneur’s Cafe)',
     date: '2024-07',
     category: 'community',
     poster: true,
   },
   {
     src: '/assets/img/gallery/d2c-mixer-2024-poster.webp',
-    alt: 'Event poster: D2C Mixer by Entrepreneur’s Cafe',
-    caption: 'D2C Mixer by Entrepreneur’s Cafe',
+    alt: 'Event poster: D2C Mixer by Startup OG (then Entrepreneur’s Cafe)',
+    caption: 'D2C Mixer by Startup OG (then Entrepreneur’s Cafe)',
     date: '2024-10',
     category: 'community',
     poster: true,

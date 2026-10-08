@@ -493,6 +493,32 @@
       }
     ]
   },
+  "/assets/img/covers/2025-02-05-the-year-i-started-over.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/2025-02-05-the-year-i-started-over-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/2025-02-05-the-year-i-started-over-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/2025-02-05-the-year-i-started-over-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/assets/img/opt/2025-02-05-the-year-i-started-over-1200.webp"
+      },
+      {
+        "w": 1376,
+        "src": "/assets/img/opt/2025-02-05-the-year-i-started-over-1376.webp"
+      }
+    ]
+  },
   "/assets/img/covers/2025-02-28-dishonesty-business-model.webp": {
     "width": 1600,
     "height": 893,
@@ -519,6 +545,32 @@
       }
     ]
   },
+  "/assets/img/covers/2025-03-05-what-bootstrapping-taught-me.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/2025-03-05-what-bootstrapping-taught-me-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/2025-03-05-what-bootstrapping-taught-me-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/2025-03-05-what-bootstrapping-taught-me-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/assets/img/opt/2025-03-05-what-bootstrapping-taught-me-1200.webp"
+      },
+      {
+        "w": 1376,
+        "src": "/assets/img/opt/2025-03-05-what-bootstrapping-taught-me-1376.webp"
+      }
+    ]
+  },
   "/assets/img/covers/2025-08-12-lessons-from-enterprise-saas.webp": {
     "width": 1600,
     "height": 893,
@@ -542,6 +594,32 @@
       {
         "w": 1600,
         "src": "/assets/img/opt/2025-08-12-lessons-from-enterprise-saas-1600.webp"
+      }
+    ]
+  },
+  "/assets/img/covers/2026-01-12-thirteen-years-of-community.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/2026-01-12-thirteen-years-of-community-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/2026-01-12-thirteen-years-of-community-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/2026-01-12-thirteen-years-of-community-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/assets/img/opt/2026-01-12-thirteen-years-of-community-1200.webp"
+      },
+      {
+        "w": 1376,
+        "src": "/assets/img/opt/2026-01-12-thirteen-years-of-community-1376.webp"
       }
     ]
   },

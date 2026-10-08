@@ -4,6 +4,9 @@ date: 2025-02-05 10:00:00
 description: "In January 2024 I left my job burned out, posted #OpenToWork in public, and spent a year freelancing and shipping small experiments. Here's what that year looked like from the inside."
 tags: [build in public, startups, lessons, entrepreneurship]
 draft: true
+image:
+  path: /assets/img/covers/2025-02-05-the-year-i-started-over.webp
+  alt: "Illustration: a fork in a road at sunrise with a small green seedling growing at the split"
 ---
 
 In January 2024 I did something I'd never done before: I told my whole network I was looking for a job.
