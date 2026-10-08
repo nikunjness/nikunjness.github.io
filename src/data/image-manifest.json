@@ -1901,6 +1901,50 @@
       }
     ]
   },
+  "/assets/img/gallery/gdg-cloud-ahmedabad-hosting.webp": {
+    "width": 1080,
+    "height": 1080,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/gdg-cloud-ahmedabad-hosting-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/gdg-cloud-ahmedabad-hosting-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/gdg-cloud-ahmedabad-hosting-800.webp"
+      },
+      {
+        "w": 1080,
+        "src": "/assets/img/opt/gdg-cloud-ahmedabad-hosting-1080.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/gdg-cloud-ahmedabad-stage.webp": {
+    "width": 1080,
+    "height": 720,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/gdg-cloud-ahmedabad-stage-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/gdg-cloud-ahmedabad-stage-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/gdg-cloud-ahmedabad-stage-800.webp"
+      },
+      {
+        "w": 1080,
+        "src": "/assets/img/opt/gdg-cloud-ahmedabad-stage-1080.webp"
+      }
+    ]
+  },
   "/assets/img/gallery/gdg-cloud-ahmedabad.webp": {
     "width": 800,
     "height": 800,

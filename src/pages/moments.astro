@@ -5,11 +5,12 @@ import { photos as allPhotos, posters as allPosters, CATEGORIES, type Moment } f
 import { responsive } from '../lib/images';
 
 // Newest first
-const byDate = (a: Moment, b: Moment) => b.date.localeCompare(a.date);
+const byDate = (a: Moment, b: Moment) => (b.date ?? '').localeCompare(a.date ?? '');
 const photos = [...allPhotos].sort(byDate);
 const posters = [...allPosters].sort(byDate);
 
-const when = (d: string) => {
+const when = (d?: string) => {
+  if (!d) return '';
   const [y, m] = d.split('-').map(Number);
   return m ? new Date(Date.UTC(y, m - 1)).toLocaleDateString('en-US', { month: 'short', year: 'numeric', timeZone: 'UTC' }) : String(y);
 };

@@ -8,7 +8,7 @@ export type Moment = {
   alt: string;
   caption: string;
   place?: string;
-  date: string; // YYYY-MM or YYYY
+  date?: string; // YYYY-MM or YYYY; omit when unknown
   category: Category;
   /** Promotional poster rather than a photo; shown on the event wall */
   poster?: boolean;
@@ -575,6 +575,20 @@ export const photos: Moment[] = [
     alt: 'Nikunj with Vatsal Sanghvi at the Dodo Payments launch party',
     caption: 'Meeting Vatsal Sanghvi at the Dodo Payments launch party',
     date: '2025-03',
+    category: 'community',
+  },
+  {
+    src: '/assets/img/gallery/gdg-cloud-ahmedabad-hosting.webp',
+    alt: 'Nikunj holding a mic while hosting a GDG Cloud Ahmedabad event',
+    caption: 'Hosting a GDG Cloud Ahmedabad event',
+    place: 'Ahmedabad',
+    category: 'community',
+  },
+  {
+    src: '/assets/img/gallery/gdg-cloud-ahmedabad-stage.webp',
+    alt: 'Nikunj on stage in front of a large audience at a GDG Cloud Ahmedabad event',
+    caption: 'On stage at a GDG Cloud Ahmedabad event',
+    place: 'Ahmedabad',
     category: 'community',
   },
 ];
