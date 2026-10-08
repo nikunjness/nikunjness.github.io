@@ -863,6 +863,28 @@
       }
     ]
   },
+  "/assets/img/gallery/bangalore-saas-meetup-2023.webp": {
+    "width": 1080,
+    "height": 1920,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/bangalore-saas-meetup-2023-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/bangalore-saas-meetup-2023-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/bangalore-saas-meetup-2023-800.webp"
+      },
+      {
+        "w": 1080,
+        "src": "/assets/img/opt/bangalore-saas-meetup-2023-1080.webp"
+      }
+    ]
+  },
   "/assets/img/gallery/bangalore-tech-summit-2024.webp": {
     "width": 800,
     "height": 450,
@@ -1015,6 +1037,28 @@
       }
     ]
   },
+  "/assets/img/gallery/corise-networking-circle-2022.webp": {
+    "width": 1080,
+    "height": 1080,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/corise-networking-circle-2022-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/corise-networking-circle-2022-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/corise-networking-circle-2022-800.webp"
+      },
+      {
+        "w": 1080,
+        "src": "/assets/img/opt/corise-networking-circle-2022-1080.webp"
+      }
+    ]
+  },
   "/assets/img/gallery/cto-talks-2022.webp": {
     "width": 1080,
     "height": 864,
@@ -1146,6 +1190,24 @@
       {
         "w": 800,
         "src": "/assets/img/opt/devcon24-saas-insider-800.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/dodo-payments-launch-2025.webp": {
+    "width": 800,
+    "height": 600,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/dodo-payments-launch-2025-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/dodo-payments-launch-2025-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/dodo-payments-launch-2025-800.webp"
       }
     ]
   },
@@ -1457,6 +1519,28 @@
       }
     ]
   },
+  "/assets/img/gallery/echai-growth-meetup-draper-2021.webp": {
+    "width": 990,
+    "height": 990,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/echai-growth-meetup-draper-2021-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/echai-growth-meetup-draper-2021-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/echai-growth-meetup-draper-2021-800.webp"
+      },
+      {
+        "w": 990,
+        "src": "/assets/img/opt/echai-growth-meetup-draper-2021-990.webp"
+      }
+    ]
+  },
   "/assets/img/gallery/echai-product-social-2024-1.webp": {
     "width": 800,
     "height": 600,
@@ -1493,6 +1577,28 @@
       }
     ]
   },
+  "/assets/img/gallery/echai-saas-founders-meetup-2023.webp": {
+    "width": 1080,
+    "height": 1080,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/echai-saas-founders-meetup-2023-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/echai-saas-founders-meetup-2023-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/echai-saas-founders-meetup-2023-800.webp"
+      },
+      {
+        "w": 1080,
+        "src": "/assets/img/opt/echai-saas-founders-meetup-2023-1080.webp"
+      }
+    ]
+  },
   "/assets/img/gallery/echai-with-pioneers.webp": {
     "width": 800,
     "height": 1132,
@@ -1508,6 +1614,78 @@
       {
         "w": 800,
         "src": "/assets/img/opt/echai-with-pioneers-800.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/elite-entrepreneurs-cyber-security-2018-1.webp": {
+    "width": 800,
+    "height": 600,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/elite-entrepreneurs-cyber-security-2018-1-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/elite-entrepreneurs-cyber-security-2018-1-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/elite-entrepreneurs-cyber-security-2018-1-800.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/elite-entrepreneurs-cyber-security-2018-2.webp": {
+    "width": 800,
+    "height": 600,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/elite-entrepreneurs-cyber-security-2018-2-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/elite-entrepreneurs-cyber-security-2018-2-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/elite-entrepreneurs-cyber-security-2018-2-800.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/elite-entrepreneurs-cyber-security-2018-3.webp": {
+    "width": 800,
+    "height": 600,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/elite-entrepreneurs-cyber-security-2018-3-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/elite-entrepreneurs-cyber-security-2018-3-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/elite-entrepreneurs-cyber-security-2018-3-800.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/elite-entrepreneurs-poster-2018.webp": {
+    "width": 494,
+    "height": 698,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/elite-entrepreneurs-poster-2018-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/elite-entrepreneurs-poster-2018-480.webp"
+      },
+      {
+        "w": 494,
+        "src": "/assets/img/opt/elite-entrepreneurs-poster-2018-494.webp"
       }
     ]
   },
@@ -1566,6 +1744,46 @@
       {
         "w": 1000,
         "src": "/assets/img/opt/fireside-aditi-avasthi-2020-1000.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/g2-live-2024-1.webp": {
+    "width": 864,
+    "height": 1536,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/g2-live-2024-1-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/g2-live-2024-1-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/g2-live-2024-1-800.webp"
+      },
+      {
+        "w": 864,
+        "src": "/assets/img/opt/g2-live-2024-1-864.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/g2-live-2024-2.webp": {
+    "width": 800,
+    "height": 451,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/g2-live-2024-2-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/g2-live-2024-2-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/g2-live-2024-2-800.webp"
       }
     ]
   },
@@ -1913,6 +2131,28 @@
       }
     ]
   },
+  "/assets/img/gallery/mobilefirst-blr-office-2022.webp": {
+    "width": 1080,
+    "height": 810,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/mobilefirst-blr-office-2022-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/mobilefirst-blr-office-2022-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/mobilefirst-blr-office-2022-800.webp"
+      },
+      {
+        "w": 1080,
+        "src": "/assets/img/opt/mobilefirst-blr-office-2022-1080.webp"
+      }
+    ]
+  },
   "/assets/img/gallery/moneycontrol-startup-conclave-2024.webp": {
     "width": 1080,
     "height": 1080,
@@ -2012,6 +2252,42 @@
       {
         "w": 1080,
         "src": "/assets/img/opt/product-growth-playbook-2025-1080.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/razorpay-ftx25-1.webp": {
+    "width": 800,
+    "height": 600,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/razorpay-ftx25-1-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/razorpay-ftx25-1-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/razorpay-ftx25-1-800.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/razorpay-ftx25-2.webp": {
+    "width": 800,
+    "height": 600,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/razorpay-ftx25-2-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/razorpay-ftx25-2-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/razorpay-ftx25-2-800.webp"
       }
     ]
   },
@@ -2250,6 +2526,28 @@
       {
         "w": 800,
         "src": "/assets/img/opt/saas-session-echai-2022-2-800.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/saascon-2024.webp": {
+    "width": 866,
+    "height": 1536,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/saascon-2024-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/saascon-2024-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/saascon-2024-800.webp"
+      },
+      {
+        "w": 866,
+        "src": "/assets/img/opt/saascon-2024-866.webp"
       }
     ]
   },
@@ -2572,6 +2870,50 @@
       {
         "w": 800,
         "src": "/assets/img/opt/whatfix-hackathon-2022-2-800.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/whatfix-pod-award-2023-1.webp": {
+    "width": 1024,
+    "height": 576,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/whatfix-pod-award-2023-1-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/whatfix-pod-award-2023-1-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/whatfix-pod-award-2023-1-800.webp"
+      },
+      {
+        "w": 1024,
+        "src": "/assets/img/opt/whatfix-pod-award-2023-1-1024.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/whatfix-pod-award-2023-2.webp": {
+    "width": 1024,
+    "height": 576,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/whatfix-pod-award-2023-2-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/whatfix-pod-award-2023-2-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/whatfix-pod-award-2023-2-800.webp"
+      },
+      {
+        "w": 1024,
+        "src": "/assets/img/opt/whatfix-pod-award-2023-2-1024.webp"
       }
     ]
   },
