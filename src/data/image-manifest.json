@@ -4161,6 +4161,578 @@
       }
     ]
   },
+  "/assets/img/gallery/x-echai-cricket-trophy-2022.webp": {
+    "width": 1200,
+    "height": 675,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/x-echai-cricket-trophy-2022-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/x-echai-cricket-trophy-2022-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/x-echai-cricket-trophy-2022-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/assets/img/opt/x-echai-cricket-trophy-2022-1200.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/x-echai-demo-day-blr-group-2022.webp": {
+    "width": 1200,
+    "height": 900,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/x-echai-demo-day-blr-group-2022-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/x-echai-demo-day-blr-group-2022-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/x-echai-demo-day-blr-group-2022-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/assets/img/opt/x-echai-demo-day-blr-group-2022-1200.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/x-echai-founders-ahmedabad-2022.webp": {
+    "width": 1200,
+    "height": 675,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/x-echai-founders-ahmedabad-2022-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/x-echai-founders-ahmedabad-2022-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/x-echai-founders-ahmedabad-2022-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/assets/img/opt/x-echai-founders-ahmedabad-2022-1200.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/x-echai-meetup-dec-2021.webp": {
+    "width": 1200,
+    "height": 901,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/x-echai-meetup-dec-2021-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/x-echai-meetup-dec-2021-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/x-echai-meetup-dec-2021-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/assets/img/opt/x-echai-meetup-dec-2021-1200.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/x-echai-social-ahmedabad-2023.webp": {
+    "width": 1200,
+    "height": 675,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/x-echai-social-ahmedabad-2023-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/x-echai-social-ahmedabad-2023-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/x-echai-social-ahmedabad-2023-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/assets/img/opt/x-echai-social-ahmedabad-2023-1200.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/x-fossasia-2015-day-one.webp": {
+    "width": 1052,
+    "height": 780,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/x-fossasia-2015-day-one-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/x-fossasia-2015-day-one-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/x-fossasia-2015-day-one-800.webp"
+      },
+      {
+        "w": 1052,
+        "src": "/assets/img/opt/x-fossasia-2015-day-one-1052.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/x-fossasia-2015-gsoc-meetup.webp": {
+    "width": 1052,
+    "height": 780,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/x-fossasia-2015-gsoc-meetup-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/x-fossasia-2015-gsoc-meetup-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/x-fossasia-2015-gsoc-meetup-800.webp"
+      },
+      {
+        "w": 1052,
+        "src": "/assets/img/opt/x-fossasia-2015-gsoc-meetup-1052.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/x-fossasia-2015-java-meetup.webp": {
+    "width": 1052,
+    "height": 780,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/x-fossasia-2015-java-meetup-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/x-fossasia-2015-java-meetup-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/x-fossasia-2015-java-meetup-800.webp"
+      },
+      {
+        "w": 1052,
+        "src": "/assets/img/opt/x-fossasia-2015-java-meetup-1052.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/x-full-house-nov-2015.webp": {
+    "width": 960,
+    "height": 539,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/x-full-house-nov-2015-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/x-full-house-nov-2015-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/x-full-house-nov-2015-800.webp"
+      },
+      {
+        "w": 960,
+        "src": "/assets/img/opt/x-full-house-nov-2015-960.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/x-full-house-oct-2015.webp": {
+    "width": 1040,
+    "height": 780,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/x-full-house-oct-2015-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/x-full-house-oct-2015-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/x-full-house-oct-2015-800.webp"
+      },
+      {
+        "w": 1040,
+        "src": "/assets/img/opt/x-full-house-oct-2015-1040.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/x-google-community-summit-2019.webp": {
+    "width": 900,
+    "height": 1200,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/x-google-community-summit-2019-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/x-google-community-summit-2019-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/x-google-community-summit-2019-800.webp"
+      },
+      {
+        "w": 900,
+        "src": "/assets/img/opt/x-google-community-summit-2019-900.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/x-headstart-ahmedabad-volunteers-2022.webp": {
+    "width": 1200,
+    "height": 900,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/x-headstart-ahmedabad-volunteers-2022-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/x-headstart-ahmedabad-volunteers-2022-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/x-headstart-ahmedabad-volunteers-2022-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/assets/img/opt/x-headstart-ahmedabad-volunteers-2022-1200.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/x-headstart-family-2022.webp": {
+    "width": 1200,
+    "height": 900,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/x-headstart-family-2022-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/x-headstart-family-2022-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/x-headstart-family-2022-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/assets/img/opt/x-headstart-family-2022-1200.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/x-headstart-saas-insider-2022.webp": {
+    "width": 1200,
+    "height": 901,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/x-headstart-saas-insider-2022-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/x-headstart-saas-insider-2022-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/x-headstart-saas-insider-2022-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/assets/img/opt/x-headstart-saas-insider-2022-1200.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/x-hosting-meetup-apr-2022.webp": {
+    "width": 1200,
+    "height": 901,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/x-hosting-meetup-apr-2022-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/x-hosting-meetup-apr-2022-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/x-hosting-meetup-apr-2022-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/assets/img/opt/x-hosting-meetup-apr-2022-1200.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/x-hsx-2018-phanindra-sama.webp": {
+    "width": 900,
+    "height": 1200,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/x-hsx-2018-phanindra-sama-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/x-hsx-2018-phanindra-sama-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/x-hsx-2018-phanindra-sama-800.webp"
+      },
+      {
+        "w": 900,
+        "src": "/assets/img/opt/x-hsx-2018-phanindra-sama-900.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/x-hsx-2018-wrap.webp": {
+    "width": 1200,
+    "height": 900,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/x-hsx-2018-wrap-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/x-hsx-2018-wrap-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/x-hsx-2018-wrap-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/assets/img/opt/x-hsx-2018-wrap-1200.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/x-hsx-2019-volunteer-session.webp": {
+    "width": 1200,
+    "height": 900,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/x-hsx-2019-volunteer-session-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/x-hsx-2019-volunteer-session-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/x-hsx-2019-volunteer-session-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/assets/img/opt/x-hsx-2019-volunteer-session-1200.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/x-iima-data-driven-marketing.webp": {
+    "width": 1080,
+    "height": 810,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/x-iima-data-driven-marketing-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/x-iima-data-driven-marketing-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/x-iima-data-driven-marketing-800.webp"
+      },
+      {
+        "w": 1080,
+        "src": "/assets/img/opt/x-iima-data-driven-marketing-1080.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/x-net-neutrality-ahmedabad-2015.webp": {
+    "width": 1040,
+    "height": 780,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/x-net-neutrality-ahmedabad-2015-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/x-net-neutrality-ahmedabad-2015-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/x-net-neutrality-ahmedabad-2015-800.webp"
+      },
+      {
+        "w": 1040,
+        "src": "/assets/img/opt/x-net-neutrality-ahmedabad-2015-1040.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/x-startup-saturday-ahd-2022.webp": {
+    "width": 1200,
+    "height": 901,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/x-startup-saturday-ahd-2022-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/x-startup-saturday-ahd-2022-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/x-startup-saturday-ahd-2022-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/assets/img/opt/x-startup-saturday-ahd-2022-1200.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/x-startup-saturday-ciie-2015.webp": {
+    "width": 1040,
+    "height": 780,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/x-startup-saturday-ciie-2015-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/x-startup-saturday-ciie-2015-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/x-startup-saturday-ciie-2015-800.webp"
+      },
+      {
+        "w": 1040,
+        "src": "/assets/img/opt/x-startup-saturday-ciie-2015-1040.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/x-tiecon-2018-echai-booth.webp": {
+    "width": 1200,
+    "height": 900,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/x-tiecon-2018-echai-booth-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/x-tiecon-2018-echai-booth-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/x-tiecon-2018-echai-booth-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/assets/img/opt/x-tiecon-2018-echai-booth-1200.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/x-tiecon-volunteers-2016.webp": {
+    "width": 1040,
+    "height": 780,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/x-tiecon-volunteers-2016-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/x-tiecon-volunteers-2016-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/x-tiecon-volunteers-2016-800.webp"
+      },
+      {
+        "w": 1040,
+        "src": "/assets/img/opt/x-tiecon-volunteers-2016-1040.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/x-web3-meetup-2022.webp": {
+    "width": 1200,
+    "height": 901,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/x-web3-meetup-2022-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/x-web3-meetup-2022-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/x-web3-meetup-2022-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/assets/img/opt/x-web3-meetup-2022-1200.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/x-web3-meetup-crowd-2022.webp": {
+    "width": 1200,
+    "height": 901,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/x-web3-meetup-crowd-2022-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/x-web3-meetup-crowd-2022-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/x-web3-meetup-crowd-2022-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/assets/img/opt/x-web3-meetup-crowd-2022-1200.webp"
+      }
+    ]
+  },
   "/assets/img/snezzi-dashboard.webp": {
     "width": 1439,
     "height": 840,
