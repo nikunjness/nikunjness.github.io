@@ -3,6 +3,7 @@ import Base from '../layouts/Base.astro';
 import PageHero from '../components/PageHero.astro';
 import { photos as allPhotos, posters as allPosters, CATEGORIES, type Moment } from '../data/gallery';
 import { responsive } from '../lib/images';
+import { YEARS_BUILDING } from '../lib/site';
 
 // Newest first
 const byDate = (a: Moment, b: Moment) => (b.date ?? '').localeCompare(a.date ?? '');
@@ -18,9 +19,9 @@ const meta = (m: Moment) => [m.place, when(m.date)].filter(Boolean).join(' · ')
 const largest = (m: Moment) => responsive(m.src, '100vw').src;
 
 const stats = [
-  { n: '200+', label: 'events hosted' },
-  { n: '16', label: 'countries visited' },
-  { n: '2,400+', label: 'GDG Cloud Ahmedabad members in year one' },
+  { n: '200+', label: 'events hosted across communities' },
+  { n: String(YEARS_BUILDING), label: 'years of building communities, since 2013' },
+  { n: '3', label: 'communities founded or led: Startup OG, Headstart Gujarat, GDG Cloud Ahmedabad' },
 ];
 ---
 
