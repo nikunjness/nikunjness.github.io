@@ -1789,6 +1789,1066 @@
       }
     ]
   },
+  "/assets/img/gallery/fb-basics-of-starting-up-2017.webp": {
+    "width": 843,
+    "height": 937,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/fb-basics-of-starting-up-2017-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/fb-basics-of-starting-up-2017-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/fb-basics-of-starting-up-2017-800.webp"
+      },
+      {
+        "w": 843,
+        "src": "/assets/img/opt/fb-basics-of-starting-up-2017-843.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/fb-blockchain-ama-2018.webp": {
+    "width": 843,
+    "height": 1192,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/fb-blockchain-ama-2018-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/fb-blockchain-ama-2018-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/fb-blockchain-ama-2018-800.webp"
+      },
+      {
+        "w": 843,
+        "src": "/assets/img/opt/fb-blockchain-ama-2018-843.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/fb-daiict-convocation-2015.webp": {
+    "width": 640,
+    "height": 640,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/fb-daiict-convocation-2015-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/fb-daiict-convocation-2015-480.webp"
+      },
+      {
+        "w": 640,
+        "src": "/assets/img/opt/fb-daiict-convocation-2015-640.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/fb-daiict-pg-orientation-2018.webp": {
+    "width": 800,
+    "height": 600,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/fb-daiict-pg-orientation-2018-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/fb-daiict-pg-orientation-2018-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/fb-daiict-pg-orientation-2018-800.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/fb-daiict-reunion-2019.webp": {
+    "width": 800,
+    "height": 600,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/fb-daiict-reunion-2019-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/fb-daiict-reunion-2019-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/fb-daiict-reunion-2019-800.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/fb-dcb-fintech-hackathon-2017.webp": {
+    "width": 825,
+    "height": 600,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/fb-dcb-fintech-hackathon-2017-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/fb-dcb-fintech-hackathon-2017-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/fb-dcb-fintech-hackathon-2017-800.webp"
+      },
+      {
+        "w": 825,
+        "src": "/assets/img/opt/fb-dcb-fintech-hackathon-2017-825.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/fb-dcb-fintech-hackathon-team-2017.webp": {
+    "width": 825,
+    "height": 600,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/fb-dcb-fintech-hackathon-team-2017-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/fb-dcb-fintech-hackathon-team-2017-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/fb-dcb-fintech-hackathon-team-2017-800.webp"
+      },
+      {
+        "w": 825,
+        "src": "/assets/img/opt/fb-dcb-fintech-hackathon-team-2017-825.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/fb-django-girls-daiict-2019.webp": {
+    "width": 900,
+    "height": 600,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/fb-django-girls-daiict-2019-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/fb-django-girls-daiict-2019-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/fb-django-girls-daiict-2019-800.webp"
+      },
+      {
+        "w": 900,
+        "src": "/assets/img/opt/fb-django-girls-daiict-2019-900.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/fb-echai-daiict-2017.webp": {
+    "width": 800,
+    "height": 600,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/fb-echai-daiict-2017-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/fb-echai-daiict-2017-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/fb-echai-daiict-2017-800.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/fb-echai-growth-series-edi-2018.webp": {
+    "width": 1024,
+    "height": 512,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/fb-echai-growth-series-edi-2018-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/fb-echai-growth-series-edi-2018-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/fb-echai-growth-series-edi-2018-800.webp"
+      },
+      {
+        "w": 1024,
+        "src": "/assets/img/opt/fb-echai-growth-series-edi-2018-1024.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/fb-edi-ahmedabad-2018.webp": {
+    "width": 800,
+    "height": 600,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/fb-edi-ahmedabad-2018-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/fb-edi-ahmedabad-2018-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/fb-edi-ahmedabad-2018-800.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/fb-elite-entrepreneurs-memento-2018.webp": {
+    "width": 843,
+    "height": 1694,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/fb-elite-entrepreneurs-memento-2018-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/fb-elite-entrepreneurs-memento-2018-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/fb-elite-entrepreneurs-memento-2018-800.webp"
+      },
+      {
+        "w": 843,
+        "src": "/assets/img/opt/fb-elite-entrepreneurs-memento-2018-843.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/fb-firebase-roadshow-2019.webp": {
+    "width": 640,
+    "height": 1280,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/fb-firebase-roadshow-2019-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/fb-firebase-roadshow-2019-480.webp"
+      },
+      {
+        "w": 640,
+        "src": "/assets/img/opt/fb-firebase-roadshow-2019-640.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/fb-fossasia-2014-badge.webp": {
+    "width": 720,
+    "height": 960,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/fb-fossasia-2014-badge-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/fb-fossasia-2014-badge-480.webp"
+      },
+      {
+        "w": 720,
+        "src": "/assets/img/opt/fb-fossasia-2014-badge-720.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/fb-google-cloud-community-day-2019-hall.webp": {
+    "width": 800,
+    "height": 600,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/fb-google-cloud-community-day-2019-hall-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/fb-google-cloud-community-day-2019-hall-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/fb-google-cloud-community-day-2019-hall-800.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/fb-gujarat-entrepreneurship-award-2018.webp": {
+    "width": 720,
+    "height": 960,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/fb-gujarat-entrepreneurship-award-2018-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/fb-gujarat-entrepreneurship-award-2018-480.webp"
+      },
+      {
+        "w": 720,
+        "src": "/assets/img/opt/fb-gujarat-entrepreneurship-award-2018-720.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/fb-headstart-glenn-dietzel-2017.webp": {
+    "width": 800,
+    "height": 600,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/fb-headstart-glenn-dietzel-2017-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/fb-headstart-glenn-dietzel-2017-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/fb-headstart-glenn-dietzel-2017-800.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/fb-headstart-surat-launch-2018.webp": {
+    "width": 800,
+    "height": 600,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/fb-headstart-surat-launch-2018-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/fb-headstart-surat-launch-2018-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/fb-headstart-surat-launch-2018-800.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/fb-headstarters-2017.webp": {
+    "width": 800,
+    "height": 600,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/fb-headstarters-2017-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/fb-headstarters-2017-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/fb-headstarters-2017-800.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/fb-hr-tech-workshop-2018.webp": {
+    "width": 800,
+    "height": 600,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/fb-hr-tech-workshop-2018-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/fb-hr-tech-workshop-2018-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/fb-hr-tech-workshop-2018-800.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/fb-hsx-2019-hyderabad.webp": {
+    "width": 843,
+    "height": 1124,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/fb-hsx-2019-hyderabad-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/fb-hsx-2019-hyderabad-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/fb-hsx-2019-hyderabad-800.webp"
+      },
+      {
+        "w": 843,
+        "src": "/assets/img/opt/fb-hsx-2019-hyderabad-843.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/fb-ictis-2018-memento.webp": {
+    "width": 720,
+    "height": 960,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/fb-ictis-2018-memento-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/fb-ictis-2018-memento-480.webp"
+      },
+      {
+        "w": 720,
+        "src": "/assets/img/opt/fb-ictis-2018-memento-720.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/fb-ictis-2018-panel.webp": {
+    "width": 800,
+    "height": 600,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/fb-ictis-2018-panel-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/fb-ictis-2018-panel-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/fb-ictis-2018-panel-800.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/fb-koh-rong-2014.webp": {
+    "width": 800,
+    "height": 600,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/fb-koh-rong-2014-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/fb-koh-rong-2014-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/fb-koh-rong-2014-800.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/fb-meeting-miroslav-2018.webp": {
+    "width": 843,
+    "height": 859,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/fb-meeting-miroslav-2018-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/fb-meeting-miroslav-2018-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/fb-meeting-miroslav-2018-800.webp"
+      },
+      {
+        "w": 843,
+        "src": "/assets/img/opt/fb-meeting-miroslav-2018-843.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/fb-nirma-ai-talk-group-2019.webp": {
+    "width": 1152,
+    "height": 557,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/fb-nirma-ai-talk-group-2019-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/fb-nirma-ai-talk-group-2019-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/fb-nirma-ai-talk-group-2019-800.webp"
+      },
+      {
+        "w": 1152,
+        "src": "/assets/img/opt/fb-nirma-ai-talk-group-2019-1152.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/fb-paris-2018.webp": {
+    "width": 843,
+    "height": 843,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/fb-paris-2018-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/fb-paris-2018-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/fb-paris-2018-800.webp"
+      },
+      {
+        "w": 843,
+        "src": "/assets/img/opt/fb-paris-2018-843.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/fb-parkar-lohana-honour-2013.webp": {
+    "width": 843,
+    "height": 1124,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/fb-parkar-lohana-honour-2013-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/fb-parkar-lohana-honour-2013-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/fb-parkar-lohana-honour-2013-800.webp"
+      },
+      {
+        "w": 843,
+        "src": "/assets/img/opt/fb-parkar-lohana-honour-2013-843.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/fb-phnom-penh-skyline-2014.webp": {
+    "width": 800,
+    "height": 600,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/fb-phnom-penh-skyline-2014-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/fb-phnom-penh-skyline-2014-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/fb-phnom-penh-skyline-2014-800.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/fb-prof-banerjee-2018.webp": {
+    "width": 843,
+    "height": 1499,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/fb-prof-banerjee-2018-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/fb-prof-banerjee-2018-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/fb-prof-banerjee-2018-800.webp"
+      },
+      {
+        "w": 843,
+        "src": "/assets/img/opt/fb-prof-banerjee-2018-843.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/fb-quiz-prize-2012.webp": {
+    "width": 800,
+    "height": 600,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/fb-quiz-prize-2012-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/fb-quiz-prize-2012-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/fb-quiz-prize-2012-800.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/fb-rajasthan-digifest-hackathon-2017.webp": {
+    "width": 1067,
+    "height": 600,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/fb-rajasthan-digifest-hackathon-2017-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/fb-rajasthan-digifest-hackathon-2017-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/fb-rajasthan-digifest-hackathon-2017-800.webp"
+      },
+      {
+        "w": 1067,
+        "src": "/assets/img/opt/fb-rajasthan-digifest-hackathon-2017-1067.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/fb-red-bull-basement-fireside-2018.webp": {
+    "width": 800,
+    "height": 600,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/fb-red-bull-basement-fireside-2018-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/fb-red-bull-basement-fireside-2018-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/fb-red-bull-basement-fireside-2018-800.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/fb-royal-palace-phnom-penh-2014.webp": {
+    "width": 800,
+    "height": 600,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/fb-royal-palace-phnom-penh-2014-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/fb-royal-palace-phnom-penh-2014-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/fb-royal-palace-phnom-penh-2014-800.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/fb-scaling-saas-panel-2019.webp": {
+    "width": 1035,
+    "height": 600,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/fb-scaling-saas-panel-2019-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/fb-scaling-saas-panel-2019-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/fb-scaling-saas-panel-2019-800.webp"
+      },
+      {
+        "w": 1035,
+        "src": "/assets/img/opt/fb-scaling-saas-panel-2019-1035.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/fb-startup-conclave-nirma-2016.webp": {
+    "width": 843,
+    "height": 1193,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/fb-startup-conclave-nirma-2016-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/fb-startup-conclave-nirma-2016-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/fb-startup-conclave-nirma-2016-800.webp"
+      },
+      {
+        "w": 843,
+        "src": "/assets/img/opt/fb-startup-conclave-nirma-2016-843.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/fb-startup-india-yatra-finale-2017.webp": {
+    "width": 843,
+    "height": 843,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/fb-startup-india-yatra-finale-2017-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/fb-startup-india-yatra-finale-2017-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/fb-startup-india-yatra-finale-2017-800.webp"
+      },
+      {
+        "w": 843,
+        "src": "/assets/img/opt/fb-startup-india-yatra-finale-2017-843.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/fb-startup-india-yatra-nsit-2017.webp": {
+    "width": 800,
+    "height": 600,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/fb-startup-india-yatra-nsit-2017-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/fb-startup-india-yatra-nsit-2017-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/fb-startup-india-yatra-nsit-2017-800.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/fb-startup-jalsa-2017.webp": {
+    "width": 858,
+    "height": 600,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/fb-startup-jalsa-2017-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/fb-startup-jalsa-2017-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/fb-startup-jalsa-2017-800.webp"
+      },
+      {
+        "w": 858,
+        "src": "/assets/img/opt/fb-startup-jalsa-2017-858.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/fb-startup-retreat-honour-2017.webp": {
+    "width": 800,
+    "height": 600,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/fb-startup-retreat-honour-2017-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/fb-startup-retreat-honour-2017-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/fb-startup-retreat-honour-2017-800.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/fb-startup-retreat-memento-2017.webp": {
+    "width": 800,
+    "height": 600,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/fb-startup-retreat-memento-2017-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/fb-startup-retreat-memento-2017-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/fb-startup-retreat-memento-2017-800.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/fb-startup-saturday-basics-2019.webp": {
+    "width": 800,
+    "height": 600,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/fb-startup-saturday-basics-2019-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/fb-startup-saturday-basics-2019-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/fb-startup-saturday-basics-2019-800.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/fb-startup-saturday-dec-2018.webp": {
+    "width": 800,
+    "height": 600,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/fb-startup-saturday-dec-2018-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/fb-startup-saturday-dec-2018-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/fb-startup-saturday-dec-2018-800.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/fb-startup-saturday-panel-prep-2017.webp": {
+    "width": 800,
+    "height": 600,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/fb-startup-saturday-panel-prep-2017-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/fb-startup-saturday-panel-prep-2017-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/fb-startup-saturday-panel-prep-2017-800.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/fb-swarnim-ai-talk-2019.webp": {
+    "width": 1040,
+    "height": 520,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/fb-swarnim-ai-talk-2019-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/fb-swarnim-ai-talk-2019-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/fb-swarnim-ai-talk-2019-800.webp"
+      },
+      {
+        "w": 1040,
+        "src": "/assets/img/opt/fb-swarnim-ai-talk-2019-1040.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/fb-tiecon-ahmedabad-2017.webp": {
+    "width": 843,
+    "height": 843,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/fb-tiecon-ahmedabad-2017-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/fb-tiecon-ahmedabad-2017-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/fb-tiecon-ahmedabad-2017-800.webp"
+      },
+      {
+        "w": 843,
+        "src": "/assets/img/opt/fb-tiecon-ahmedabad-2017-843.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/fb-venky-iyer-talk-2017.webp": {
+    "width": 800,
+    "height": 600,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/fb-venky-iyer-talk-2017-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/fb-venky-iyer-talk-2017-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/fb-venky-iyer-talk-2017-800.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/fb-vibrant-gujarat-2017-delegate.webp": {
+    "width": 720,
+    "height": 720,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/fb-vibrant-gujarat-2017-delegate-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/fb-vibrant-gujarat-2017-delegate-480.webp"
+      },
+      {
+        "w": 720,
+        "src": "/assets/img/opt/fb-vibrant-gujarat-2017-delegate-720.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/fb-vibrant-gujarat-2017-policy.webp": {
+    "width": 843,
+    "height": 843,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/fb-vibrant-gujarat-2017-policy-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/fb-vibrant-gujarat-2017-policy-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/fb-vibrant-gujarat-2017-policy-800.webp"
+      },
+      {
+        "w": 843,
+        "src": "/assets/img/opt/fb-vibrant-gujarat-2017-policy-843.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/fb-we-mentoring-session-2017.webp": {
+    "width": 822,
+    "height": 600,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/fb-we-mentoring-session-2017-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/fb-we-mentoring-session-2017-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/fb-we-mentoring-session-2017-800.webp"
+      },
+      {
+        "w": 822,
+        "src": "/assets/img/opt/fb-we-mentoring-session-2017-822.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/fb-web-design-prize-2012.webp": {
+    "width": 640,
+    "height": 480,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/fb-web-design-prize-2012-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/fb-web-design-prize-2012-480.webp"
+      },
+      {
+        "w": 640,
+        "src": "/assets/img/opt/fb-web-design-prize-2012-640.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/fb-women-entrepreneurs-meet-2-2019.webp": {
+    "width": 800,
+    "height": 600,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/fb-women-entrepreneurs-meet-2-2019-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/fb-women-entrepreneurs-meet-2-2019-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/fb-women-entrepreneurs-meet-2-2019-800.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/fb-women-entrepreneurs-meet-2019.webp": {
+    "width": 800,
+    "height": 600,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/fb-women-entrepreneurs-meet-2019-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/fb-women-entrepreneurs-meet-2019-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/fb-women-entrepreneurs-meet-2019-800.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/fb-women-entrepreneurs-mentors-2016.webp": {
+    "width": 800,
+    "height": 600,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/fb-women-entrepreneurs-mentors-2016-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/fb-women-entrepreneurs-mentors-2016-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/fb-women-entrepreneurs-mentors-2016-800.webp"
+      }
+    ]
+  },
   "/assets/img/gallery/fintech-mixer-2024-poster.webp": {
     "width": 800,
     "height": 800,
