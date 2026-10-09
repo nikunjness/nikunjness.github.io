@@ -19,7 +19,7 @@ const font = (p) => file(path.join(ROOT, 'node_modules', p));
 const esc = (s) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 
 const PAGES = [
-  { url: '/', eyebrow: 'Product builder & entrepreneur', title: 'I build products, companies & communities.', lead: 'Building Snezzi, an AI visibility platform, with my co-founders.' },
+  { url: '/', eyebrow: 'Product builder & entrepreneur', title: 'I build products, companies & communities.', lead: 'Building since 2013, with 200+ events hosted for founders.' },
   { url: '/writing/', eyebrow: 'Writing', title: 'Notes from building.', lead: 'Startups, product, and GTM, including the failures.' },
   { url: '/work/', eyebrow: 'Work', title: `${new Date().getFullYear() - 2013} years of building, zero to one.`, lead: 'Engineer, founder, product leader, and founder again.' },
   { url: '/talks/', eyebrow: 'Talks & podcasts', title: 'Conversations with builders.', lead: 'Startup OG, plus talks on startups, failure, and AI search.' },
