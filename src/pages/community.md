@@ -15,7 +15,7 @@ I founded and host **[Startup OG](https://startupog.com)** (previously Entrepren
 
 ## Headstart Gujarat
 
-I've been involved with and led **Headstart Gujarat**. Headstart is one of India's oldest and largest startup communities. My work there was about bringing founders, operators, and the wider ecosystem together through events and community programs.
+I've been involved with and led **[Headstart Gujarat](https://headstart.in)**. Headstart is one of India's oldest and largest startup communities. My work there was about bringing founders, operators, and the wider ecosystem together through events and community programs.
 
 ## GDG Cloud Ahmedabad
 

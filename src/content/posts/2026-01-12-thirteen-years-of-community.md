@@ -18,7 +18,7 @@ That one evening quietly shaped the next thirteen years, and more than 200 event
 
 ## From attendee to volunteer
 
-That event led me to the Google Business Group in Ahmedabad. Through that group I found Headstart Network Foundation, one of India's oldest grassroots startup communities, and started volunteering in 2015.
+That event led me to the Google Business Group in Ahmedabad. Through that group I found [Headstart Network Foundation](https://headstart.in), one of India's oldest grassroots startup communities, and started volunteering in 2015.
 
 I ended up leading Headstart's Gujarat chapter for seven years. We ran Startup Saturdays, women entrepreneur meetups, founder sessions, and investor connects. In 2018, after spending time with community builders at the Sayaji Startup Summit, we started the work of taking Headstart to Vadodara and Surat as well.
 
