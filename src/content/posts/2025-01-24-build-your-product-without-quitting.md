@@ -3,7 +3,6 @@ title: "How to build your product without quitting your job"
 date: 2025-01-24 10:00:00
 description: "Many senior professionals want to build a SaaS product or AI agent but can't afford to quit first. You don't have to. Here's how to de-risk the leap: validate, find paying customers, and build an MVP while you still have a salary."
 tags: [startups, mvp, product, entrepreneurship]
-draft: true
 image:
   path: /assets/img/covers/2025-01-24-build-your-product-without-quitting.webp
   alt: "Illustration: a laptop with a small rocket rising from a coffee mug beside an office ID badge"

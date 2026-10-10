@@ -3,7 +3,6 @@ title: "Remembering Prof. Asim Banerjee, the teacher who taught with puzzles"
 date: 2020-07-10 21:00:00
 description: "Prof. Asim Banerjee passed away this morning after fighting Covid-19. He shaped thousands of DA-IICT students, including me, with puzzles in the classroom and long conversations outside it. A few memories, and what he taught me."
 tags: [daiict, mentors, reflections, education]
-draft: true
 image:
   path: /assets/img/covers/2020-07-10-remembering-prof-banerjee.webp
   alt: "Illustration: a teacher's desk with an open notebook, a single puzzle piece and a warm desk lamp"

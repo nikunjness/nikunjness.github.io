@@ -3,7 +3,6 @@ title: "Circle of life: from a student competition at GLS to building a startup 
 date: 2018-12-24 10:00:00
 description: "Seven years ago I travelled to the GLS campus in Ahmedabad as a second-year student for a web designing competition. In 2018 that campus became my startup's home, and I was back in front of its students talking about entrepreneurship."
 tags: [entrepreneurship, reflections, dataone, community]
-draft: true
 image:
   path: /assets/img/covers/2018-12-24-circle-of-life.webp
   alt: "Illustration: a circular path looping around a small campus building, with a trophy at the start and a rocket at the end"

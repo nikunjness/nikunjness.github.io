@@ -337,6 +337,32 @@
       }
     ]
   },
+  "/assets/img/covers/2018-12-24-circle-of-life.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/2018-12-24-circle-of-life-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/2018-12-24-circle-of-life-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/2018-12-24-circle-of-life-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/assets/img/opt/2018-12-24-circle-of-life-1200.webp"
+      },
+      {
+        "w": 1376,
+        "src": "/assets/img/opt/2018-12-24-circle-of-life-1376.webp"
+      }
+    ]
+  },
   "/assets/img/covers/2020-07-03-feeling-void-or-filling-the-void.webp": {
     "width": 1600,
     "height": 893,
@@ -360,6 +386,32 @@
       {
         "w": 1600,
         "src": "/assets/img/opt/2020-07-03-feeling-void-or-filling-the-void-1600.webp"
+      }
+    ]
+  },
+  "/assets/img/covers/2020-07-10-remembering-prof-banerjee.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/2020-07-10-remembering-prof-banerjee-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/2020-07-10-remembering-prof-banerjee-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/2020-07-10-remembering-prof-banerjee-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/assets/img/opt/2020-07-10-remembering-prof-banerjee-1200.webp"
+      },
+      {
+        "w": 1376,
+        "src": "/assets/img/opt/2020-07-10-remembering-prof-banerjee-1376.webp"
       }
     ]
   },
@@ -467,6 +519,58 @@
       }
     ]
   },
+  "/assets/img/covers/2024-01-17-a-facebook-dm-and-a-40000-client.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/2024-01-17-a-facebook-dm-and-a-40000-client-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/2024-01-17-a-facebook-dm-and-a-40000-client-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/2024-01-17-a-facebook-dm-and-a-40000-client-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/assets/img/opt/2024-01-17-a-facebook-dm-and-a-40000-client-1200.webp"
+      },
+      {
+        "w": 1376,
+        "src": "/assets/img/opt/2024-01-17-a-facebook-dm-and-a-40000-client-1376.webp"
+      }
+    ]
+  },
+  "/assets/img/covers/2024-08-08-micro-influencer-experiment.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/2024-08-08-micro-influencer-experiment-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/2024-08-08-micro-influencer-experiment-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/2024-08-08-micro-influencer-experiment-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/assets/img/opt/2024-08-08-micro-influencer-experiment-1200.webp"
+      },
+      {
+        "w": 1376,
+        "src": "/assets/img/opt/2024-08-08-micro-influencer-experiment-1376.webp"
+      }
+    ]
+  },
   "/assets/img/covers/2025-01-10-work-hours-two-way-street.webp": {
     "width": 1600,
     "height": 893,
@@ -490,6 +594,32 @@
       {
         "w": 1600,
         "src": "/assets/img/opt/2025-01-10-work-hours-two-way-street-1600.webp"
+      }
+    ]
+  },
+  "/assets/img/covers/2025-01-24-build-your-product-without-quitting.webp": {
+    "width": 1376,
+    "height": 768,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/2025-01-24-build-your-product-without-quitting-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/2025-01-24-build-your-product-without-quitting-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/2025-01-24-build-your-product-without-quitting-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/assets/img/opt/2025-01-24-build-your-product-without-quitting-1200.webp"
+      },
+      {
+        "w": 1376,
+        "src": "/assets/img/opt/2025-01-24-build-your-product-without-quitting-1376.webp"
       }
     ]
   },
@@ -938,6 +1068,28 @@
       {
         "w": 1024,
         "src": "/assets/img/opt/fossasia_group-1024.webp"
+      }
+    ]
+  },
+  "/assets/img/gallery/fb-prof-banerjee-2018.webp": {
+    "width": 843,
+    "height": 1499,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/fb-prof-banerjee-2018-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/fb-prof-banerjee-2018-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/fb-prof-banerjee-2018-800.webp"
+      },
+      {
+        "w": 843,
+        "src": "/assets/img/opt/fb-prof-banerjee-2018-843.webp"
       }
     ]
   },
@@ -2356,28 +2508,6 @@
       {
         "w": 800,
         "src": "/assets/img/opt/fb-phnom-penh-skyline-2014-800.webp"
-      }
-    ]
-  },
-  "/assets/img/gallery/fb-prof-banerjee-2018.webp": {
-    "width": 843,
-    "height": 1499,
-    "variants": [
-      {
-        "w": 320,
-        "src": "/assets/img/opt/fb-prof-banerjee-2018-320.webp"
-      },
-      {
-        "w": 480,
-        "src": "/assets/img/opt/fb-prof-banerjee-2018-480.webp"
-      },
-      {
-        "w": 800,
-        "src": "/assets/img/opt/fb-prof-banerjee-2018-800.webp"
-      },
-      {
-        "w": 843,
-        "src": "/assets/img/opt/fb-prof-banerjee-2018-843.webp"
       }
     ]
   },

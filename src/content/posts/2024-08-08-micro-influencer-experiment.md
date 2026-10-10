@@ -3,7 +3,6 @@ title: "I tried micro-influencers to grow a waitlist. Here's what happened."
 date: 2024-08-08 10:00:00
 description: "To grow the JobReferral waitlist, I hired micro-influencers through a marketplace. It was slow, poorly matched, and underwhelming. Here's the full experiment, why it didn't work, and how I'd run it next time."
 tags: [build in public, marketing, experiments, lessons]
-draft: true
 linkedin: https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7227234446674903040
 image:
   path: /assets/img/covers/2024-08-08-micro-influencer-experiment.webp

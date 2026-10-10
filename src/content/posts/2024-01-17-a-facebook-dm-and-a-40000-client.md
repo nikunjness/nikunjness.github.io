@@ -3,7 +3,6 @@ title: "How a Facebook DM turned into a $40,000 client"
 date: 2024-01-17 10:00:00
 description: "In February 2016 I had just left my job, had no portfolio I could show, and sent one message in a Facebook group. Six months later that client had paid for more than $40,000 of work. Here's what actually made it work."
 tags: [sales, freelancing, startups, lessons]
-draft: true
 linkedin: https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7153298315525111808
 image:
   path: /assets/img/covers/2024-01-17-a-facebook-dm-and-a-40000-client.webp
