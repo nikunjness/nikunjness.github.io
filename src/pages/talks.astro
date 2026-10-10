@@ -37,7 +37,10 @@ const [latest, ...episodes] = startupOg;
           <b>{latest.title}</b>
           {latest.guest && <span class="muted">with {latest.guest} · {latest.minutes} min</span>}
         </p>
-        <a class="btn btn-primary" href={STARTUP_OG_PLAYLIST} rel="noopener">Watch all episodes <span class="arrow">↗</span></a>
+        <div class="og-actions">
+          <a class="btn btn-primary" href={STARTUP_OG_PLAYLIST} rel="noopener">Watch all episodes <span class="arrow">↗</span></a>
+          <a class="btn og-site" href="https://startupog.com" rel="noopener">startupog.com <span class="arrow">↗</span></a>
+        </div>
       </div>
     </section>
 
@@ -117,6 +120,20 @@ const [latest, ...episodes] = startupOg;
     border-radius: 18px;
     overflow: hidden;
     box-shadow: 0 20px 50px rgba(0, 0, 0, 0.45);
+  }
+  .og-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+  }
+  .og-site {
+    color: #fff;
+    background: rgba(255, 255, 255, 0.08);
+    border-color: rgba(255, 255, 255, 0.35);
+  }
+  .og-site:hover {
+    background: rgba(255, 255, 255, 0.16);
+    color: #fff;
   }
   .og-copy {
     padding: 0.5rem 1rem 0.5rem 0;

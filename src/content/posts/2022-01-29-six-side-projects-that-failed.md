@@ -42,7 +42,7 @@ The concept was good. But it was operations-heavy: someone has to find, verify, 
 
 **Why it failed:** not enough conviction, and too operations-heavy.
 
-Fun fact: years later, the founder community and podcast I started was first called Entrepreneur's Cafe, before we rebranded it to [Startup OG](/talks/).
+Fun fact: years later, the founder community and podcast I started was first called Entrepreneur's Cafe, before we rebranded it to [Startup OG](https://startupog.com).
 
 ## 4. Tshirtt.store: print-on-demand t-shirts
 

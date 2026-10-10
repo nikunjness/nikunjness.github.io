@@ -11,7 +11,7 @@ Community building has run alongside my work for most of my career. Across Heads
 
 ## Startup OG
 
-I founded and host **Startup OG** (previously Entrepreneur's Cafe), a community for founders and builders. Through podcast conversations, meetups, and events, we talk with founders across SaaS, fintech, ecommerce, marketing, and technology about what building a company is really like. It's also how I keep learning from people who are a few steps ahead or taking a different path.
+I founded and host **[Startup OG](https://startupog.com)** (previously Entrepreneur's Cafe), a community for founders and builders. Through podcast conversations, meetups, and events, we talk with founders across SaaS, fintech, ecommerce, marketing, and technology about what building a company is really like. It's also how I keep learning from people who are a few steps ahead or taking a different path.
 
 ## Headstart Gujarat
 

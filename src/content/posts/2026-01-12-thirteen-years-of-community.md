@@ -42,7 +42,7 @@ Years earlier I had bought the domain entrepreneurs.cafe for a directory of remo
 
 In December 2023, when I started a podcast, the name felt like the perfect fit. Entrepreneur's Cafe was born. Honestly, my motivation was selfish at first. I wanted an excuse to talk to smart founders and learn from them.
 
-Our first offline event happened almost by accident, and the community kept growing from there: SaaS founders meetups, fintech and D2C mixers in Bengaluru, a startup mixer in Dubai with eChai. A few well-wishers sponsored our meetups because they believed in what we were doing. In March 2025 we renamed it [Startup OG](/talks/).
+Our first offline event happened almost by accident, and the community kept growing from there: SaaS founders meetups, fintech and D2C mixers in Bengaluru, a startup mixer in Dubai with eChai. A few well-wishers sponsored our meetups because they believed in what we were doing. In March 2025 we renamed it [Startup OG](https://startupog.com).
 
 People often ask about my goals for it. The answer hasn't changed: build a meaningful community and help people. Monetization is secondary.
 

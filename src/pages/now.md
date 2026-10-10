@@ -19,6 +19,6 @@ If you run marketing or growth and AI search is a blind spot for you, [let's tal
 
 ## Also
 
-- **Startup OG.** Hosting conversations with founders across SaaS, fintech, ecommerce, and marketing, plus meetups and events.
+- **[Startup OG](https://startupog.com).** Hosting conversations with founders across SaaS, fintech, ecommerce, and marketing, plus meetups and events.
 - **Writing.** Short, practical notes on SaaS, product, GTM, AI, and AI search. You'll find them under [writing](/writing/).
 - **Community.** Spending time with founders in Bengaluru and Gujarat. See [community](/community/).

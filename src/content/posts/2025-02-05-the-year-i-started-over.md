@@ -42,7 +42,7 @@ I'd been away from coding for a while, and AI had quietly made building fast. In
 
 In July 2024 I built JobReferral over a weekend, a tool that lets companies post jobs with referral rewards and lets people earn by referring friends. Within days, 66 people had signed up as referrers and 51 recruiters had joined the waitlist. Then came the part nobody posts about: when you build solo, development is the easy bit. My days filled up with industry calls, outbound campaigns, Reddit threads, and waitlist emails. JobReferral stayed an experiment, and I didn't pursue it further, but it taught me where the real work in a solo product sits.
 
-Around the same time I restarted my podcast. After three episodes I had stalled, not on recording but on editing. Bringing on an intern to edit fixed it, and the podcast that became Startup OG got going again. The lesson was embarrassingly simple: the bottleneck is rarely the part you're good at.
+Around the same time I restarted my podcast. After three episodes I had stalled, not on recording but on editing. Bringing on an intern to edit fixed it, and the podcast that became [Startup OG](https://startupog.com) got going again. The lesson was embarrassingly simple: the bottleneck is rarely the part you're good at.
 
 Then, over one weekend around the new year, I built FormSubmit, a small form backend for landing pages, because I was tired of building the same backend for every client site. A few weeks later I got my first payment from a complete stranger. There's a particular joy in that, a tool you built for yourself turning out to help someone you've never met. Around then I also got buyout interest in a different small tool I'd built and never even launched.
 

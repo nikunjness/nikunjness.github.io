@@ -60,7 +60,7 @@ Today my focus is **[Snezzi](https://snezzi.com)**, which I'm building with my c
 
 ## Outside of work
 
-I care a lot about founder communities. I've led [Headstart Gujarat](/community/), founded GDG Cloud Ahmedabad, and host **Startup OG**, where I talk with founders about what building is really like. Along the way I've hosted more than 200 events. More on the [community page](/community/).
+I care a lot about founder communities. I've led [Headstart Gujarat](/community/), founded GDG Cloud Ahmedabad, and host **[Startup OG](https://startupog.com)**, where I talk with founders about what building is really like. Along the way I've hosted more than 200 events. More on the [community page](/community/).
 
 I also love to travel. So far that's 16 countries: Cambodia, Indonesia, Singapore, Malaysia, Thailand, Vietnam, the UAE, Nepal, Germany, Austria, Slovakia, the Czech Republic, Poland, Hungary, Switzerland, and France. A few photos from the road are on the [moments page](/moments/).
 
