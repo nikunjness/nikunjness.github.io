@@ -831,6 +831,32 @@
       }
     ]
   },
+  "/assets/img/covers/2026-10-13-is-software-dead.webp": {
+    "width": 1600,
+    "height": 894,
+    "variants": [
+      {
+        "w": 320,
+        "src": "/assets/img/opt/2026-10-13-is-software-dead-320.webp"
+      },
+      {
+        "w": 480,
+        "src": "/assets/img/opt/2026-10-13-is-software-dead-480.webp"
+      },
+      {
+        "w": 800,
+        "src": "/assets/img/opt/2026-10-13-is-software-dead-800.webp"
+      },
+      {
+        "w": 1200,
+        "src": "/assets/img/opt/2026-10-13-is-software-dead-1200.webp"
+      },
+      {
+        "w": 1600,
+        "src": "/assets/img/opt/2026-10-13-is-software-dead-1600.webp"
+      }
+    ]
+  },
   "/assets/img/MOST-NoSQL-Solution-for-Building-Data-Warehouses-project-proposal.webp": {
     "width": 700,
     "height": 4804,
